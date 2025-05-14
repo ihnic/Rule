@@ -1,4 +1,5 @@
 full:api.day.app
+domain:ntp.org
 keyword:ipapi.co
 keyword:ip.sb
 keyword:ip-api.com
