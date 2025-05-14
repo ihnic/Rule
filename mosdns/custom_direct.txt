@@ -1,8 +1,11 @@
+#domain匹配：域匹配，匹配自身及子域名
 domain:test.
 domain:ntp.org
 
+#domain匹配：完整匹配，仅匹配自身
 full:api.day.app
 
+#关键词匹配
 keyword:ipapi.co
 keyword:ip.sb
 keyword:ip-api.com
