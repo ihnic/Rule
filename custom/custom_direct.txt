@@ -28,4 +28,3 @@ DOMAIN-SUFFIX,broadcasthe.net
 DOMAIN-SUFFIX,passthepopcorn.me
 DOMAIN-SUFFIX,beyond-hd.me
 DOMAIN-SUFFIX,hub.rat.dev
-IP-CIDR,183.206.0.0/15
