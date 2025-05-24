@@ -13,8 +13,10 @@ domain:ip.sb
 domain:netbird.io
 domain:api.day.app
 full:api4.ipify.org
+domain:ipwho.is
 keyword:test.
 domain:dnsany.com
+domain:split.io
 domain:cmvideo.cn
 domain:chinamobile.com
 domain:mobaibox.com
