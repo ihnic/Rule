@@ -27,4 +27,3 @@ domain:broadcasthe.net
 domain:passthepopcorn.me
 domain:beyond-hd.me
 domain:hub.rat.dev
-IP-CIDR,183.206.0.0/15
