@@ -1188,6 +1188,7 @@ domain:applepaysupplies.net
 domain:applepaysupplies.tv
 domain:applewallet.com
 domain:applewallet.tv
+domain:appsto.re
 domain:appstore.co.id
 domain:appstore.com
 domain:appstore.hk
@@ -1463,10 +1464,10 @@ domain:ukipad.com
 domain:wwwipodlounge.com
 domain:wwwmacbookair.com
 domain:apple.comscoreresearch.com
-domain:apple.news
 domain:appleenews.com
 domain:applemusic.berlin
 domain:applemusic.co
+domain:applemusic.com
 domain:applemusic.com.au
 domain:applemusic.hamburg
 domain:applemusic.wang
@@ -1499,10 +1500,8 @@ domain:iphoto.se
 domain:iphoto.wang
 domain:musickit.net
 domain:wwwapplemusic.com
-domain:applemusic.com
 domain:apple-dns.net
-domain:appsto.re
-domain:cdn-apple.com
+domain:apple.news
 domain:digicert.com
 domain:apple-cloudkit.com
 domain:apple-icloud.cn
@@ -1510,6 +1509,7 @@ domain:apple-livephotoskit.com
 domain:appleicloud.cn
 domain:applemx-icloud.com
 domain:apzones.com
+domain:cdn-apple.com
 domain:icloud-apple.cn
 domain:icloud-content.com
 domain:icloud-isupport.com
