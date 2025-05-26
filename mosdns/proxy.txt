@@ -4480,6 +4480,7 @@ domain:redchinacn.net
 domain:redchinacn.org
 domain:redd.it
 domain:reddit.com
+domain:reddithelp.com
 domain:redditlist.com
 domain:redditmedia.com
 domain:redditspace.com
