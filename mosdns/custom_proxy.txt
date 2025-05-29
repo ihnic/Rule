@@ -28,6 +28,7 @@ domain:a6tkchat.com
 domain:a6tkapi1.com
 domain:roonlabs.net
 domain:jptv.club
+domain:star-space.net
 domain:mozilla.com
 domain:mozilla.net
 domain:mytvsuper.com
