@@ -8,6 +8,7 @@ domain:av-league.com
 domain:aventertainments.com
 domain:dahlia-av.jp
 domain:jav321.com
+domain:missav.ai
 domain:arzon.jp
 domain:tmdb.org
 domain:themoviedb
