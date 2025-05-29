@@ -43,6 +43,7 @@ DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,mytvsuper.com
 DOMAIN-SUFFIX,acg.rip
 DOMAIN-SUFFIX,ilovepdf.com
+DOMAIN-SUFFIX,lobehub.com
 DOMAIN,global.synologydownload.com
 DOMAIN,api.insight.synology.com
 DOMAIN,subscribe.insight.synology.com
