@@ -43,6 +43,7 @@ domain:googlevideo.com
 domain:mytvsuper.com
 domain:acg.rip
 domain:ilovepdf.com
+domain:lobehub.com
 full:global.synologydownload.com
 full:api.insight.synology.com
 full:subscribe.insight.synology.com
