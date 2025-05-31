@@ -1395,6 +1395,7 @@ domain:discordstatus.com
 domain:discuss.com.hk
 domain:discuss4u.com
 domain:dish.com
+domain:disk.yandex.com
 domain:disney-plus.net
 domain:disneyplus.com
 domain:disneyplus.com.ssl.sc.omtrdc.net
@@ -6309,7 +6310,6 @@ domain:yakbutterblues.com
 domain:yam.com
 domain:yam.org.tw
 domain:yande.re
-domain:yandex.com
 domain:yandex.net
 domain:yandex.ru
 domain:yanghengjun.com
