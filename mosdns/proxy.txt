@@ -588,6 +588,7 @@ domain:bestvpnservice.com
 domain:bestvpnusa.com
 domain:bet365.com
 domain:betaclouds.net
+domain:betfair.com
 domain:betternet.co
 domain:bettervpn.com
 domain:bettween.com
@@ -1232,6 +1233,7 @@ domain:csw.org.uk
 domain:ct.org.tw
 domain:ctao.org
 domain:ctfriend.net
+domain:ctinews.com
 domain:ctitv.com.tw
 domain:ctowc.org
 domain:cts.com.tw
