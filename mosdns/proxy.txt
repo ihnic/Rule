@@ -909,6 +909,7 @@ domain:cdef.org
 domain:cdig.info
 domain:cdjp.org
 domain:cdn.angruo.com
+domain:cdn.arstechnica.net
 domain:cdn.segment.com
 domain:cdnews.com.tw
 domain:cdnst.net
@@ -1061,6 +1062,7 @@ domain:chuizi.net
 domain:churchinhongkong.org
 domain:chushigangdrug.ch
 domain:ci-en.jp
+domain:cici.com
 domain:ciciai.com
 domain:cienen.com
 domain:cineastentreff.de
@@ -1148,6 +1150,7 @@ domain:codeplex.com
 domain:codeshare.io
 domain:codeskulptor.org
 domain:cofacts.tw
+domain:coffeemanga.to
 domain:coin2co.in
 domain:coinbase.com
 domain:coinbene.com
