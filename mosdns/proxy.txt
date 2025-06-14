@@ -1204,6 +1204,7 @@ domain:counter.social
 domain:coursehero.com
 domain:coze.com
 domain:cpj.org
+domain:cpu-monkey.com
 domain:cq99.us
 domain:crackle.com
 domain:crazypool.org
