@@ -170,6 +170,7 @@ domain:ablwang.com
 domain:about.me
 domain:aboutgfw.com
 domain:abpchina.org
+domain:abplive.com
 domain:abs.edu
 domain:acast.com
 domain:accim.org
@@ -367,12 +368,10 @@ domain:apat1989.org
 domain:apetube.com
 domain:api.ai
 domain:api.amplitude.com
-domain:api.linksalpha.com
 domain:api.mixpanel.com
 domain:api.proxlet.com
 domain:api.termius.com
 domain:apiary.io
-domain:apidocs.linksalpha.com
 domain:apigee.com
 domain:apk-dl.com
 domain:apk.support
@@ -1635,7 +1634,6 @@ domain:enlighten.org.tw
 domain:entermap.com
 domain:entnt.com
 domain:entrust.net
-domain:epa.gov.tw
 domain:epac.to
 domain:episcopalchurch.org
 domain:epochhk.com
@@ -1854,6 +1852,7 @@ domain:filesor.com
 domain:fillthesquare.org
 domain:filmingfortibet.org
 domain:filthdump.com
+domain:financialexpress.com
 domain:finchvpn.com
 domain:findbook.tw
 domain:findmespot.com
@@ -2394,7 +2393,6 @@ domain:helloqueer.com
 domain:helloss.pw
 domain:hellotxt.com
 domain:hellouk.org
-domain:help.linksalpha.com
 domain:helpeachpeople.com
 domain:helplinfen.com
 domain:helpshift.com
@@ -2445,6 +2443,7 @@ domain:himalayan-foundation.org
 domain:himalayanglacier.com
 domain:himemix.com
 domain:himemix.net
+domain:hindustantimes.com
 domain:hinet.net
 domain:hitbtc.com
 domain:hitomi.la
@@ -2744,10 +2743,12 @@ domain:in99.org
 domain:incapdns.net
 domain:incredibox.fr
 domain:independent.co.uk
+domain:india.com
 domain:indiablooms.com
 domain:indianarrative.com
 domain:indiandefensenews.in
 domain:indiatimes.com
+domain:indiatoday.in
 domain:indiemerch.com
 domain:indsr.org.tw
 domain:inf.news
@@ -3750,12 +3751,14 @@ domain:newcenturynews.com
 domain:newchen.com
 domain:newgrounds.com
 domain:newhighlandvision.com
+domain:newindianexpress.com
 domain:newipnow.com
 domain:newlandmagazine.com.au
 domain:newmitbbs.com
 domain:newnews.ca
 domain:news1.kr
 domain:news100.com.tw
+domain:news18.com
 domain:newsancai.com
 domain:newsblur.com
 domain:newschinacomment.org
@@ -3890,7 +3893,6 @@ domain:ntdtv.jp
 domain:ntdtv.ru
 domain:ntdtvla.com
 domain:ntrfun.com
-domain:ntsna.gov.tw
 domain:ntu.edu.tw
 domain:nu.nl
 domain:nubiles.net
@@ -4981,6 +4983,7 @@ domain:sstmlt.net
 domain:st.luluku.pw
 domain:stackoverflow.com
 domain:stage64.hk
+domain:standard.co.uk
 domain:standupfortibet.org
 domain:standwithhk.org
 domain:stanford.edu
@@ -5246,6 +5249,7 @@ domain:thegay.com
 domain:thegioitinhoc.vn
 domain:thegly.com
 domain:theguardian.com
+domain:thehansindia.com
 domain:thehindu.com
 domain:thehots.info
 domain:thehousenews.com
@@ -5767,7 +5771,6 @@ domain:uscnpm.org
 domain:use.fontawesome.com
 domain:usefreevpn.com
 domain:usembassy.gov
-domain:userapi.nytlog.com
 domain:usercontent.goog
 domain:usertrust.com
 domain:usfk.mil
@@ -6190,7 +6193,6 @@ domain:wuw.red
 domain:wuyanblog.com
 domain:wwe.com
 domain:wwitv.com
-domain:www.linksalpha.com
 domain:www1.biz
 domain:wwwhost.biz
 domain:wzyboy.im
