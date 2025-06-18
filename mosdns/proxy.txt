@@ -2176,6 +2176,7 @@ domain:gitbooks.io
 domain:githack.com
 domain:gitlab.com
 domain:gitlab.io
+domain:gitlab.net
 domain:gitmemory.com
 domain:gizlen.net
 domain:gjczz.com
@@ -4000,6 +4001,7 @@ domain:onmypc.org
 domain:onmypc.us
 domain:onthehunt.com
 domain:ontrac.com
+domain:oojj.de
 domain:oopsforum.com
 domain:ooyala.com
 domain:open.com.hk
