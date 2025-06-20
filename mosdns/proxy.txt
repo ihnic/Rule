@@ -1527,6 +1527,7 @@ domain:dw-world.com
 domain:dw-world.de
 domain:dw.com
 domain:dw.de
+domain:dweb.link
 domain:dwheeler.com
 domain:dwnews.com
 domain:dwnews.net
@@ -2789,6 +2790,7 @@ domain:ipaddress.com
 domain:ipalter.com
 domain:ipdefenseforum.com
 domain:ipfire.org
+domain:ipfs.4everland.io
 domain:ipfs.io
 domain:iphone4hongkong.com
 domain:iphonehacks.com
@@ -3793,6 +3795,7 @@ domain:nflximg.com
 domain:nflximg.net
 domain:nflxso.net
 domain:nflxvideo.net
+domain:nftstorage.link
 domain:ng.mil
 domain:nga.mil
 domain:ngensis.com
@@ -5022,6 +5025,7 @@ domain:storify.com
 domain:storj.io
 domain:storm.mg
 domain:stormmediagroup.com
+domain:storry.tv
 domain:stoweboyd.com
 domain:straitstimes.com
 domain:stranabg.com
@@ -5968,6 +5972,7 @@ domain:w-pool.com
 domain:w.org
 domain:w.wiki
 domain:w3.org
+domain:w3s.link
 domain:w3schools.com
 domain:waffle1999.com
 domain:wahas.com
