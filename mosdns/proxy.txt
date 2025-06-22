@@ -310,6 +310,7 @@ domain:ampproject.com
 domain:ampproject.net
 domain:ampproject.org
 domain:amtb-taipei.org
+domain:amuletmc.com
 domain:anaconda.com
 domain:anchor.fm
 domain:anchorfree.com
@@ -1906,6 +1907,7 @@ domain:fontsource.org
 domain:foolsmountain.com
 domain:fooooo.com
 domain:footwiball.com
+domain:forbes.com
 domain:foreignaffairs.com
 domain:foreignpolicy.com
 domain:form.new
