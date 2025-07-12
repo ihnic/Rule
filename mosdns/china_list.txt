@@ -962,7 +962,7 @@ domain:0xue.com
 domain:0z.gs
 domain:1-123.com
 domain:1-b.tc
-1-bmo-client-login.com
+domain:1-bmo-client-login.com
 domain:1-cs.net
 domain:1-du.net
 domain:1-luxury.com
@@ -3337,7 +3337,7 @@ domain:2fz1.com
 domain:2fzb.com
 domain:2gdt.com
 domain:2gei.com
-2girls1finger.org
+domain:2girls1finger.org
 2google.com
 domain:2h1jeo.com
 domain:2haha.com
@@ -7949,7 +7949,7 @@ domain:7wenyi.com
 domain:7wnews.com
 domain:7wsh.com
 domain:7wsh.net
-7x.cc
+domain:7x.cc
 domain:7x24cc.com
 7x24s.com
 domain:7x688.com
@@ -9175,7 +9175,7 @@ domain:960638.com
 domain:96090090.com
 domain:96096kp.com
 domain:960rc.com
-961.com
+domain:961.com
 domain:9610.com
 domain:9611111.com
 96138.net
@@ -15946,7 +15946,7 @@ domain:bhyby.com
 domain:bhycjdyp.com
 domain:bhyintan.com
 domain:bhyueda.com
-bhyuu.com
+domain:bhyuu.com
 domain:bhzck.club
 domain:bhzck.xyz
 domain:bhzd88.com
@@ -18397,7 +18397,7 @@ domain:butjx.com
 domain:butongshe.com
 domain:butonly.com
 domain:butterapis.com
-butterdogchange.com
+domain:butterdogchange.com
 domain:button-nt.com
 domain:buttonsintime.com
 domain:buxia.net
@@ -29942,7 +29942,7 @@ domain:dhkm.vip
 domain:dhkq120.com
 domain:dhkqmz.com
 domain:dhkqyy.com
-dhlmyorder82662-info-can.com
+domain:dhlmyorder82662-info-can.com
 domain:dhmeri.com
 domain:dhmsnyy.com
 domain:dhppa.com
@@ -36004,7 +36004,7 @@ domain:fengyan.cc
 domain:fengyang.fun
 domain:fengyeholding.com
 domain:fengyitong.name
-fengyixin.com
+domain:fengyixin.com
 domain:fengyuangufen.com
 domain:fengyubf.com
 domain:fengyuncad.com
@@ -51222,7 +51222,7 @@ domain:hundsun.com
 domain:hundun.net
 domain:hundx.com
 domain:hunger-valley.com
-hungfei.com
+domain:hungfei.com
 domain:hunheji.org
 domain:hunli100.com
 domain:hunlian100.com
@@ -54881,7 +54881,7 @@ domain:issks.com
 issues.deploy.akamai.com
 domain:ist-zl.com
 istarshine.com
-istartsurf.com
+domain:istartsurf.com
 domain:istcw.com
 domain:istimer.com
 domain:istpei.com
@@ -67485,7 +67485,7 @@ domain:lydaas.com
 domain:lydezx.net
 domain:lydfyy.com
 domain:lydhb888.com
-lydownload.net
+domain:lydownload.net
 domain:lydpjx.com
 domain:lydsy.com
 domain:lyduanzao.com
@@ -69892,7 +69892,7 @@ domain:microlz.com
 domain:micronetpay.com
 domain:microrui.net
 domain:microsate.com
-microsoft-ware.com
+domain:microsoft-ware.com
 microsoftuwp.com
 domain:microstarsoft.com
 domain:microstern.com
@@ -71920,7 +71920,7 @@ domain:myhongzuan.com
 domain:myhopu.com
 domain:myhostadmin.net
 domain:myhscodes.com
-myhst2024.com
+domain:myhst2024.com
 domain:myhuaweicloud-custom.com
 domain:myhuaweicloud-koodrive.com
 domain:myhuaweicloud-obs.com
@@ -74770,7 +74770,7 @@ domain:notonlymoon.com
 domain:notrisk.com
 domain:nouoo.com
 domain:nouriz.com
-nouvelles247.com
+domain:nouvelles247.com
 domain:nova-test.com
 domain:novaicare.com
 domain:novapps.com
@@ -76399,7 +76399,7 @@ domain:oushisheng.com
 domain:oushivoyages.com
 domain:oushiyimulayou.com
 domain:ousweixin.com
-outerinfo.com
+domain:outerinfo.com
 domain:outes.com
 domain:outfit7.com
 domain:outfit7.net
@@ -76611,7 +76611,7 @@ domain:paiky.net
 domain:pailitao.com
 domain:pailixiang.com
 domain:paimaprint.com
-paime.com
+domain:paime.com
 domain:paiming.net
 domain:paintinghere.org
 domain:paints.market
@@ -77454,7 +77454,7 @@ domain:phonelinksoft.com
 domain:phonertech.com
 domain:phonthing.com
 domain:phopic.com
-phormchina.com
+domain:phormchina.com
 domain:phosun.com
 domain:photc.com
 domain:photo0086.com
@@ -89612,7 +89612,7 @@ so9l.com
 soa.lenovo.com
 domain:soapphoto.com
 domain:soar-chem.com
-soarpower.com
+domain:soarpower.com
 domain:soarwatch.com
 domain:soaryoof.com
 soaus-test.lenovo.com
@@ -89827,7 +89827,7 @@ domain:sometracking.com
 domain:somo.so
 somode.net
 domain:somsds.com
-somuchrain.com
+domain:somuchrain.com
 domain:sonbest.com
 domain:soncci.com
 song001.com
@@ -90967,7 +90967,7 @@ domain:suchengmeizhan.com
 domain:suchugao.com
 domain:suchz.com
 domain:sucjg.com
-suckdude.com
+domain:suckdude.com
 domain:sucop.com
 domain:sucoupon.com
 domain:sudaizhijia.com
@@ -98220,7 +98220,7 @@ domain:uqualities.com
 domain:uqude.com
 domain:uqufin.com
 domain:uqulive.com
-uqz.com
+domain:uqz.com
 domain:urart.cc
 domain:urbanchina.org
 domain:urbanmatters.com
@@ -107330,7 +107330,7 @@ domain:xmkanshu.com
 domain:xmkingsolar.com
 domain:xml-journal.net
 domain:xmldz4.com
-xmlheads.com
+domain:xmlheads.com
 domain:xmlhifi.com
 domain:xmlulub.com
 domain:xmlvbarcode.com
@@ -121783,7 +121783,6 @@ domain:yunduncc.com
 domain:yzsnen.com
 domain:zwmrxd.com
 domain:antiycloud.com
-domain:bochk.com
 domain:ftcwifi.com
 domain:bankcomm.com.au
 domain:baishancdnx.top
@@ -121928,6 +121927,7 @@ domain:b612.net
 domain:baduziyuan.com
 domain:bjango.com
 domain:bmj.com
+domain:bochk.com
 domain:broadcasthe.net
 domain:browserleaks.com
 domain:bstatic.com
@@ -121936,6 +121936,8 @@ domain:cambridge.org
 domain:cas.org
 domain:ccbintl.com.hk
 domain:ccbseoul.com
+domain:chinaunicom.com.hk
+domain:chinaunicomglobal.com
 domain:chua.pro
 domain:citics.com.hk
 domain:clarivate.com
@@ -122119,7 +122121,9 @@ domain:trellocdn.com
 domain:trip.com
 domain:ttmeiju.com
 domain:uat1.bfsspadserver.8le8le.com
+domain:ucgslb.top
 domain:udacity.com
+domain:ugslb.top
 domain:un.org
 domain:uni-bielefeld.de
 domain:uning.com
@@ -122156,19 +122160,12 @@ domain:domesticmedia.tv
 domain:domesticmediagame.co
 domain:domesticmediagame.net
 domain:domesticmediapay.com
-domain:kumiao.tv
-domain:kuxiaomiao.net
 domain:noxagile.duapp.com
 domain:p-bstarstatic.akamaized.net
 domain:p.bstarstatic.com
 domain:s.zampdsp.com
 domain:upos-bstar-mirrorakam.akamaized.net
 domain:upos-bstar1-mirrorakam.akamaized.net
-domain:yodou.com
-domain:yoqoo.net
-domain:yoqoo.tv
-domain:youku.org
-domain:youqoo.net
 domain:01058511989.com
 domain:189qas.com
 domain:21cnimg.com
@@ -122189,8 +122186,6 @@ domain:ctzcdn.net
 domain:iwuyou189.com
 domain:wuyou189.com
 domain:10010.net
-domain:chinaunicom.com.hk
-domain:chinaunicomglobal.com
 domain:wo-link.tech
 domain:baotoo.com
 domain:maikr.com
@@ -122212,6 +122207,7 @@ domain:domobnetwork.com
 domain:duomeng.net
 domain:duomeng.org
 domain:moxz.net
+domain:doyonoc.com
 domain:xingxuanwaimai.com
 domain:wisestcloud.com
 domain:9iwanwan.com
@@ -122844,8 +122840,8 @@ domain:hukewq.com
 domain:nbhuke.com
 domain:ntes53.net
 domain:playdisorder.com
-domain:yunxinsvip.com
 domain:yun-app.net
+domain:yunxinsvip.com
 domain:ibreeno.com
 domain:realme.net
 domain:realmeservice.com
@@ -122897,7 +122893,6 @@ domain:accessibilityunion.org
 domain:aitangyou.com
 domain:apcdns.com
 domain:cfmna-tencent.com
-domain:doyonoc.com
 domain:gameloop.fun
 domain:nba.com
 domain:prayaya.com
@@ -122923,9 +122918,7 @@ domain:qingzhou.ltd
 domain:qingzhou.pro
 domain:uc-test.com
 domain:u-cdn.com
-domain:ucgslb.top
 domain:uclouduewaf.com
-domain:ugslb.top
 domain:hapjs.org
 domain:ita-alliance.com
 domain:pwrdoverseagame.com
@@ -123000,6 +122993,13 @@ domain:maozhuar.com
 domain:xuanyaodang.com
 domain:xuanyaodang.net
 domain:youmengchuangxiang.com
+domain:kumiao.tv
+domain:kuxiaomiao.net
+domain:yodou.com
+domain:yoqoo.net
+domain:yoqoo.tv
+domain:youku.org
+domain:youqoo.net
 domain:yuantiku.xyz
 domain:zebraenglish.biz
 domain:cdndns2.net
@@ -123043,7 +123043,7 @@ keyword:aliyun
 keyword:beplay
 keyword:officecdn
 keyword:bilibili
+keyword:qiyi
 keyword:hnagroup
 keyword:stripe
 keyword:weibo
-keyword:qiyi

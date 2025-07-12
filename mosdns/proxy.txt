@@ -396,6 +396,7 @@ domain:appspot-preview.com
 domain:appspot.com
 domain:appsto.re
 domain:aptoide.com
+domain:ar.hao123.com
 domain:arcgis.com
 domain:archive.fo
 domain:archive.is
@@ -1557,6 +1558,7 @@ domain:e-info.org.tw
 domain:e-traderland.net
 domain:e-zone.com.hk
 domain:e123.hk
+domain:e621.net
 domain:earlytibet.com
 domain:earthcam.com
 domain:earthvpn.com
@@ -4008,6 +4010,7 @@ domain:onmoon.com
 domain:onmoon.net
 domain:onmypc.biz
 domain:onmypc.info
+domain:onmypc.net
 domain:onmypc.org
 domain:onmypc.us
 domain:onthehunt.com
