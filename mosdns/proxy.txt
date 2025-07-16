@@ -6213,6 +6213,7 @@ domain:wuw.red
 domain:wuyanblog.com
 domain:wwe.com
 domain:wwitv.com
+domain:www.xicons.org
 domain:www1.biz
 domain:wwwhost.biz
 domain:wzyboy.im
