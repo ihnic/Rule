@@ -180,6 +180,7 @@ domain:weather-data.apple.com
 domain:weather-map.apple.com
 domain:wiley.com
 domain:xunlei.com
+keyword:amp-api.podcasts.apple.com
 keyword:anti-ad.net
 keyword:api-adservices.apple.com
 keyword:api.smoot.apple.cn

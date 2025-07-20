@@ -396,7 +396,6 @@ domain:appspot-preview.com
 domain:appspot.com
 domain:appsto.re
 domain:aptoide.com
-domain:ar.hao123.com
 domain:arcgis.com
 domain:archive.fo
 domain:archive.is
@@ -4010,7 +4009,6 @@ domain:onmoon.com
 domain:onmoon.net
 domain:onmypc.biz
 domain:onmypc.info
-domain:onmypc.net
 domain:onmypc.org
 domain:onmypc.us
 domain:onthehunt.com
