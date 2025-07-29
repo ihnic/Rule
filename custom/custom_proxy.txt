@@ -126,4 +126,4 @@ DOMAIN-KEYWORD,notion
 DOMAIN-KEYWORD,termius
 DOMAIN-KEYWORD,gitbook
 DOMAIN-KEYWORD,argotunnel
-
+DOMAIN-KEYWORD,stable.dl.unraid.net
