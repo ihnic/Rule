@@ -1,3 +1,4 @@
+# 自行测试当地是否能够直连，不能直连删掉下面这行
 full:beesport.livednow.com
 full:audio-ak.spotifycdn.com
 full:kktxjq.lol
