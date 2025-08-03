@@ -127,3 +127,4 @@ DOMAIN-KEYWORD,termius
 DOMAIN-KEYWORD,gitbook
 DOMAIN-KEYWORD,argotunnel
 DOMAIN-KEYWORD,unraid.net
+DOMAIN-KEYWORD,gallerycdn.vsassets.io
