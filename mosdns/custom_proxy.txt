@@ -127,3 +127,4 @@ keyword:termius
 keyword:gitbook
 keyword:argotunnel
 keyword:unraid.net
+DOMAIN-KEYWORD,gallerycdn.vsassets.io
