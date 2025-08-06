@@ -6216,6 +6216,8 @@ domain:wwitv.com
 domain:www.xicons.org
 domain:www1.biz
 domain:wwwhost.biz
+domain:wxw.cat
+domain:wxw.moe
 domain:wzyboy.im
 domain:x-art.com
 domain:x-berry.com
