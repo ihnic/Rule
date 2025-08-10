@@ -642,6 +642,7 @@ domain:bitchute.com
 domain:bitcointalk.org
 domain:bitcoinworld.com
 domain:bitfinex.com
+domain:bitget.com
 domain:bithumb.com
 domain:bitinka.com.ar
 domain:bitmex.com
@@ -1109,6 +1110,7 @@ domain:clips4sale.com
 domain:cloakpoint.com
 domain:cloud.cupronickel.goog
 domain:cloudcone.com
+domain:cloudflare-dns.com
 domain:cloudflare-ipfs.com
 domain:cloudflare.com
 domain:cloudfront.net
@@ -5759,6 +5761,7 @@ domain:unstable.icu
 domain:untraceable.us
 domain:unwire.hk
 domain:uocn.org
+domain:upbit.com
 domain:updatestar.com
 domain:upghsbc.com
 domain:upholdjustice.org

@@ -25,5 +25,6 @@ domain:tiktokd.org
 domain:tiktokmusic.app
 domain:tiktokv.com
 domain:tiktokv.us
+domain:trae.ai
 domain:ttwebview.com
 keyword:tiktok
