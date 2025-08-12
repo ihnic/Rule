@@ -1,4 +1,5 @@
 full:ai.google.dev
+full:aistudio.google.com
 full:akmcdnoversea-tw.inter.ptqy.gitv.tv
 full:api.githubcopilot.com
 full:api.groq.com
@@ -168,6 +169,7 @@ domain:channel5.com
 domain:chocotv.com.tw
 domain:cinemax.com
 domain:claude.ai
+domain:claudeusercontent.com
 domain:cloudfront.net
 domain:cnbc.com
 domain:cnbcfm.com
@@ -190,6 +192,8 @@ domain:coronavirusnow.com
 domain:cstatic.net
 domain:curbed.com
 domain:curiositystream.com
+domain:curosr.com
+domain:curosr.sh
 domain:cwseed.com
 domain:cwtv.com
 domain:d9.flashtalking.com
@@ -953,7 +957,6 @@ domain:sndcdn.com
 domain:snssdk.com
 domain:soccermatchpass.com
 domain:socdm.com
-domain:sora.com
 domain:sorcerersarena.com
 domain:soundcloud.app.goo.gl
 domain:soundcloud.com
