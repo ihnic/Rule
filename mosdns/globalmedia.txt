@@ -192,8 +192,8 @@ domain:coronavirusnow.com
 domain:cstatic.net
 domain:curbed.com
 domain:curiositystream.com
-domain:curosr.com
-domain:curosr.sh
+domain:cursor.com
+domain:cursor.sh
 domain:cwseed.com
 domain:cwtv.com
 domain:d9.flashtalking.com
