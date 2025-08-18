@@ -4087,6 +4087,7 @@ domain:paldengyal.com
 domain:paljorpublications.com
 domain:palmislife.com
 domain:paltalk.com
+domain:pancakeswap.finance
 domain:pandafan.pub
 domain:pandapow.co
 domain:pandapow.net
@@ -4162,6 +4163,7 @@ domain:periscope.tv
 domain:perplexity.ai
 domain:persecutionblog.com
 domain:persiankitty.com
+domain:pewresearch.org
 domain:pfd.org.hk
 domain:phapluan.org
 domain:phayul.com
@@ -4305,6 +4307,7 @@ domain:prism-break.org
 domain:prisoneralert.com
 domain:pritunl.com
 domain:privacybox.de
+domain:privacyguides.org
 domain:private.com
 domain:privateinternetaccess.com
 domain:privatepaste.com
@@ -5069,6 +5072,7 @@ domain:surrenderat20.net
 domain:suyangg.com
 domain:svsfx.com
 domain:swagbucks.com
+domain:swapspace.co
 domain:swissinfo.ch
 domain:swissvpn.net
 domain:switch1.jp
