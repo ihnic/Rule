@@ -1365,6 +1365,7 @@ domain:delicious.com
 domain:demo.opera-mini.net
 domain:democrats.org
 domain:demosisto.hk
+domain:deno.dev
 domain:depositphotos.com
 domain:derekhsu.homeip.net
 domain:desc.se
@@ -1448,6 +1449,7 @@ domain:docker.com
 domain:docker.io
 domain:dockerhub.com
 domain:docs.cfw.lbyczf.com
+domain:docs.deno.com
 domain:docs.new
 domain:doctorvoice.org
 domain:documentingreality.com
@@ -2047,6 +2049,7 @@ domain:furbo.org
 domain:furhhdl.org
 domain:furinkan.com
 domain:furl.net
+domain:furrybar.com
 domain:futurechinaforum.org
 domain:futuremessage.org
 domain:fux.com
@@ -3714,6 +3717,7 @@ domain:nationalreview.com
 domain:nationsonline.org
 domain:nationwide.com
 domain:naughtyamerica.com
+domain:naver.com
 domain:naver.jp
 domain:navy.mil
 domain:naweeklytimes.com
