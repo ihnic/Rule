@@ -71297,7 +71297,7 @@ domain:mypian.com
 domain:mypiao.com
 domain:mypiaojia.com
 mypikpak.com
-domain:mypikpak.net
+mypikpak.net
 domain:mypitaya.com
 domain:mypity.com
 domain:mypiwik.com
@@ -97367,7 +97367,7 @@ domain:ustarl.com
 domain:ustbtc.com
 domain:ustc.edu
 domain:ustcers.com
-domain:ustclug.org
+ustclug.org
 domain:ustui.com
 domain:usuredata.com
 domain:usuuu.com
@@ -118757,7 +118757,7 @@ domain:unicom
 domain:xn--1qqw23a
 domain:xn--3bst00m
 domain:xn--3ds443g
-xn--55qw42g
+domain:xn--55qw42g
 domain:xn--5tzm5g
 domain:xn--6frz82g
 domain:xn--6qq986b3xl
@@ -120855,9 +120855,6 @@ domain:cz88.net
 domain:czybjz.com
 domain:dandanzan.com
 domain:dct-cloud.com
-domain:didiaustralia.blog
-domain:didiglobal.com
-domain:didimobility.co.jp
 domain:dler.cloud
 domain:ebscohost.com
 domain:ecitic.net
@@ -121024,9 +121021,7 @@ domain:trellocdn.com
 domain:trip.com
 domain:ttmeiju.com
 domain:uat1.bfsspadserver.8le8le.com
-domain:ucgslb.top
 domain:udacity.com
-domain:ugslb.top
 domain:un.org
 domain:uni-bielefeld.de
 domain:uning.com
@@ -121039,7 +121034,6 @@ domain:westlaw.com
 domain:whatismyip.com
 domain:wiley.com
 domain:windowsupdate.microsoft.com
-domain:wjx.top
 domain:wkcdn.com
 domain:worldbank.org
 domain:worldscientific.com
@@ -121063,12 +121057,19 @@ domain:domesticmedia.tv
 domain:domesticmediagame.co
 domain:domesticmediagame.net
 domain:domesticmediapay.com
+domain:kumiao.tv
+domain:kuxiaomiao.net
 domain:noxagile.duapp.com
 domain:p-bstarstatic.akamaized.net
 domain:p.bstarstatic.com
 domain:s.zampdsp.com
 domain:upos-bstar-mirrorakam.akamaized.net
 domain:upos-bstar1-mirrorakam.akamaized.net
+domain:yodou.com
+domain:yoqoo.net
+domain:yoqoo.tv
+domain:youku.org
+domain:youqoo.net
 domain:01058511989.com
 domain:189qas.com
 domain:21cnimg.com
@@ -121093,6 +121094,9 @@ domain:wo-link.tech
 domain:baotoo.com
 domain:maikr.com
 domain:dandanplayer.com
+domain:didiaustralia.blog
+domain:didiglobal.com
+domain:didimobility.co.jp
 domain:didiopenapi.com
 domain:pgyer.cc
 domain:pgyer.im
@@ -121110,6 +121114,7 @@ domain:domobnetwork.com
 domain:duomeng.net
 domain:duomeng.org
 domain:moxz.net
+domain:doyonoc.com
 domain:xingxuanwaimai.com
 domain:wisestcloud.com
 domain:9iwanwan.com
@@ -121744,8 +121749,8 @@ domain:hukewq.com
 domain:nbhuke.com
 domain:ntes53.net
 domain:playdisorder.com
-domain:yun-app.net
 domain:yunxinsvip.com
+domain:yun-app.net
 domain:ibreeno.com
 domain:realme.net
 domain:realmeservice.com
@@ -121798,7 +121803,6 @@ domain:accessibilityunion.org
 domain:aitangyou.com
 domain:apcdns.com
 domain:cfmna-tencent.com
-domain:doyonoc.com
 domain:gameloop.fun
 domain:nba.com
 domain:prayaya.com
@@ -121824,7 +121828,9 @@ domain:qingzhou.ltd
 domain:qingzhou.pro
 domain:uc-test.com
 domain:u-cdn.com
+domain:ucgslb.top
 domain:uclouduewaf.com
+domain:ugslb.top
 domain:hapjs.org
 domain:ita-alliance.com
 domain:pwrdoverseagame.com
@@ -121865,6 +121871,7 @@ domain:wsoversea.net
 domain:wsoversea.org
 domain:iot-tencent.com
 domain:wechatos.net
+domain:wjx.top
 domain:51lstt.com
 domain:51newsapp.com
 domain:newsapp01.com
@@ -121901,13 +121908,6 @@ domain:maozhuar.com
 domain:xuanyaodang.com
 domain:xuanyaodang.net
 domain:youmengchuangxiang.com
-domain:kumiao.tv
-domain:kuxiaomiao.net
-domain:yodou.com
-domain:yoqoo.net
-domain:yoqoo.tv
-domain:youku.org
-domain:youqoo.net
 domain:yuantiku.xyz
 domain:zebraenglish.biz
 domain:cdndns2.net
@@ -121953,7 +121953,7 @@ keyword:aliyun
 keyword:beplay
 keyword:officecdn
 keyword:bilibili
+keyword:qiyi
 keyword:hnagroup
 keyword:stripe
 keyword:weibo
-keyword:qiyi

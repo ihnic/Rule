@@ -11308,6 +11308,7 @@ ggpds.com
 ggpht.com
 ggsrv.com
 ggssl.com
+gh.io
 ghbi.ir
 ghcr.io
 ghettotube.com
@@ -11369,6 +11370,7 @@ git-scm.com
 git.io
 gitbook.com
 gitbook.io
+github.ai
 github.blog
 github.com
 github.community
@@ -14733,6 +14735,7 @@ itemdb.com
 itemfix.com
 itfromtheinside.com
 ithelp.ithome.com.tw
+itiger.com
 itlearningspace-scot.ac.uk
 itnel.com
 itnow.ac.uk
@@ -27002,6 +27005,7 @@ udn.com.tw
 udnbkk.com
 udndata.com
 udnfunlife.com
+udomain.hk
 udtrucksmeena.com
 uea.ac.uk
 ueberamazon.de

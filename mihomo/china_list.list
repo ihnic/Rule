@@ -71297,7 +71297,7 @@ DOMAIN-SUFFIX,mypian.com
 DOMAIN-SUFFIX,mypiao.com
 DOMAIN-SUFFIX,mypiaojia.com
 mypikpak.com
-DOMAIN-SUFFIX,mypikpak.net
+mypikpak.net
 DOMAIN-SUFFIX,mypitaya.com
 DOMAIN-SUFFIX,mypity.com
 DOMAIN-SUFFIX,mypiwik.com
@@ -97367,7 +97367,7 @@ DOMAIN-SUFFIX,ustarl.com
 DOMAIN-SUFFIX,ustbtc.com
 DOMAIN-SUFFIX,ustc.edu
 DOMAIN-SUFFIX,ustcers.com
-DOMAIN-SUFFIX,ustclug.org
+ustclug.org
 DOMAIN-SUFFIX,ustui.com
 DOMAIN-SUFFIX,usuredata.com
 DOMAIN-SUFFIX,usuuu.com
@@ -118757,7 +118757,7 @@ DOMAIN-SUFFIX,unicom
 DOMAIN-SUFFIX,xn--1qqw23a
 DOMAIN-SUFFIX,xn--3bst00m
 DOMAIN-SUFFIX,xn--3ds443g
-xn--55qw42g
+DOMAIN-SUFFIX,xn--55qw42g
 DOMAIN-SUFFIX,xn--5tzm5g
 DOMAIN-SUFFIX,xn--6frz82g
 DOMAIN-SUFFIX,xn--6qq986b3xl
@@ -120855,9 +120855,6 @@ DOMAIN-SUFFIX,cz88.net
 DOMAIN-SUFFIX,czybjz.com
 DOMAIN-SUFFIX,dandanzan.com
 DOMAIN-SUFFIX,dct-cloud.com
-DOMAIN-SUFFIX,didiaustralia.blog
-DOMAIN-SUFFIX,didiglobal.com
-DOMAIN-SUFFIX,didimobility.co.jp
 DOMAIN-SUFFIX,dler.cloud
 DOMAIN-SUFFIX,ebscohost.com
 DOMAIN-SUFFIX,ecitic.net
@@ -121024,9 +121021,7 @@ DOMAIN-SUFFIX,trellocdn.com
 DOMAIN-SUFFIX,trip.com
 DOMAIN-SUFFIX,ttmeiju.com
 DOMAIN-SUFFIX,uat1.bfsspadserver.8le8le.com
-DOMAIN-SUFFIX,ucgslb.top
 DOMAIN-SUFFIX,udacity.com
-DOMAIN-SUFFIX,ugslb.top
 DOMAIN-SUFFIX,un.org
 DOMAIN-SUFFIX,uni-bielefeld.de
 DOMAIN-SUFFIX,uning.com
@@ -121039,7 +121034,6 @@ DOMAIN-SUFFIX,westlaw.com
 DOMAIN-SUFFIX,whatismyip.com
 DOMAIN-SUFFIX,wiley.com
 DOMAIN-SUFFIX,windowsupdate.microsoft.com
-DOMAIN-SUFFIX,wjx.top
 DOMAIN-SUFFIX,wkcdn.com
 DOMAIN-SUFFIX,worldbank.org
 DOMAIN-SUFFIX,worldscientific.com
@@ -121063,12 +121057,19 @@ DOMAIN-SUFFIX,domesticmedia.tv
 DOMAIN-SUFFIX,domesticmediagame.co
 DOMAIN-SUFFIX,domesticmediagame.net
 DOMAIN-SUFFIX,domesticmediapay.com
+DOMAIN-SUFFIX,kumiao.tv
+DOMAIN-SUFFIX,kuxiaomiao.net
 DOMAIN-SUFFIX,noxagile.duapp.com
 DOMAIN-SUFFIX,p-bstarstatic.akamaized.net
 DOMAIN-SUFFIX,p.bstarstatic.com
 DOMAIN-SUFFIX,s.zampdsp.com
 DOMAIN-SUFFIX,upos-bstar-mirrorakam.akamaized.net
 DOMAIN-SUFFIX,upos-bstar1-mirrorakam.akamaized.net
+DOMAIN-SUFFIX,yodou.com
+DOMAIN-SUFFIX,yoqoo.net
+DOMAIN-SUFFIX,yoqoo.tv
+DOMAIN-SUFFIX,youku.org
+DOMAIN-SUFFIX,youqoo.net
 DOMAIN-SUFFIX,01058511989.com
 DOMAIN-SUFFIX,189qas.com
 DOMAIN-SUFFIX,21cnimg.com
@@ -121093,6 +121094,9 @@ DOMAIN-SUFFIX,wo-link.tech
 DOMAIN-SUFFIX,baotoo.com
 DOMAIN-SUFFIX,maikr.com
 DOMAIN-SUFFIX,dandanplayer.com
+DOMAIN-SUFFIX,didiaustralia.blog
+DOMAIN-SUFFIX,didiglobal.com
+DOMAIN-SUFFIX,didimobility.co.jp
 DOMAIN-SUFFIX,didiopenapi.com
 DOMAIN-SUFFIX,pgyer.cc
 DOMAIN-SUFFIX,pgyer.im
@@ -121110,6 +121114,7 @@ DOMAIN-SUFFIX,domobnetwork.com
 DOMAIN-SUFFIX,duomeng.net
 DOMAIN-SUFFIX,duomeng.org
 DOMAIN-SUFFIX,moxz.net
+DOMAIN-SUFFIX,doyonoc.com
 DOMAIN-SUFFIX,xingxuanwaimai.com
 DOMAIN-SUFFIX,wisestcloud.com
 DOMAIN-SUFFIX,9iwanwan.com
@@ -121744,8 +121749,8 @@ DOMAIN-SUFFIX,hukewq.com
 DOMAIN-SUFFIX,nbhuke.com
 DOMAIN-SUFFIX,ntes53.net
 DOMAIN-SUFFIX,playdisorder.com
-DOMAIN-SUFFIX,yun-app.net
 DOMAIN-SUFFIX,yunxinsvip.com
+DOMAIN-SUFFIX,yun-app.net
 DOMAIN-SUFFIX,ibreeno.com
 DOMAIN-SUFFIX,realme.net
 DOMAIN-SUFFIX,realmeservice.com
@@ -121798,7 +121803,6 @@ DOMAIN-SUFFIX,accessibilityunion.org
 DOMAIN-SUFFIX,aitangyou.com
 DOMAIN-SUFFIX,apcdns.com
 DOMAIN-SUFFIX,cfmna-tencent.com
-DOMAIN-SUFFIX,doyonoc.com
 DOMAIN-SUFFIX,gameloop.fun
 DOMAIN-SUFFIX,nba.com
 DOMAIN-SUFFIX,prayaya.com
@@ -121824,7 +121828,9 @@ DOMAIN-SUFFIX,qingzhou.ltd
 DOMAIN-SUFFIX,qingzhou.pro
 DOMAIN-SUFFIX,uc-test.com
 DOMAIN-SUFFIX,u-cdn.com
+DOMAIN-SUFFIX,ucgslb.top
 DOMAIN-SUFFIX,uclouduewaf.com
+DOMAIN-SUFFIX,ugslb.top
 DOMAIN-SUFFIX,hapjs.org
 DOMAIN-SUFFIX,ita-alliance.com
 DOMAIN-SUFFIX,pwrdoverseagame.com
@@ -121865,6 +121871,7 @@ DOMAIN-SUFFIX,wsoversea.net
 DOMAIN-SUFFIX,wsoversea.org
 DOMAIN-SUFFIX,iot-tencent.com
 DOMAIN-SUFFIX,wechatos.net
+DOMAIN-SUFFIX,wjx.top
 DOMAIN-SUFFIX,51lstt.com
 DOMAIN-SUFFIX,51newsapp.com
 DOMAIN-SUFFIX,newsapp01.com
@@ -121901,13 +121908,6 @@ DOMAIN-SUFFIX,maozhuar.com
 DOMAIN-SUFFIX,xuanyaodang.com
 DOMAIN-SUFFIX,xuanyaodang.net
 DOMAIN-SUFFIX,youmengchuangxiang.com
-DOMAIN-SUFFIX,kumiao.tv
-DOMAIN-SUFFIX,kuxiaomiao.net
-DOMAIN-SUFFIX,yodou.com
-DOMAIN-SUFFIX,yoqoo.net
-DOMAIN-SUFFIX,yoqoo.tv
-DOMAIN-SUFFIX,youku.org
-DOMAIN-SUFFIX,youqoo.net
 DOMAIN-SUFFIX,yuantiku.xyz
 DOMAIN-SUFFIX,zebraenglish.biz
 DOMAIN-SUFFIX,cdndns2.net
@@ -121953,10 +121953,10 @@ DOMAIN-KEYWORD,aliyun
 DOMAIN-KEYWORD,beplay
 DOMAIN-KEYWORD,officecdn
 DOMAIN-KEYWORD,bilibili
+DOMAIN-KEYWORD,qiyi
 DOMAIN-KEYWORD,hnagroup
 DOMAIN-KEYWORD,stripe
 DOMAIN-KEYWORD,weibo
-DOMAIN-KEYWORD,qiyi
 PROCESS-NAME,com.taobao.taobao
 PROCESS-NAME,com.bilibili.app.blue
 PROCESS-NAME,com.bilibili.app.in
