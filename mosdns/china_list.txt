@@ -36462,7 +36462,7 @@ domain:fogcloud.io
 domain:foguanghui.org
 domain:fohohr.com
 domain:foidn.com
-domain:foisonad.com
+foisonad.com
 domain:foisongroup.com
 domain:fojiaonet.com
 domain:fojiaoyongpin.com
@@ -54488,7 +54488,7 @@ domain:itiankong.com
 domain:itiankong.net
 domain:itianliao.com
 domain:itiexue.net
-domain:itiger.com
+itiger.com
 domain:itigergrowth.com
 domain:itigergrowtha.com
 domain:itigerup.com
@@ -61635,7 +61635,7 @@ domain:kovemoto.com
 domain:kowa-dental.com
 domain:kowa103.com
 domain:kowloonhospital.com
-domain:kox.moe
+kox.moe
 domain:koyuki.cc
 domain:kpblw.com
 domain:kpbyd.com
@@ -70466,7 +70466,7 @@ domain:mowan123.com
 domain:moweather.com
 domain:mowgz.com
 domain:mowowo.com
-domain:mox.moe
+mox.moe
 domain:moxfive.xyz
 domain:moxiai.com
 domain:moxian.com
@@ -98406,7 +98406,7 @@ domain:voidking.com
 domain:voip366.com
 domain:vojs.tv
 domain:vokop.com
-domain:vol.moe
+vol.moe
 domain:volc-dns.com
 domain:volc-dns.net
 domain:volc-dns.pub
@@ -120772,7 +120772,6 @@ domain:ypjc.cloud
 domain:343480.com
 domain:356884.com
 domain:51ym.me
-domain:71.am.com
 domain:aaplimg.com
 domain:abercrombie.com
 domain:acfun.tv
@@ -120855,6 +120854,9 @@ domain:cz88.net
 domain:czybjz.com
 domain:dandanzan.com
 domain:dct-cloud.com
+domain:didiaustralia.blog
+domain:didiglobal.com
+domain:didimobility.co.jp
 domain:dler.cloud
 domain:ebscohost.com
 domain:ecitic.net
@@ -120916,7 +120918,6 @@ domain:imf.org
 domain:img4me.com
 domain:intltencentcos.com
 domain:iop.org
-domain:iq.com
 domain:ixdzs.com
 domain:jamanetwork.com
 domain:java.com
@@ -121021,7 +121022,9 @@ domain:trellocdn.com
 domain:trip.com
 domain:ttmeiju.com
 domain:uat1.bfsspadserver.8le8le.com
+domain:ucgslb.top
 domain:udacity.com
+domain:ugslb.top
 domain:un.org
 domain:uni-bielefeld.de
 domain:uning.com
@@ -121034,6 +121037,7 @@ domain:westlaw.com
 domain:whatismyip.com
 domain:wiley.com
 domain:windowsupdate.microsoft.com
+domain:wjx.top
 domain:wkcdn.com
 domain:worldbank.org
 domain:worldscientific.com
@@ -121094,9 +121098,6 @@ domain:wo-link.tech
 domain:baotoo.com
 domain:maikr.com
 domain:dandanplayer.com
-domain:didiaustralia.blog
-domain:didiglobal.com
-domain:didimobility.co.jp
 domain:didiopenapi.com
 domain:pgyer.cc
 domain:pgyer.im
@@ -121828,9 +121829,7 @@ domain:qingzhou.ltd
 domain:qingzhou.pro
 domain:uc-test.com
 domain:u-cdn.com
-domain:ucgslb.top
 domain:uclouduewaf.com
-domain:ugslb.top
 domain:hapjs.org
 domain:ita-alliance.com
 domain:pwrdoverseagame.com
@@ -121871,7 +121870,6 @@ domain:wsoversea.net
 domain:wsoversea.org
 domain:iot-tencent.com
 domain:wechatos.net
-domain:wjx.top
 domain:51lstt.com
 domain:51newsapp.com
 domain:newsapp01.com
@@ -121935,6 +121933,8 @@ domain:iflyauto-solution.com
 domain:iflytekin.com
 domain:isay365.hk
 domain:isay365.org
+domain:71.am.com
+domain:iq.com
 domain:01hub.com
 domain:app.so
 domain:appsolution.cc
@@ -121953,7 +121953,7 @@ keyword:aliyun
 keyword:beplay
 keyword:officecdn
 keyword:bilibili
-keyword:qiyi
 keyword:hnagroup
 keyword:stripe
 keyword:weibo
+keyword:qiyi

@@ -36462,7 +36462,7 @@ DOMAIN-SUFFIX,fogcloud.io
 DOMAIN-SUFFIX,foguanghui.org
 DOMAIN-SUFFIX,fohohr.com
 DOMAIN-SUFFIX,foidn.com
-DOMAIN-SUFFIX,foisonad.com
+foisonad.com
 DOMAIN-SUFFIX,foisongroup.com
 DOMAIN-SUFFIX,fojiaonet.com
 DOMAIN-SUFFIX,fojiaoyongpin.com
@@ -54488,7 +54488,7 @@ DOMAIN-SUFFIX,itiankong.com
 DOMAIN-SUFFIX,itiankong.net
 DOMAIN-SUFFIX,itianliao.com
 DOMAIN-SUFFIX,itiexue.net
-DOMAIN-SUFFIX,itiger.com
+itiger.com
 DOMAIN-SUFFIX,itigergrowth.com
 DOMAIN-SUFFIX,itigergrowtha.com
 DOMAIN-SUFFIX,itigerup.com
@@ -61635,7 +61635,7 @@ DOMAIN-SUFFIX,kovemoto.com
 DOMAIN-SUFFIX,kowa-dental.com
 DOMAIN-SUFFIX,kowa103.com
 DOMAIN-SUFFIX,kowloonhospital.com
-DOMAIN-SUFFIX,kox.moe
+kox.moe
 DOMAIN-SUFFIX,koyuki.cc
 DOMAIN-SUFFIX,kpblw.com
 DOMAIN-SUFFIX,kpbyd.com
@@ -70466,7 +70466,7 @@ DOMAIN-SUFFIX,mowan123.com
 DOMAIN-SUFFIX,moweather.com
 DOMAIN-SUFFIX,mowgz.com
 DOMAIN-SUFFIX,mowowo.com
-DOMAIN-SUFFIX,mox.moe
+mox.moe
 DOMAIN-SUFFIX,moxfive.xyz
 DOMAIN-SUFFIX,moxiai.com
 DOMAIN-SUFFIX,moxian.com
@@ -98406,7 +98406,7 @@ DOMAIN-SUFFIX,voidking.com
 DOMAIN-SUFFIX,voip366.com
 DOMAIN-SUFFIX,vojs.tv
 DOMAIN-SUFFIX,vokop.com
-DOMAIN-SUFFIX,vol.moe
+vol.moe
 DOMAIN-SUFFIX,volc-dns.com
 DOMAIN-SUFFIX,volc-dns.net
 DOMAIN-SUFFIX,volc-dns.pub
@@ -120772,7 +120772,6 @@ DOMAIN-SUFFIX,ypjc.cloud
 DOMAIN-SUFFIX,343480.com
 DOMAIN-SUFFIX,356884.com
 DOMAIN-SUFFIX,51ym.me
-DOMAIN-SUFFIX,71.am.com
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,abercrombie.com
 DOMAIN-SUFFIX,acfun.tv
@@ -120855,6 +120854,9 @@ DOMAIN-SUFFIX,cz88.net
 DOMAIN-SUFFIX,czybjz.com
 DOMAIN-SUFFIX,dandanzan.com
 DOMAIN-SUFFIX,dct-cloud.com
+DOMAIN-SUFFIX,didiaustralia.blog
+DOMAIN-SUFFIX,didiglobal.com
+DOMAIN-SUFFIX,didimobility.co.jp
 DOMAIN-SUFFIX,dler.cloud
 DOMAIN-SUFFIX,ebscohost.com
 DOMAIN-SUFFIX,ecitic.net
@@ -120916,7 +120918,6 @@ DOMAIN-SUFFIX,imf.org
 DOMAIN-SUFFIX,img4me.com
 DOMAIN-SUFFIX,intltencentcos.com
 DOMAIN-SUFFIX,iop.org
-DOMAIN-SUFFIX,iq.com
 DOMAIN-SUFFIX,ixdzs.com
 DOMAIN-SUFFIX,jamanetwork.com
 DOMAIN-SUFFIX,java.com
@@ -121021,7 +121022,9 @@ DOMAIN-SUFFIX,trellocdn.com
 DOMAIN-SUFFIX,trip.com
 DOMAIN-SUFFIX,ttmeiju.com
 DOMAIN-SUFFIX,uat1.bfsspadserver.8le8le.com
+DOMAIN-SUFFIX,ucgslb.top
 DOMAIN-SUFFIX,udacity.com
+DOMAIN-SUFFIX,ugslb.top
 DOMAIN-SUFFIX,un.org
 DOMAIN-SUFFIX,uni-bielefeld.de
 DOMAIN-SUFFIX,uning.com
@@ -121034,6 +121037,7 @@ DOMAIN-SUFFIX,westlaw.com
 DOMAIN-SUFFIX,whatismyip.com
 DOMAIN-SUFFIX,wiley.com
 DOMAIN-SUFFIX,windowsupdate.microsoft.com
+DOMAIN-SUFFIX,wjx.top
 DOMAIN-SUFFIX,wkcdn.com
 DOMAIN-SUFFIX,worldbank.org
 DOMAIN-SUFFIX,worldscientific.com
@@ -121094,9 +121098,6 @@ DOMAIN-SUFFIX,wo-link.tech
 DOMAIN-SUFFIX,baotoo.com
 DOMAIN-SUFFIX,maikr.com
 DOMAIN-SUFFIX,dandanplayer.com
-DOMAIN-SUFFIX,didiaustralia.blog
-DOMAIN-SUFFIX,didiglobal.com
-DOMAIN-SUFFIX,didimobility.co.jp
 DOMAIN-SUFFIX,didiopenapi.com
 DOMAIN-SUFFIX,pgyer.cc
 DOMAIN-SUFFIX,pgyer.im
@@ -121828,9 +121829,7 @@ DOMAIN-SUFFIX,qingzhou.ltd
 DOMAIN-SUFFIX,qingzhou.pro
 DOMAIN-SUFFIX,uc-test.com
 DOMAIN-SUFFIX,u-cdn.com
-DOMAIN-SUFFIX,ucgslb.top
 DOMAIN-SUFFIX,uclouduewaf.com
-DOMAIN-SUFFIX,ugslb.top
 DOMAIN-SUFFIX,hapjs.org
 DOMAIN-SUFFIX,ita-alliance.com
 DOMAIN-SUFFIX,pwrdoverseagame.com
@@ -121871,7 +121870,6 @@ DOMAIN-SUFFIX,wsoversea.net
 DOMAIN-SUFFIX,wsoversea.org
 DOMAIN-SUFFIX,iot-tencent.com
 DOMAIN-SUFFIX,wechatos.net
-DOMAIN-SUFFIX,wjx.top
 DOMAIN-SUFFIX,51lstt.com
 DOMAIN-SUFFIX,51newsapp.com
 DOMAIN-SUFFIX,newsapp01.com
@@ -121935,6 +121933,8 @@ DOMAIN-SUFFIX,iflyauto-solution.com
 DOMAIN-SUFFIX,iflytekin.com
 DOMAIN-SUFFIX,isay365.hk
 DOMAIN-SUFFIX,isay365.org
+DOMAIN-SUFFIX,71.am.com
+DOMAIN-SUFFIX,iq.com
 DOMAIN-SUFFIX,01hub.com
 DOMAIN-SUFFIX,app.so
 DOMAIN-SUFFIX,appsolution.cc
@@ -121953,10 +121953,10 @@ DOMAIN-KEYWORD,aliyun
 DOMAIN-KEYWORD,beplay
 DOMAIN-KEYWORD,officecdn
 DOMAIN-KEYWORD,bilibili
-DOMAIN-KEYWORD,qiyi
 DOMAIN-KEYWORD,hnagroup
 DOMAIN-KEYWORD,stripe
 DOMAIN-KEYWORD,weibo
+DOMAIN-KEYWORD,qiyi
 PROCESS-NAME,com.taobao.taobao
 PROCESS-NAME,com.bilibili.app.blue
 PROCESS-NAME,com.bilibili.app.in

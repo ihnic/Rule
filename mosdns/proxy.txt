@@ -1207,6 +1207,7 @@ domain:costco.com
 domain:cotweet.com
 domain:counter.social
 domain:coursehero.com
+domain:covenantswatch.org.tw
 domain:coze.com
 domain:cpj.org
 domain:cpu-monkey.com
@@ -2864,6 +2865,7 @@ domain:itemdb.com
 domain:itemfix.com
 domain:itgonglun.com
 domain:ithome.com.tw
+domain:itiger.com
 domain:itsaol.com
 domain:itshidden.com
 domain:itsky.it
