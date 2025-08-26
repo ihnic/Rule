@@ -2034,6 +2034,8 @@ domain:ftx.com
 domain:fubo.tv
 domain:fucd.com
 domain:fuchsia.dev
+domain:fuckccp.com
+domain:fuckccp.xyz
 domain:fuckcnnic.net
 domain:fuckgfw.org
 domain:fuckgfw233.org
