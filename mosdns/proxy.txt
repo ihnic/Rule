@@ -770,6 +770,8 @@ domain:bsky.app
 domain:bsky.network
 domain:bsky.social
 domain:bt2mag.com
+domain:bt4g.org
+domain:bt4gprx.com
 domain:bt95.com
 domain:btaia.com
 domain:btbit.net
@@ -2812,6 +2814,7 @@ domain:iphonehacks.com
 domain:iphonetaiwan.org
 domain:iphonix.fr
 domain:ipicture.ru
+domain:ipify.org
 domain:ipinfo.io
 domain:ipjetable.net
 domain:ipn.li
@@ -5150,6 +5153,7 @@ domain:tamiaode.tk
 domain:tanc.org
 domain:tangben.com
 domain:tangren.us
+domain:tanks.gg
 domain:taoism.net
 domain:taolun.info
 domain:tap.io
