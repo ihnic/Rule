@@ -128,3 +128,4 @@ DOMAIN-KEYWORD,argotunnel
 DOMAIN-KEYWORD,unraid.net
 DOMAIN-KEYWORD,gallerycdn.vsassets.io
 DOMAIN-KEYWORD,cdn.jsdelivr.net
+DOMAIN-KEYWORD,larksuite.com
