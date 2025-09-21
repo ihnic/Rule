@@ -1,0 +1,8 @@
+USER-AGENT,Spotify*
+keyword:-spotify-
+keyword:spotify.com
+domain:pscdn.co
+domain:scdn.co
+domain:spoti.fi
+domain:spotifycdn.com
+domain:spotifycdn.net

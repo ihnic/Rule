@@ -1,0 +1,17 @@
+USER-AGENT,*youtube*
+USER-AGENT,YouTube*
+USER-AGENT,com.google.ios.youtube*
+keyword:youtube
+full:youtubei.googleapis.com
+full:yt3.ggpht.com
+domain:googlevideo.com
+domain:gvt2.com
+domain:withyoutube.com
+domain:youtu.be
+domain:youtube-nocookie.com
+domain:youtube.com
+domain:youtubeeducation.com
+domain:youtubegaming.com
+domain:youtubekids.com
+domain:yt.be
+domain:ytimg.com
