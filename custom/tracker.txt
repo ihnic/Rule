@@ -51,3 +51,4 @@ DOMAIN,nextpt.net
 DOMAIN,tracker.azusa.wiki
 DOMAIN,zimiao.icu
 DOMAIN,t.acg.rip
+DOMAIN,hdfans.org
