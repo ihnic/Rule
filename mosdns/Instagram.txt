@@ -1,0 +1,4 @@
+domain:cdninstagram.com
+domain:instagr.am
+domain:instagram.com
+keyword:instagram
