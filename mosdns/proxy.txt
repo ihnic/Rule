@@ -2103,6 +2103,7 @@ domain:gardennetworks.com
 domain:gardennetworks.org
 domain:garena.com
 domain:gartlive.com
+domain:garudalinux.org
 domain:gate-project.com
 domain:gate.io
 domain:gatecoin.com
@@ -3844,6 +3845,7 @@ domain:nintendium.com
 domain:nintendo.com
 domain:nintendo.net
 domain:ninth.biz
+domain:nirsoft.net
 domain:nitter.cc
 domain:nitter.net
 domain:niu.moe
@@ -5961,6 +5963,7 @@ domain:vpnunlimitedapp.com
 domain:vpnvip.com
 domain:vpnworldwide.com
 domain:vpser.net
+domain:vpsxb.net
 domain:vraiesagesse.net
 domain:vrchat.com
 domain:vrmtr.com
