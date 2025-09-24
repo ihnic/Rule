@@ -1552,11 +1552,11 @@ domain:iphoto.wang
 domain:musickit.net
 domain:wwwapplemusic.com
 domain:apple-dns.net
+domain:cdn-apple.com
 domain:digicert.com
 domain:apple-cloudkit.com
 domain:apple-livephotoskit.com
 domain:apzones.com
-domain:cdn-apple.com
 keyword:apple-support.akadns.net
 keyword:apple.com.akadns.net
 keyword:apple.com.edgekey.net
