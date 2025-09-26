@@ -369,6 +369,7 @@ domain:apetube.com
 domain:api.ai
 domain:api.amplitude.com
 domain:api.mixpanel.com
+domain:api.palworldgame.com
 domain:api.proxlet.com
 domain:api.termius.com
 domain:apiary.io
@@ -1246,6 +1247,7 @@ domain:csw.org.uk
 domain:ct.org.tw
 domain:ctao.org
 domain:ctfriend.net
+domain:ctinets.com
 domain:ctinews.com
 domain:ctitv.com.tw
 domain:ctowc.org
@@ -2797,6 +2799,7 @@ domain:international-news.newsmagazine.asia
 domain:internet.org
 domain:internetfreedom.org
 domain:internetpopculture.com
+domain:interseclab.org
 domain:inthenameofconfuciusmovie.com
 domain:investing.com
 domain:invidio.us
@@ -3965,6 +3968,7 @@ domain:ocreampies.com
 domain:ocry.com
 domain:ocsp.int-x3.letsencrypt.org
 domain:october-review.org
+domain:octocaptcha.com
 domain:oculus.com
 domain:oculuscdn.com
 domain:odysee.com
