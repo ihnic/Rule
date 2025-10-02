@@ -118287,7 +118287,6 @@ domain:51ideal.com
 domain:ibmcampus.com
 domain:wuyoudagong.com
 domain:openaboc.com
-domain:acfun.tv
 domain:10029.com
 domain:aa5d.com
 domain:aamyoe.com
@@ -118937,6 +118936,7 @@ domain:51ym.me
 domain:71.am.com
 domain:aaplimg.com
 domain:abercrombie.com
+domain:acfun.tv
 domain:acm.org
 domain:acs.org
 domain:adobesc.com
@@ -118978,6 +118978,8 @@ domain:cambridge.org
 domain:cas.org
 domain:ccbintl.com.hk
 domain:ccbseoul.com
+domain:chinaunicom.com.hk
+domain:chinaunicomglobal.com
 domain:chua.pro
 domain:citics.com.hk
 domain:clarivate.com
@@ -119010,6 +119012,9 @@ domain:ctrip.com.hk
 domain:czybjz.com
 domain:dandanzan.com
 domain:dct-cloud.com
+domain:didiaustralia.blog
+domain:didiglobal.com
+domain:didimobility.co.jp
 domain:dler.cloud
 domain:ebscohost.com
 domain:ecitic.net
@@ -119083,6 +119088,7 @@ domain:jidian.im
 domain:jpopsuki.eu
 domain:jsboxbbs.com
 domain:jstor.org
+domain:jstucdn.com
 domain:jxlog.istreamsche.com
 domain:karger.com
 domain:kaspersky-labs.com
@@ -119130,6 +119136,7 @@ domain:ovid.com
 domain:oxfordartonline.com
 domain:oxfordbibliographies.com
 domain:oxfordmusiconline.com
+domain:p4pfile.com
 domain:passthepopcorn.me
 domain:pnas.org
 domain:pniao.com
@@ -119174,7 +119181,9 @@ domain:trellocdn.com
 domain:trip.com
 domain:ttmeiju.com
 domain:uat1.bfsspadserver.8le8le.com
+domain:ucgslb.top
 domain:udacity.com
+domain:ugslb.top
 domain:un.org
 domain:uni-bielefeld.de
 domain:uning.com
@@ -119195,6 +119204,11 @@ domain:xhostfire.com
 domain:yach.me
 domain:zhangzishi.cc
 domain:zhuihd.com
+domain:zimuzu.tv
+domain:zmz002.com
+domain:zmz2019.com
+domain:zmzapi.com
+domain:zmzapi.net
 domain:androidgo.duapp.com
 domain:cdn.zampdsp.com
 domain:cm.fancyapi.com
@@ -119235,15 +119249,10 @@ domain:ctzcdn.net
 domain:iwuyou189.com
 domain:wuyou189.com
 domain:10010.net
-domain:chinaunicom.com.hk
-domain:chinaunicomglobal.com
 domain:wo-link.tech
 domain:baotoo.com
 domain:maikr.com
 domain:dandanplayer.com
-domain:didiaustralia.blog
-domain:didiglobal.com
-domain:didimobility.co.jp
 domain:didiopenapi.com
 domain:pgyer.cc
 domain:pgyer.im
@@ -119261,7 +119270,6 @@ domain:domobnetwork.com
 domain:duomeng.net
 domain:duomeng.org
 domain:moxz.net
-domain:doyonoc.com
 domain:emsec.hk
 domain:xingxuanwaimai.com
 domain:wisestcloud.com
@@ -119903,8 +119911,8 @@ domain:hukewq.com
 domain:nbhuke.com
 domain:ntes53.net
 domain:playdisorder.com
-domain:yun-app.net
 domain:yunxinsvip.com
+domain:yun-app.net
 domain:ibreeno.com
 domain:realme.net
 domain:realmeservice.com
@@ -119959,6 +119967,7 @@ domain:accessibilityunion.org
 domain:aitangyou.com
 domain:apcdns.com
 domain:cfmna-tencent.com
+domain:doyonoc.com
 domain:gameloop.fun
 domain:nba.com
 domain:prayaya.com
@@ -119985,9 +119994,7 @@ domain:qingzhou.pro
 domain:uc-test.com
 domain:ipbaohe.com
 domain:u-cdn.com
-domain:ucgslb.top
 domain:uclouduewaf.com
-domain:ugslb.top
 domain:hapjs.org
 domain:ita-alliance.com
 domain:pwrdoverseagame.com
@@ -120047,20 +120054,13 @@ domain:5gimos.com
 domain:iganggu.com
 domain:got001.com
 domain:got002.com
-domain:jstucdn.com
-domain:p4pfile.com
 domain:rrys2019.com
 domain:rrys2020.com
 domain:rrysapp.com
 domain:yyets.com
-domain:zimuzu.tv
 domain:zmz001.com
-domain:zmz002.com
 domain:zmz003.com
 domain:zmz004.com
-domain:zmz2019.com
-domain:zmzapi.com
-domain:zmzapi.net
 domain:vitamio.org
 domain:vitamio.tv
 domain:liexiulive.com
