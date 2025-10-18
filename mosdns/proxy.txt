@@ -434,6 +434,7 @@ domain:asia-gaming.com
 domain:asiaharvest.org
 domain:asianage.com
 domain:asianews.it
+domain:asianfanfics.com
 domain:asiansexdiary.com
 domain:asianspiss.com
 domain:asianwomensfilm.de
@@ -5524,6 +5525,7 @@ domain:truenas.com
 domain:truesocial.media
 domain:trulyergonomic.com
 domain:trustasiassl.com
+domain:trustwallet.com
 domain:truth101.co.tv
 domain:truthontour.org
 domain:truthsocial.com
@@ -6052,6 +6054,7 @@ domain:webpkgcache.com
 domain:webrtc.org
 domain:webrush.net
 domain:webs-tv.net
+domain:websdr.org
 domain:website.new
 domain:websitepulse.com
 domain:websnapr.com
@@ -6298,6 +6301,7 @@ domain:xn--ngstr-lra8j.com
 domain:xn--noss43i.com
 domain:xn--oiq.cc
 domain:xn--p8j9a0d9c9a.xn--q9jyb4c
+domain:xn--u2u927b.com
 domain:xnpool.com
 domain:xnxx-cdn.com
 domain:xnxx.com
@@ -6440,6 +6444,7 @@ domain:z-lib.gd
 domain:z-lib.gl
 domain:z-lib.io
 domain:z-lib.org
+domain:z-library.ec
 domain:z-library.sk
 domain:zacebook.com
 domain:zalmos.com
