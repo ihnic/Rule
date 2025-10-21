@@ -116624,6 +116624,7 @@ domain:68h5.com
 domain:714.com
 domain:75team.com
 domain:900.la
+900cha.com
 domain:917.com
 domain:91yunxiao.com
 domain:95095.com
@@ -116956,8 +116957,10 @@ domain:inanguapi.com
 domain:infineon.com
 domain:infoq.com
 domain:ip-cdn.com
+ipshu.com
 domain:isd.com
 domain:ispqcloud.com
+istoreos.com
 domain:it610.com
 domain:itmop.com
 domain:ivweb.io
@@ -116987,6 +116990,7 @@ domain:joybuy.com
 domain:joybuy.es
 domain:jpmorganchina.com
 domain:jtamac.com
+jxpp.com
 domain:kameng98.com
 domain:kanbox.com
 domain:keboyunxiao.com
@@ -117049,6 +117053,7 @@ domain:morefreegame.com
 domain:morganstanleyhuaxin.com
 domain:muomou.com
 domain:muzhiwan.com
+domain:mwcdns.com
 domain:my-qcloud.com
 domain:mychinaunicom.com
 domain:myelasticsearch.com
@@ -117056,6 +117061,7 @@ domain:myhwcloudlive.com
 domain:myparallelstory.com
 domain:myshow360.net
 domain:neihancommunity.com
+netzz.net
 domain:nextworkshop.net
 domain:nic.xin
 o365cn.com
@@ -117277,8 +117283,10 @@ domain:wooyun.org
 domain:woyaogexing.com
 domain:woyoo.com
 domain:wps.com
+wsglb.com
 domain:wsoso.com
 domain:xdqtech.com
+xdtool.com
 domain:xfdown.com
 domain:xiami.fm
 domain:xiangrikuisite.com
@@ -120664,7 +120672,6 @@ domain:lxdas.com
 domain:lxdvs.info
 domain:lxdvs.org
 domain:lxdws.com
-domain:mwcdns.com
 domain:ourcloudsec.com
 domain:ourdvsvip.com
 domain:ourfdn.com
