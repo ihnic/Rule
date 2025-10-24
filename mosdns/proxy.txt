@@ -1455,6 +1455,7 @@ domain:doc.new
 domain:docker.com
 domain:docker.io
 domain:dockerhub.com
+domain:dockerstatus.com
 domain:docs.cfw.lbyczf.com
 domain:docs.deno.com
 domain:docs.new
