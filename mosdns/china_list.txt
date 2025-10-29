@@ -116512,6 +116512,12 @@ domain:dandanplay.com
 domain:danji6.com
 domain:dcdkjx.com
 domain:dcg.microsoft.com
+domain:dcloudlive.net
+domain:dcloudsp.com
+domain:dcloudsp.net
+domain:dcloudstc.net
+domain:dcloudvod.com
+domain:dcloudvod.net
 domain:deepinos.org
 domain:dell-brand.com
 domain:dengguobi.com
@@ -116674,6 +116680,9 @@ domain:hackinn.com
 domain:hacpai.com
 domain:haote.com
 domain:henha.com
+hero.com
+heroesports.com
+herogame.com
 domain:herostart.com
 domain:hkgcloudcs.com
 domain:hnyuyuhui.com
@@ -116899,6 +116908,7 @@ domain:shelterdome.net
 domain:shhxzq.com
 domain:shizhuang-inc.net
 domain:shopeesz.com
+shyxhy.com
 domain:simei8.com
 domain:sinajs.com
 domain:sinopec-usa.com
@@ -119346,12 +119356,6 @@ domain:dayugf.com
 domain:dayulego.com
 domain:dayulegobak.com
 domain:dbmeta.net
-domain:dcloudlive.net
-domain:dcloudsp.com
-domain:dcloudsp.net
-domain:dcloudstc.net
-domain:dcloudvod.com
-domain:dcloudvod.net
 domain:de-tencentclb.cloud
 domain:de-tencentclb.com
 domain:de-tencentclb.net
