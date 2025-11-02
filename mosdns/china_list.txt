@@ -116716,7 +116716,6 @@ domain:im9.com
 domain:imcapptest.com
 domain:imcome.net
 domain:imcoming.com
-domain:immersivetranslate.com
 domain:in.th
 domain:inanguapi.com
 domain:infineon.com
@@ -117089,7 +117088,7 @@ domain:yunfancdn.com
 domain:yunqishi.net
 domain:yuzua.com
 domain:zhanbuba.com
-zhuaninc.com
+domain:zhuaninc.com
 domain:zhuanyewanjia.com
 domain:zijiedj.com
 domain:zimuzu.io
@@ -118178,6 +118177,8 @@ domain:vireala.net
 domain:visactor.com
 domain:zlinkurl.com
 domain:berlin8.org
+domain:ccbintl.com.hk
+domain:ccbseoul.com
 domain:apecn.com
 domain:chinamwh.com
 domain:cibn-intl.com
@@ -118239,8 +118240,8 @@ domain:bstatic.com
 domain:btcfans.com
 domain:cambridge.org
 domain:cas.org
-domain:ccbintl.com.hk
-domain:ccbseoul.com
+domain:chinaunicom.com.hk
+domain:chinaunicomglobal.com
 domain:chua.pro
 domain:chunbo.com
 domain:citics.com.hk
@@ -118272,7 +118273,6 @@ domain:ctexcel.ca
 domain:ctexcel.fr
 domain:ctexcel.us
 domain:dct-cloud.com
-domain:deepin.io
 domain:dler.cloud
 domain:ebscohost.com
 domain:ecitic.net
@@ -118446,7 +118446,6 @@ domain:westlaw.com
 domain:whatismyip.com
 domain:wiley.com
 domain:windowsupdate.microsoft.com
-domain:wjx.top
 domain:wkcdn.com
 domain:worldbank.org
 domain:worldscientific.com
@@ -118468,6 +118467,7 @@ domain:domesticmediagame.co
 domain:domesticmediagame.net
 domain:domesticmediapay.com
 domain:iq.com
+domain:jstucdn.com
 domain:kumiao.tv
 domain:kuxiaomiao.net
 domain:noxagile.duapp.com
@@ -118481,6 +118481,10 @@ domain:yoqoo.net
 domain:yoqoo.tv
 domain:youku.org
 domain:youqoo.net
+domain:zimuzu.tv
+domain:zmz2019.com
+domain:zmzapi.com
+domain:zmzapi.net
 domain:01058511989.com
 domain:189qas.com
 domain:21cnimg.com
@@ -118500,9 +118504,8 @@ domain:ctyuncdn.com
 domain:ctzcdn.net
 domain:iwuyou189.com
 domain:wuyou189.com
+domain:immersivetranslate.com
 domain:10010.net
-domain:chinaunicom.com.hk
-domain:chinaunicomglobal.com
 domain:wo-link.tech
 domain:baotoo.com
 domain:maikr.com
@@ -118514,6 +118517,7 @@ domain:dandanzan.com
 domain:fjhps.com
 domain:kuyunbo.club
 domain:dandanplayer.com
+domain:deepin.io
 domain:didiaustralia.blog
 domain:didiglobal.com
 domain:didimobility.co.jp
@@ -118534,6 +118538,7 @@ domain:domobnetwork.com
 domain:duomeng.net
 domain:duomeng.org
 domain:moxz.net
+domain:doyonoc.com
 domain:emsec.hk
 domain:xingxuanwaimai.com
 domain:wisestcloud.com
@@ -119181,8 +119186,8 @@ domain:nbhuke.com
 domain:ntes53.net
 domain:ntescdn.com
 domain:playdisorder.com
-domain:yunxinsvip.com
 domain:yun-app.net
+domain:yunxinsvip.com
 domain:ibreeno.com
 domain:realme.net
 domain:realmeservice.com
@@ -119401,7 +119406,6 @@ domain:dnsxv4.com
 domain:dnsxv4.net
 domain:dnsxv5.com
 domain:dnsxv5.net
-domain:doyonoc.com
 domain:drm-lic-dom.net
 domain:dyspcdntip.com
 domain:e-jitp-dom.com
@@ -120514,6 +120518,7 @@ domain:wsoversea.net
 domain:wsoversea.org
 domain:iot-tencent.com
 domain:wechatos.net
+domain:wjx.top
 domain:51lstt.com
 domain:51newsapp.com
 domain:newsapp01.com
@@ -120539,20 +120544,15 @@ domain:trip.com
 domain:iganggu.com
 domain:got001.com
 domain:got002.com
-domain:jstucdn.com
 domain:p4pfile.com
 domain:rrys2019.com
 domain:rrys2020.com
 domain:rrysapp.com
 domain:yyets.com
-domain:zimuzu.tv
 domain:zmz001.com
 domain:zmz002.com
 domain:zmz003.com
 domain:zmz004.com
-domain:zmz2019.com
-domain:zmzapi.com
-domain:zmzapi.net
 domain:vitamio.net
 domain:vitamio.org
 domain:vitamio.tv
