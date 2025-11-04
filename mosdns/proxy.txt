@@ -5233,6 +5233,7 @@ domain:telegra.ph
 domain:telegraph.co.uk
 domain:telesco.pe
 domain:tellme.pw
+domain:temu.com
 domain:tenacy.com
 domain:tenor.com
 domain:tensorflow.org
