@@ -1892,6 +1892,7 @@ domain:flagsonline.it
 domain:flecheinthepeche.fr
 domain:fleshbot.com
 domain:fleursdeslettres.com
+domain:flexclip.com
 domain:flexibits.com
 domain:flexpool.io
 domain:flgg.us
