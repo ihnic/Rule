@@ -116718,7 +116718,6 @@ DOMAIN-SUFFIX,imcome.net
 DOMAIN-SUFFIX,imcoming.com
 DOMAIN-SUFFIX,in.th
 DOMAIN-SUFFIX,inanguapi.com
-DOMAIN-SUFFIX,infineon.com
 DOMAIN-SUFFIX,infoq.com
 DOMAIN-SUFFIX,ip-cdn.com
 DOMAIN-SUFFIX,ipshu.com
@@ -116975,7 +116974,6 @@ DOMAIN-SUFFIX,texasholdemcup.com
 DOMAIN-SUFFIX,texasholdemcup.net
 DOMAIN-SUFFIX,tgprocs.net
 DOMAIN-SUFFIX,thinkpad.com
-DOMAIN-SUFFIX,ti.com
 DOMAIN-SUFFIX,tiapi.net
 DOMAIN-SUFFIX,tidaas.com
 DOMAIN-SUFFIX,tidb.ai
@@ -118523,6 +118521,8 @@ DOMAIN-SUFFIX,ctyuncdn.com
 DOMAIN-SUFFIX,ctzcdn.net
 DOMAIN-SUFFIX,iwuyou189.com
 DOMAIN-SUFFIX,wuyou189.com
+DOMAIN-SUFFIX,infineon.com
+DOMAIN-SUFFIX,ti.com
 DOMAIN-SUFFIX,10010.net
 DOMAIN-SUFFIX,wo-link.tech
 DOMAIN-SUFFIX,baotoo.com

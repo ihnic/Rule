@@ -116718,7 +116718,6 @@ domain:imcome.net
 domain:imcoming.com
 domain:in.th
 domain:inanguapi.com
-domain:infineon.com
 domain:infoq.com
 domain:ip-cdn.com
 domain:ipshu.com
@@ -116975,7 +116974,6 @@ domain:texasholdemcup.com
 domain:texasholdemcup.net
 domain:tgprocs.net
 domain:thinkpad.com
-domain:ti.com
 domain:tiapi.net
 domain:tidaas.com
 domain:tidb.ai
@@ -118523,6 +118521,8 @@ domain:ctyuncdn.com
 domain:ctzcdn.net
 domain:iwuyou189.com
 domain:wuyou189.com
+domain:infineon.com
+domain:ti.com
 domain:10010.net
 domain:wo-link.tech
 domain:baotoo.com
