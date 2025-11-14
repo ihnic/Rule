@@ -2315,6 +2315,7 @@ domain:greasyfork.org
 domain:great-firewall.com
 domain:great-roc.org
 domain:greatfire.org
+domain:greatfirevpn.com
 domain:greatfirewall.biz
 domain:greatfirewallofchina.net
 domain:greatfirewallofchina.org
