@@ -361,6 +361,7 @@ domain:aolcdn.com
 domain:aolnews.com
 domain:aomedia.org
 domain:aomiwang.com
+domain:aoxvpn.com
 domain:ap.org
 domain:apache.org
 domain:apartmentratings.com
@@ -596,6 +597,7 @@ domain:bestvpnusa.com
 domain:bet365.com
 domain:betaclouds.net
 domain:betfair.com
+domain:bettergpt.chat
 domain:betterhash.net
 domain:betternet.co
 domain:bettervpn.com
@@ -862,6 +864,7 @@ domain:cams.com
 domain:cams.org.sg
 domain:canadameet.com
 domain:cantonese.asia
+domain:canva.com
 domain:canyu.org
 domain:cao.im
 domain:caobian.info
@@ -904,6 +907,7 @@ domain:cccat.io
 domain:ccdtr.org
 domain:ccfd.org.tw
 domain:cchere.com
+domain:cchostvps.xyz
 domain:ccim.org
 domain:cclife.ca
 domain:cclife.org
@@ -968,8 +972,10 @@ domain:chaoex.com
 domain:chaos.social
 domain:chapm25.com
 domain:character.ai
+domain:chat.com
 domain:chat.openai.com
 domain:chatnook.com
+domain:chatpdf.com
 domain:chaturbate.com
 domain:checkgfw.com
 domain:chengmingmag.com
@@ -1330,6 +1336,7 @@ domain:daolan.net
 domain:daozhongxing.org
 domain:darktech.org
 domain:darktoy.net
+domain:darmau.co
 domain:darpa.mil
 domain:darrenliuwei.com
 domain:dartlang.org
@@ -1863,6 +1870,7 @@ domain:fiftythree.com
 domain:figprayer.com
 domain:fileflyer.com
 domain:fileforum.com
+domain:files.oaiusercontent.com
 domain:files2me.com
 domain:fileserve.com
 domain:filesor.com
@@ -1906,6 +1914,7 @@ domain:flipkart.com
 domain:flitto.com
 domain:flnet.org
 domain:flog.tw
+domain:flowgpt.com
 domain:flowhongkong.net
 domain:flypool.org
 domain:flyvpn.com
@@ -1925,6 +1934,7 @@ domain:foolsmountain.com
 domain:fooooo.com
 domain:footwiball.com
 domain:forbes.com
+domain:forefront.ai
 domain:foreignaffairs.com
 domain:foreignpolicy.com
 domain:form.new
@@ -2663,6 +2673,7 @@ domain:hwinfo.com
 domain:hxwk.org
 domain:hxwq.org
 domain:hybrid-analysis.com
+domain:hyperbeam.com
 domain:hyperrate.com
 domain:hypothes.is
 domain:hyread.com.tw
@@ -3186,6 +3197,7 @@ domain:lester850.info
 domain:letou.com
 domain:letscorp.net
 domain:level-plus.net
+domain:lexica.art
 domain:lflink.com
 domain:lflinkup.com
 domain:lflinkup.net
@@ -3231,6 +3243,7 @@ domain:linktr.ee
 domain:linkuswell.com
 domain:linode.com
 domain:linpie.com
+domain:linux.do
 domain:linux.org.hk
 domain:linuxtoy.org
 domain:lionsroar.com
@@ -3267,6 +3280,7 @@ domain:lizhizhuangbi.com
 domain:lkcn.net
 domain:llnwd.net
 domain:llss.me
+domain:lmarena.ai
 domain:lmsys.org
 domain:load.to
 domain:lobsangwangyal.com
@@ -3302,6 +3316,7 @@ domain:lsmkorean.org
 domain:lsmradio.com
 domain:lsmwebcast.com
 domain:lsxszzg.com
+domain:lt.sntp.uk
 domain:ltn.com.tw
 domain:luckydesigner.space
 domain:luckymobile.ca
@@ -4535,6 +4550,7 @@ domain:relay.com.tw
 domain:releaseinternational.org
 domain:religionnews.com
 domain:religioustolerance.org
+domain:rentry.co
 domain:renyurenquan.org
 domain:resilio.com
 domain:resistchina.org
@@ -5243,6 +5259,7 @@ domain:tensorflow.org
 domain:tenzinpalmo.com
 domain:terabox.com
 domain:teraboxcdn.com
+domain:terobox.com
 domain:tew.org
 domain:textnow.com
 domain:textnow.me
