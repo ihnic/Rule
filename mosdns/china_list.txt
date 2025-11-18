@@ -116404,7 +116404,7 @@ domain:alittle-tea.com
 domain:alphassl.com
 domain:analog.com
 domain:anruan.com
-anywlan.com
+domain:anywlan.com
 domain:apaas-zone-test.com
 domain:apdcdn.net
 domain:aptdn.net
@@ -118224,6 +118224,7 @@ domain:yipai.info
 domain:ypjc.cloud
 domain:356884.com
 domain:51ym.me
+domain:71.am.com
 domain:aaplimg.com
 domain:abercrombie.com
 domain:acfun.tv
@@ -118267,8 +118268,6 @@ domain:cambridge.org
 domain:cas.org
 domain:ccbintl.com.hk
 domain:ccbseoul.com
-domain:chinaunicom.com.hk
-domain:chinaunicomglobal.com
 domain:chua.pro
 domain:chunbo.com
 domain:citics.com.hk
@@ -118311,6 +118310,7 @@ domain:ebscohost.com
 domain:ecitic.net
 domain:emerald.com
 domain:empornium.me
+domain:emsec.hk
 domain:engineeringvillage.com
 domain:eu-west-0.myhuaweicloud.com
 domain:fir.im
@@ -118367,6 +118367,7 @@ domain:img4me.com
 domain:intltencentcos.com
 domain:iop.org
 domain:ip.la
+domain:iq.com
 domain:ixdzs.com
 domain:jamanetwork.com
 domain:java.com
@@ -118481,6 +118482,7 @@ domain:westlaw.com
 domain:whatismyip.com
 domain:wiley.com
 domain:windowsupdate.microsoft.com
+domain:wjx.top
 domain:wkcdn.com
 domain:worldbank.org
 domain:worldscientific.com
@@ -118499,19 +118501,12 @@ domain:domesticmedia.tv
 domain:domesticmediagame.co
 domain:domesticmediagame.net
 domain:domesticmediapay.com
-domain:kumiao.tv
-domain:kuxiaomiao.net
 domain:noxagile.duapp.com
 domain:p-bstarstatic.akamaized.net
 domain:p.bstarstatic.com
 domain:s.zampdsp.com
 domain:upos-bstar-mirrorakam.akamaized.net
 domain:upos-bstar1-mirrorakam.akamaized.net
-domain:yodou.com
-domain:yoqoo.net
-domain:yoqoo.tv
-domain:youku.org
-domain:youqoo.net
 domain:01058511989.com
 domain:189qas.com
 domain:21cnimg.com
@@ -118532,6 +118527,8 @@ domain:ctzcdn.net
 domain:iwuyou189.com
 domain:wuyou189.com
 domain:10010.net
+domain:chinaunicom.com.hk
+domain:chinaunicomglobal.com
 domain:wo-link.tech
 domain:baotoo.com
 domain:maikr.com
@@ -118560,7 +118557,7 @@ domain:domobnetwork.com
 domain:duomeng.net
 domain:duomeng.org
 domain:moxz.net
-domain:emsec.hk
+domain:doyonoc.com
 domain:xingxuanwaimai.com
 domain:wisestcloud.com
 domain:9iwanwan.com
@@ -119207,8 +119204,8 @@ domain:nbhuke.com
 domain:ntes53.net
 domain:ntescdn.com
 domain:playdisorder.com
-domain:yunxinsvip.com
 domain:yun-app.net
+domain:yunxinsvip.com
 domain:ibreeno.com
 domain:realme.net
 domain:realmeservice.com
@@ -119427,7 +119424,6 @@ domain:dnsxv4.com
 domain:dnsxv4.net
 domain:dnsxv5.com
 domain:dnsxv5.net
-domain:doyonoc.com
 domain:drm-lic-dom.net
 domain:dyspcdntip.com
 domain:e-jitp-dom.com
@@ -120543,7 +120539,6 @@ domain:wsoversea.com
 domain:wsoversea.net
 domain:wsoversea.org
 domain:wechatos.net
-domain:wjx.top
 domain:51lstt.com
 domain:51newsapp.com
 domain:newsapp01.com
@@ -120589,6 +120584,13 @@ domain:maozhuar.com
 domain:xuanyaodang.com
 domain:xuanyaodang.net
 domain:youmengchuangxiang.com
+domain:kumiao.tv
+domain:kuxiaomiao.net
+domain:yodou.com
+domain:yoqoo.net
+domain:yoqoo.tv
+domain:youku.org
+domain:youqoo.net
 domain:yuantiku.xyz
 domain:zebraenglish.biz
 domain:cdndns2.net
@@ -120617,8 +120619,6 @@ domain:iflyauto-solution.com
 domain:iflytekin.com
 domain:isay365.hk
 domain:isay365.org
-domain:71.am.com
-domain:iq.com
 domain:01hub.com
 domain:app.so
 domain:appsolution.cc
