@@ -193,6 +193,7 @@ domain:adblockplus.org
 domain:adcex.com
 domain:addictedtocoffee.de
 domain:adelaidebbs.com
+domain:adguard-vpn.com
 domain:adguard.org
 domain:admob.com
 domain:adobe.com
@@ -221,6 +222,7 @@ domain:agro.hk
 domain:ahcdn.com
 domain:ai-kan.net
 domain:ai-wen.net
+domain:ai.dev
 domain:aiosearch.com
 domain:aiph.net
 domain:airasia.com
@@ -2414,6 +2416,7 @@ domain:hautelookcdn.com
 domain:have8.com
 domain:hbg.com
 domain:hbo.com
+domain:hbomax.com
 domain:hcaptcha.com
 domain:hclips.com
 domain:hdlt.me
@@ -3554,6 +3557,7 @@ domain:mixpod.com
 domain:mixx.com
 domain:mizzmona.com
 domain:mjib.gov.tw
+domain:mjj.rip
 domain:mk5000.com
 domain:mlc.ai
 domain:mlcool.com
@@ -4624,6 +4628,7 @@ domain:rule34video.com
 domain:rumble.com
 domain:runbtx.com
 domain:rushbee.com
+domain:rustdesk.com
 domain:rusvpn.com
 domain:ruten.com.tw
 domain:rutracker.net
