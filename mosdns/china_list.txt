@@ -116374,6 +116374,7 @@ domain:55.com
 domain:55bbs.com
 domain:5bite.com
 domain:5you.com
+6-u.com
 domain:6655.com
 domain:68h5.com
 71.am
@@ -116719,6 +116720,7 @@ domain:im9.com
 domain:imcapptest.com
 domain:imcome.net
 domain:imcoming.com
+imsyy.com
 domain:in.th
 domain:inanguapi.com
 domain:infoq.com
@@ -116760,6 +116762,7 @@ domain:jxpp.com
 domain:kameng98.com
 domain:kanbox.com
 domain:keboyunxiao.com
+kekeniu.com
 domain:kiyuu.club
 kouclo.com
 domain:kscord.com
@@ -116881,6 +116884,7 @@ domain:qqshuoshuo.com
 domain:qualcomm.cn.cdn.cloudflare.net
 domain:quehu.com
 quyaoya.com
+qzhuye.com
 domain:razerapi.com
 domain:razerzone.com
 domain:realcybertron.com
@@ -117019,6 +117023,7 @@ domain:vcloudvod.com
 domain:vecdnlb.com
 domain:vemarsweb.com
 domain:veryhuo.com
+viayoo.com
 domain:vodtcbk.com
 domain:volcca.net
 domain:volcenginapi.com
