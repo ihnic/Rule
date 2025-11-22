@@ -1132,6 +1132,7 @@ domain:cloudcone.com
 domain:cloudflare-dns.com
 domain:cloudflare-ipfs.com
 domain:cloudflare.com
+domain:cloudflarestatus.com
 domain:cloudfront.net
 domain:cloudfunctions.net
 domain:cloudgarage.jp
@@ -3216,6 +3217,7 @@ domain:liaowangxizang.net
 domain:liberal.org.hk
 domain:libertysculpturepark.com
 domain:libertytimes.com.tw
+domain:library-access.sk
 domain:libraryinformationtechnology.com
 domain:libredd.it
 domain:libsyn.com
@@ -3502,6 +3504,7 @@ domain:middle-way.net
 domain:mihk.hk
 domain:mihr.com
 domain:mihua.org
+domain:mij.rip
 domain:mikanani.me
 domain:mikesoltys.com
 domain:mikocon.com
@@ -3556,6 +3559,7 @@ domain:mixin.one
 domain:mixpod.com
 domain:mixx.com
 domain:mizzmona.com
+domain:mji.rip
 domain:mjib.gov.tw
 domain:mjj.rip
 domain:mk5000.com
@@ -6321,6 +6325,7 @@ domain:xmovies.com
 domain:xn--11xs86f.icu
 domain:xn--4gq171p.com
 domain:xn--90wwvt03e.com
+domain:xn--9iqy04a7fi01l.com
 domain:xn--9pr62r24a.com
 domain:xn--czq75pvv1aj5c.org
 domain:xn--i2ru8q2qg.com
