@@ -3742,6 +3742,7 @@ domain:nalandawest.org
 domain:name.com
 domain:namgyal.org
 domain:namgyalmonastery.org
+domain:namu.wiki
 domain:nanopool.org
 domain:nanyang.com
 domain:nanyangpost.com
@@ -4236,6 +4237,7 @@ domain:picasaweb.com
 domain:picgo.net
 domain:picidae.net
 domain:picjs.xyz
+domain:picsart.com
 domain:picturedip.com
 domain:picturesocial.com
 domain:picuki.com
