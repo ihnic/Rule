@@ -116657,6 +116657,7 @@ domain:cnepub.com
 domain:codm.com
 domain:coindog.com
 domain:coze.site
+cqsjb.com
 csbew.com
 domain:ctripgslb.net
 domain:ctripteam.com
@@ -117207,6 +117208,7 @@ domain:wsoso.com
 domain:xdqtech.com
 domain:xdtool.com
 domain:xfdown.com
+xhlsgs.com
 domain:xiami.fm
 domain:xiangrikuisite.com
 domain:xiaoluyouxuan.com
@@ -117217,6 +117219,7 @@ domain:xiaomiprint.com
 domain:xiazaiba.com
 domain:xingtan001.com
 domain:xinshipu.com
+xinwuji.com
 domain:xitong8.com
 domain:xpgod.com
 domain:xsa239.com
@@ -117231,6 +117234,7 @@ domain:yfscdn.net
 domain:yh31.com
 domain:yizhibo.com
 domain:yo9.com
+yokaverse.com
 domain:youboy.com
 domain:youlian.fun
 domain:yowhale.com
