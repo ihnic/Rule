@@ -118383,10 +118383,8 @@ domain:ypjc.cloud
 domain:343480.com
 domain:356884.com
 domain:51ym.me
-domain:71.am.com
 domain:aaplimg.com
 domain:abercrombie.com
-domain:acfun.tv
 domain:acm.org
 domain:acs.org
 domain:adobesc.com
@@ -118458,17 +118456,12 @@ domain:cn88.net
 domain:cnbeta.com
 domain:cncbinternational.com
 domain:com-hs-hkdy.com
-domain:ctexcel.ca
-domain:ctexcel.fr
-domain:ctexcel.us
 domain:ctrip.co.th
 domain:ctrip.com.hk
 domain:czybjz.com
 domain:dandanzan.com
 domain:dct-cloud.com
 domain:deepin.io
-domain:didiaustralia.blog
-domain:didimobility.co.jp
 domain:dler.cloud
 domain:ebscohost.com
 domain:ecitic.net
@@ -118532,7 +118525,6 @@ domain:img4me.com
 domain:intltencentcos.com
 domain:iop.org
 domain:ip.la
-domain:iq.com
 domain:ixdzs.com
 domain:jamanetwork.com
 domain:java.com
@@ -118545,7 +118537,6 @@ domain:jiedaibao.gs
 domain:jpopsuki.eu
 domain:jsboxbbs.com
 domain:jstor.org
-domain:jstucdn.com
 domain:jxlog.istreamsche.com
 domain:karger.com
 domain:kaspersky-labs.com
@@ -118628,6 +118619,7 @@ domain:supercell.com
 domain:tandfonline.com
 domain:tanxlog.istreamsche.com
 domain:tawk.link
+domain:tencent.co.id
 domain:tipdim.org
 domain:tjupt.org
 domain:tmzvps.com
@@ -118660,11 +118652,8 @@ domain:xhostfire.com
 domain:yach.me
 domain:zhangzishi.cc
 domain:zhuihd.com
-domain:zimuzu.tv
 domain:zmz002.com
-domain:zmz2019.com
-domain:zmzapi.com
-domain:zmzapi.net
+domain:acfun.tv
 domain:androidgo.duapp.com
 domain:cdn.zampdsp.com
 domain:cm.fancyapi.com
@@ -118676,6 +118665,7 @@ domain:domesticmedia.tv
 domain:domesticmediagame.co
 domain:domesticmediagame.net
 domain:domesticmediapay.com
+domain:jstucdn.com
 domain:kumiao.tv
 domain:kuxiaomiao.net
 domain:noxagile.duapp.com
@@ -118689,6 +118679,10 @@ domain:yoqoo.net
 domain:yoqoo.tv
 domain:youku.org
 domain:youqoo.net
+domain:zimuzu.tv
+domain:zmz2019.com
+domain:zmzapi.com
+domain:zmzapi.net
 domain:01058511989.com
 domain:189qas.com
 domain:21cnimg.com
@@ -118700,6 +118694,9 @@ domain:8009900800.com
 domain:ctcdn.net
 domain:ctcdn.org
 domain:ctdns.org
+domain:ctexcel.ca
+domain:ctexcel.fr
+domain:ctexcel.us
 domain:ctlcdn.net
 domain:ctmcdn.com
 domain:ctmcdn.net
@@ -118713,6 +118710,8 @@ domain:wo-link.tech
 domain:baotoo.com
 domain:maikr.com
 domain:dandanplayer.com
+domain:didiaustralia.blog
+domain:didimobility.co.jp
 domain:didiopenapi.com
 domain:pgyer.cc
 domain:pgyer.im
@@ -120166,7 +120165,6 @@ domain:techo.show
 domain:ten.design
 domain:tencent-education.com
 domain:tencent-qejs.com
-domain:tencent.co.id
 domain:tencentads.net
 domain:tencentadx.com
 domain:tencentanxin.com
@@ -120775,6 +120773,8 @@ domain:iflyauto-solution.com
 domain:iflytekin.com
 domain:isay365.hk
 domain:isay365.org
+domain:71.am.com
+domain:iq.com
 domain:01hub.com
 domain:app.so
 domain:appsolution.cc

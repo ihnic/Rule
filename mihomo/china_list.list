@@ -118383,10 +118383,8 @@ DOMAIN-SUFFIX,ypjc.cloud
 DOMAIN-SUFFIX,343480.com
 DOMAIN-SUFFIX,356884.com
 DOMAIN-SUFFIX,51ym.me
-DOMAIN-SUFFIX,71.am.com
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,abercrombie.com
-DOMAIN-SUFFIX,acfun.tv
 DOMAIN-SUFFIX,acm.org
 DOMAIN-SUFFIX,acs.org
 DOMAIN-SUFFIX,adobesc.com
@@ -118458,17 +118456,12 @@ DOMAIN-SUFFIX,cn88.net
 DOMAIN-SUFFIX,cnbeta.com
 DOMAIN-SUFFIX,cncbinternational.com
 DOMAIN-SUFFIX,com-hs-hkdy.com
-DOMAIN-SUFFIX,ctexcel.ca
-DOMAIN-SUFFIX,ctexcel.fr
-DOMAIN-SUFFIX,ctexcel.us
 DOMAIN-SUFFIX,ctrip.co.th
 DOMAIN-SUFFIX,ctrip.com.hk
 DOMAIN-SUFFIX,czybjz.com
 DOMAIN-SUFFIX,dandanzan.com
 DOMAIN-SUFFIX,dct-cloud.com
 DOMAIN-SUFFIX,deepin.io
-DOMAIN-SUFFIX,didiaustralia.blog
-DOMAIN-SUFFIX,didimobility.co.jp
 DOMAIN-SUFFIX,dler.cloud
 DOMAIN-SUFFIX,ebscohost.com
 DOMAIN-SUFFIX,ecitic.net
@@ -118532,7 +118525,6 @@ DOMAIN-SUFFIX,img4me.com
 DOMAIN-SUFFIX,intltencentcos.com
 DOMAIN-SUFFIX,iop.org
 DOMAIN-SUFFIX,ip.la
-DOMAIN-SUFFIX,iq.com
 DOMAIN-SUFFIX,ixdzs.com
 DOMAIN-SUFFIX,jamanetwork.com
 DOMAIN-SUFFIX,java.com
@@ -118545,7 +118537,6 @@ DOMAIN-SUFFIX,jiedaibao.gs
 DOMAIN-SUFFIX,jpopsuki.eu
 DOMAIN-SUFFIX,jsboxbbs.com
 DOMAIN-SUFFIX,jstor.org
-DOMAIN-SUFFIX,jstucdn.com
 DOMAIN-SUFFIX,jxlog.istreamsche.com
 DOMAIN-SUFFIX,karger.com
 DOMAIN-SUFFIX,kaspersky-labs.com
@@ -118628,6 +118619,7 @@ DOMAIN-SUFFIX,supercell.com
 DOMAIN-SUFFIX,tandfonline.com
 DOMAIN-SUFFIX,tanxlog.istreamsche.com
 DOMAIN-SUFFIX,tawk.link
+DOMAIN-SUFFIX,tencent.co.id
 DOMAIN-SUFFIX,tipdim.org
 DOMAIN-SUFFIX,tjupt.org
 DOMAIN-SUFFIX,tmzvps.com
@@ -118660,11 +118652,8 @@ DOMAIN-SUFFIX,xhostfire.com
 DOMAIN-SUFFIX,yach.me
 DOMAIN-SUFFIX,zhangzishi.cc
 DOMAIN-SUFFIX,zhuihd.com
-DOMAIN-SUFFIX,zimuzu.tv
 DOMAIN-SUFFIX,zmz002.com
-DOMAIN-SUFFIX,zmz2019.com
-DOMAIN-SUFFIX,zmzapi.com
-DOMAIN-SUFFIX,zmzapi.net
+DOMAIN-SUFFIX,acfun.tv
 DOMAIN-SUFFIX,androidgo.duapp.com
 DOMAIN-SUFFIX,cdn.zampdsp.com
 DOMAIN-SUFFIX,cm.fancyapi.com
@@ -118676,6 +118665,7 @@ DOMAIN-SUFFIX,domesticmedia.tv
 DOMAIN-SUFFIX,domesticmediagame.co
 DOMAIN-SUFFIX,domesticmediagame.net
 DOMAIN-SUFFIX,domesticmediapay.com
+DOMAIN-SUFFIX,jstucdn.com
 DOMAIN-SUFFIX,kumiao.tv
 DOMAIN-SUFFIX,kuxiaomiao.net
 DOMAIN-SUFFIX,noxagile.duapp.com
@@ -118689,6 +118679,10 @@ DOMAIN-SUFFIX,yoqoo.net
 DOMAIN-SUFFIX,yoqoo.tv
 DOMAIN-SUFFIX,youku.org
 DOMAIN-SUFFIX,youqoo.net
+DOMAIN-SUFFIX,zimuzu.tv
+DOMAIN-SUFFIX,zmz2019.com
+DOMAIN-SUFFIX,zmzapi.com
+DOMAIN-SUFFIX,zmzapi.net
 DOMAIN-SUFFIX,01058511989.com
 DOMAIN-SUFFIX,189qas.com
 DOMAIN-SUFFIX,21cnimg.com
@@ -118700,6 +118694,9 @@ DOMAIN-SUFFIX,8009900800.com
 DOMAIN-SUFFIX,ctcdn.net
 DOMAIN-SUFFIX,ctcdn.org
 DOMAIN-SUFFIX,ctdns.org
+DOMAIN-SUFFIX,ctexcel.ca
+DOMAIN-SUFFIX,ctexcel.fr
+DOMAIN-SUFFIX,ctexcel.us
 DOMAIN-SUFFIX,ctlcdn.net
 DOMAIN-SUFFIX,ctmcdn.com
 DOMAIN-SUFFIX,ctmcdn.net
@@ -118713,6 +118710,8 @@ DOMAIN-SUFFIX,wo-link.tech
 DOMAIN-SUFFIX,baotoo.com
 DOMAIN-SUFFIX,maikr.com
 DOMAIN-SUFFIX,dandanplayer.com
+DOMAIN-SUFFIX,didiaustralia.blog
+DOMAIN-SUFFIX,didimobility.co.jp
 DOMAIN-SUFFIX,didiopenapi.com
 DOMAIN-SUFFIX,pgyer.cc
 DOMAIN-SUFFIX,pgyer.im
@@ -120166,7 +120165,6 @@ DOMAIN-SUFFIX,techo.show
 DOMAIN-SUFFIX,ten.design
 DOMAIN-SUFFIX,tencent-education.com
 DOMAIN-SUFFIX,tencent-qejs.com
-DOMAIN-SUFFIX,tencent.co.id
 DOMAIN-SUFFIX,tencentads.net
 DOMAIN-SUFFIX,tencentadx.com
 DOMAIN-SUFFIX,tencentanxin.com
@@ -120775,6 +120773,8 @@ DOMAIN-SUFFIX,iflyauto-solution.com
 DOMAIN-SUFFIX,iflytekin.com
 DOMAIN-SUFFIX,isay365.hk
 DOMAIN-SUFFIX,isay365.org
+DOMAIN-SUFFIX,71.am.com
+DOMAIN-SUFFIX,iq.com
 DOMAIN-SUFFIX,01hub.com
 DOMAIN-SUFFIX,app.so
 DOMAIN-SUFFIX,appsolution.cc

@@ -1191,6 +1191,7 @@ domain:applepaysupplies.net
 domain:applepaysupplies.tv
 domain:applewallet.com
 domain:applewallet.tv
+domain:appsto.re
 domain:appstore.co.id
 domain:appstore.com
 domain:appstore.hk
@@ -1516,7 +1517,6 @@ domain:apple.comscoreresearch.com
 domain:appleenews.com
 domain:applemusic.berlin
 domain:applemusic.co
-domain:applemusic.com
 domain:applemusic.com.au
 domain:applemusic.hamburg
 domain:applemusic.wang
@@ -1549,9 +1549,9 @@ domain:iphoto.se
 domain:iphoto.wang
 domain:musickit.net
 domain:wwwapplemusic.com
+domain:applemusic.com
 domain:apple-dns.net
 domain:apple.news
-domain:appsto.re
 domain:cdn-apple.com
 domain:digicert.com
 domain:apple-cloudkit.com
