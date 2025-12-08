@@ -657,6 +657,7 @@ domain:yammer.com
 domain:yammerusercontent.com
 domain:1drv.com
 domain:livefilestore.com
+domain:microsoftpersonalcontent.com
 domain:onedrive.com
 domain:sharepoint.com
 domain:sharepointonline.com

@@ -373,7 +373,6 @@ domain:apetube.com
 domain:api.ai
 domain:api.amplitude.com
 domain:api.mixpanel.com
-domain:api.palworldgame.com
 domain:api.proxlet.com
 domain:api.termius.com
 domain:apiary.io
@@ -837,6 +836,7 @@ domain:byteoversea.com
 domain:c-est-simple.com
 domain:c-span.org
 domain:c-spanvideo.org
+domain:c.gle
 domain:c.mi.com
 domain:c100tibet.org
 domain:c2cx.com
@@ -1382,6 +1382,7 @@ domain:delicious.com
 domain:demo.opera-mini.net
 domain:democrats.org
 domain:demosisto.hk
+domain:deno.com
 domain:deno.dev
 domain:depositphotos.com
 domain:derekhsu.homeip.net
@@ -1467,7 +1468,6 @@ domain:docker.io
 domain:dockerhub.com
 domain:dockerstatus.com
 domain:docs.cfw.lbyczf.com
-domain:docs.deno.com
 domain:docs.new
 domain:doctorvoice.org
 domain:documentingreality.com
@@ -2759,7 +2759,6 @@ domain:imagefap.com
 domain:imageflea.com
 domain:imageglass.org
 domain:images-gaytube.com
-domain:images.prismic.io
 domain:imageshack.us
 domain:imagevenue.com
 domain:imagezilla.net
@@ -2968,7 +2967,6 @@ domain:jfqu37.xyz
 domain:jgoodies.com
 domain:jiangweiping.com
 domain:jiaoyou8.com
-domain:jichangtj.com
 domain:jiehua.cz
 domain:jiehua.tv
 domain:jiepang.com
@@ -3321,7 +3319,6 @@ domain:lsmkorean.org
 domain:lsmradio.com
 domain:lsmwebcast.com
 domain:lsxszzg.com
-domain:lt.sntp.uk
 domain:ltn.com.tw
 domain:luckydesigner.space
 domain:luckymobile.ca
@@ -3338,7 +3335,6 @@ domain:lyfhk.net
 domain:lzjscript.com
 domain:lzmtnews.org
 domain:m-sport.co.uk
-domain:m-team.cc
 domain:m.me
 domain:m.plixi.com
 domain:m.slandr.net
@@ -3498,6 +3494,7 @@ domain:michaelmarketl.com
 domain:microsoft-falcon.io
 domain:microsoft.com
 domain:microsoftapp.net
+domain:microsoftpersonalcontent.com
 domain:microsofttranslator.com
 domain:microvpn.com
 domain:middle-way.net
@@ -4138,6 +4135,7 @@ domain:paldengyal.com
 domain:paljorpublications.com
 domain:palmislife.com
 domain:paltalk.com
+domain:palworldgame.com
 domain:pancakeswap.finance
 domain:pandafan.pub
 domain:pandapow.co
@@ -4356,6 +4354,7 @@ domain:prestige-av.com
 domain:primevideo.com
 domain:printfriendly.com
 domain:prism-break.org
+domain:prismic.io
 domain:prisoneralert.com
 domain:pritunl.com
 domain:privacybox.de
@@ -4914,6 +4913,7 @@ domain:snaptu.com
 domain:sndcdn.com
 domain:sneakme.net
 domain:snowlionpub.com
+domain:sntp.uk
 domain:sobees.com
 domain:soc.mil
 domain:social.edu.ci

@@ -30,6 +30,7 @@ full:ktpx.amazon.com
 full:news-client.apple.com
 full:news-edge.apple.com
 full:news-events.apple.com
+full:notebooklm.google.com
 full:ocvideo.apple.com
 full:rpg.pic-imges.com
 full:rthklive2-lh.akamaihd.net
@@ -169,6 +170,7 @@ domain:channel5.com
 domain:chocotv.com.tw
 domain:cinemax.com
 domain:claude.ai
+domain:claude.com
 domain:claudeusercontent.com
 domain:cloudfront.net
 domain:cnbc.com
@@ -675,6 +677,7 @@ domain:japronx.com
 domain:japronx.net
 domain:japronx.tv
 domain:japronx.vip
+domain:jetbrains.ai
 domain:joeswall.com
 domain:joinmaidez.com
 domain:joox.com
@@ -1114,6 +1117,7 @@ domain:wofl.tv
 domain:woflthenewsstation.com
 domain:wogx.com
 domain:wwwhuluplus.com
+domain:x.ai
 domain:yb.uncn.jp
 domain:youboranqs01.com
 domain:z5.app

@@ -1,5 +1,6 @@
 domain:1drv.com
 domain:livefilestore.com
+domain:microsoftpersonalcontent.com
 domain:oneclient.sfx.ms
 domain:onedrive.com
 domain:onedrive.live.com
