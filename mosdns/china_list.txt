@@ -118918,6 +118918,7 @@ domain:domobnetwork.com
 domain:duomeng.net
 domain:duomeng.org
 domain:moxz.net
+domain:doyonoc.com
 domain:xingxuanwaimai.com
 domain:wisestcloud.com
 domain:9iwanwan.com
@@ -119786,7 +119787,6 @@ domain:dnsxv4.com
 domain:dnsxv4.net
 domain:dnsxv5.com
 domain:dnsxv5.net
-domain:doyonoc.com
 domain:drm-lic-dom.net
 domain:dyspcdntip.com
 domain:e-jitp-dom.com
@@ -119966,7 +119966,6 @@ domain:in-tencentclb.net
 domain:in-tencentclb.work
 domain:intencent.com
 domain:ioasaas.com
-domain:iot-tencent.com
 domain:iqmie.com
 domain:itddo2page.com
 domain:iwiki.com
@@ -120894,6 +120893,7 @@ domain:wsgtm2.com
 domain:wsoversea.com
 domain:wsoversea.net
 domain:wsoversea.org
+domain:iot-tencent.com
 domain:wechatos.net
 domain:51lstt.com
 domain:51newsapp.com

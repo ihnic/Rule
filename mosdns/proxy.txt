@@ -350,6 +350,7 @@ domain:anti1984.com
 domain:antichristendom.com
 domain:antiwave.net
 domain:antpool.com
+domain:anuneko.com
 domain:anysex.com
 domain:ao3.org
 domain:aobo.com.au
@@ -2965,6 +2966,7 @@ domain:jex.com
 domain:jfqu36.club
 domain:jfqu37.xyz
 domain:jgoodies.com
+domain:jhelab.org
 domain:jiangweiping.com
 domain:jiaoyou8.com
 domain:jiehua.cz
@@ -4302,6 +4304,7 @@ domain:pobieramy.top
 domain:podbean.com
 domain:podcast.co
 domain:podictionary.com
+domain:podwise.ai
 domain:poe.com
 domain:points-media.com
 domain:pokemon.com
@@ -4480,9 +4483,11 @@ domain:radicalparty.org
 domain:radiko.jp
 domain:radio-canada.ca
 domain:radio-en-ligne.fr
+domain:radio.co
 domain:radio.garden
 domain:radioaustralia.net.au
 domain:radiohilight.net
+domain:radiojar.com
 domain:radioline.co
 domain:radiotime.com
 domain:radiovaticana.org
