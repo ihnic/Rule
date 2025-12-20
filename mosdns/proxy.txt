@@ -647,6 +647,7 @@ domain:bit.com
 domain:bit.do
 domain:bit.ly
 domain:bit.no.com
+domain:bitbaby.com
 domain:bitbay.net
 domain:bitbucket.org
 domain:bitc.bme.emory.edu
@@ -2715,6 +2716,7 @@ domain:icons8.com
 domain:icu-project.org
 domain:id.hao123.com
 domain:idaiwan.com
+domain:idcflare.com
 domain:iddddg.com
 domain:idemocracy.asia
 domain:identi.ca
