@@ -5054,6 +5054,7 @@ domain:startuplivingchina.com
 domain:stat.gov.tw
 domain:state.gov
 domain:static-economist.com
+domain:static.pocketcasts.com
 domain:statically.io
 domain:staticflickr.com
 domain:statueofdemocracy.org
