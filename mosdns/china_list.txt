@@ -115376,6 +115376,7 @@ domain:chaz.fun
 domain:chazhengla.com
 domain:china-chair.com
 domain:chinamobileltd.com
+chinaott.com
 domain:chinapp.net
 domain:chinatelecom-h.com
 domain:chinazns.com
@@ -115601,6 +115602,8 @@ domain:hero.com
 domain:heroesports.com
 domain:herogame.com
 domain:herostart.com
+hik-express.com
+hikiot.com
 domain:hkgcloudcs.com
 domain:hnyuyuhui.com
 domain:hongsanban.com
