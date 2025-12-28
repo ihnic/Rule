@@ -3310,6 +3310,7 @@ domain:lorenzetti.com.br
 domain:lotsawahouse.org
 domain:lotuslight.org.hk
 domain:lotuslight.org.tw
+domain:lovart.ai
 domain:loved.hk
 domain:lovetvshow.com
 domain:lpsg.com
