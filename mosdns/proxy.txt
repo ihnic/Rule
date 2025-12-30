@@ -262,6 +262,7 @@ domain:alicejapan.co.jp
 domain:aliengu.com
 domain:alive.bar
 domain:aljazeera.com
+domain:aljazeera.net
 domain:alkasir.com
 domain:all4mom.org
 domain:allcoin.com
@@ -2195,6 +2196,7 @@ domain:gfw.org.ua
 domain:gfw.press
 domain:gfw.report
 domain:gfwatch.org
+domain:gfwbao.com
 domain:gfwlist.end
 domain:gfwlist.start
 domain:gfx.ms
