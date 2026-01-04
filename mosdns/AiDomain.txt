@@ -129,6 +129,7 @@ keyword:google
 domain:1e100.net
 domain:2mdn.net
 domain:app-measurement.net
+domain:c.gle
 domain:g.co
 domain:ggpht.com
 domain:goo.gl
