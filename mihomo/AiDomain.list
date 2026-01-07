@@ -19,6 +19,7 @@ DOMAIN-KEYWORD,claude
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,usefathom.com
+DOMAIN-SUFFIX,console.anthropic.com
 DOMAIN-SUFFIX,recraft.ai
 DOMAIN-SUFFIX,poe.com
 PROCESS-NAME,LM Studio

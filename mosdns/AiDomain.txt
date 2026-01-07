@@ -17,6 +17,7 @@ keyword:claude
 domain:anthropic.com
 domain:claude.ai
 domain:usefathom.com
+domain:console.anthropic.com
 domain:recraft.ai
 domain:poe.com
 domain:lmsudio.ai
