@@ -223,6 +223,7 @@ domain:ahcdn.com
 domain:ai-kan.net
 domain:ai-wen.net
 domain:ai.dev
+domain:ai.studio
 domain:aiosearch.com
 domain:aiph.net
 domain:airasia.com
@@ -1357,6 +1358,7 @@ domain:dawangidc.com
 domain:dayabook.com
 domain:daylife.com
 domain:dayone.me
+domain:dazn.com
 domain:db.tt
 domain:dbc.hk
 domain:dbgjd.com
@@ -4063,6 +4065,8 @@ domain:onmypc.us
 domain:onthehunt.com
 domain:ontrac.com
 domain:oojj.de
+domain:ooni.io
+domain:ooni.org
 domain:oopsforum.com
 domain:ooyala.com
 domain:open.com.hk
@@ -6302,6 +6306,7 @@ domain:xbabe.com
 domain:xbookcn.com
 domain:xbtce.com
 domain:xcafe.in
+domain:xcancel.com
 domain:xcity.jp
 domain:xclient.info
 domain:xcritic.com
