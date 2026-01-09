@@ -114475,6 +114475,7 @@ domain:ffbuddy.com
 domain:fixdown.com
 domain:flxdns.com
 domain:fm365.com
+fnnas.net
 domain:fofa.so
 domain:forevernine.com
 domain:fqjob.net
@@ -114844,6 +114845,7 @@ domain:t00ls.cc
 domain:t00ls.net
 domain:t1y5.com
 domain:taobizhong.com
+tapapks.com
 domain:tapimg.net
 domain:tcdlive.com
 domain:tcdnhw.com
