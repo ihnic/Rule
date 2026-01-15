@@ -114711,6 +114711,7 @@ domain:larksuitecdn.com
 domain:larksuiteimg.com
 domain:larkvc.com
 domain:larsonlimited.com
+lbtp.com
 domain:leanote.com
 domain:lecloudapi.com
 domain:lenovo.com
