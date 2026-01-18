@@ -145,6 +145,7 @@ domain:xn--ngstr-lra8j.com
 domain:youtu.be
 domain:youtube-nocookie.com
 domain:yt.be
+domain:antigravity-unleash.goog:
 domain:265.com
 domain:alt1-mtalk.google.com
 domain:alt2-mtalk.google.com
