@@ -6133,6 +6133,7 @@ domain:weekmag.info
 domain:wefightcensorship.org
 domain:wefong.com
 domain:weiboleak.com
+domain:weights.com
 domain:weihuo.org
 domain:weijingsheng.org
 domain:weiming.info
@@ -6471,6 +6472,7 @@ domain:youdontcare.com
 domain:youjizz.com
 domain:youlucky.com
 domain:youmaker.com
+domain:youmind.com
 domain:youngspiration.hk
 domain:youpai.org
 domain:your-freedom.net
