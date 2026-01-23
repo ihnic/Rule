@@ -114211,6 +114211,7 @@ domain:qzhuye.com
 domain:razerapi.com
 domain:razerzone.com
 domain:realcybertron.com
+rednotecdn.com
 domain:rmbgame.net
 domain:rmwxgame.com
 domain:robomaster.com
