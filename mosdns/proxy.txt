@@ -73,6 +73,7 @@ domain:24smile.org
 domain:25u.com
 domain:2du5.com
 domain:2lipstube.com
+domain:2mdn.net
 domain:2shared.com
 domain:2waky.com
 domain:3-a.net
@@ -505,6 +506,7 @@ domain:baby-kingdom.com
 domain:babylonbee.com
 domain:babynet.com.hk
 domain:backchina.com
+domain:backend-v2.crixet.com
 domain:backpackers.com.tw
 domain:backtotiananmen.com
 domain:bad.news
