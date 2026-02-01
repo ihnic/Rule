@@ -73,7 +73,6 @@ domain:24smile.org
 domain:25u.com
 domain:2du5.com
 domain:2lipstube.com
-domain:2mdn.net
 domain:2shared.com
 domain:2waky.com
 domain:3-a.net
@@ -2024,6 +2023,7 @@ domain:freerk.com
 domain:freess.org
 domain:freessh.us
 domain:freetcp.com
+domain:freeterabox.com
 domain:freetibet.net
 domain:freetibet.org
 domain:freetibetanheroes.org
@@ -4857,6 +4857,7 @@ domain:sijihuisuo.club
 domain:sijihuisuo.com
 domain:silkbook.com
 domain:silvergatebank.com
+domain:simianx.ai
 domain:simp.ly
 domain:simplecd.me
 domain:simplecd.org
@@ -6447,6 +6448,7 @@ domain:yes123.com.tw
 domain:yesasia.com
 domain:yesasia.com.hk
 domain:yeyeclub.com
+domain:yfsp.tv
 domain:ygto.com
 domain:yhcw.net
 domain:yibada.com
