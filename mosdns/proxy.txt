@@ -550,6 +550,7 @@ domain:bbc.co
 domain:bbc.co.uk
 domain:bbc.com
 domain:bbc.in
+domain:bbc.pdn.tritondigital.com
 domain:bbcchinese.com
 domain:bbchat.tv
 domain:bbci.co.uk

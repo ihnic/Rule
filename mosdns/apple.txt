@@ -1463,6 +1463,7 @@ domain:ukipad.com
 domain:wwwipodlounge.com
 domain:wwwmacbookair.com
 domain:apple.comscoreresearch.com
+domain:apple.news
 domain:appleenews.com
 domain:applemusic.berlin
 domain:applemusic.co
@@ -1500,7 +1501,6 @@ domain:iphoto.wang
 domain:musickit.net
 domain:wwwapplemusic.com
 domain:apple-dns.net
-domain:apple.news
 domain:appsto.re
 domain:cdn-apple.com
 domain:digicert.com
