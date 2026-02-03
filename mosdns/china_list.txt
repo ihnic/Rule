@@ -8857,6 +8857,7 @@ domain:9377ja.com
 9377os.com
 9377s.com
 domain:9377z.com
+9378.com
 domain:93913.com
 939394.xyz
 domain:93966.com
@@ -22294,6 +22295,7 @@ domain:chmod0777kk.com
 domain:chmti.com
 domain:chn-cstc.com
 domain:chn-das.com
+chn-new-9sport.com
 domain:chn0769.com
 domain:chn112.com
 domain:chn168.com
@@ -25146,6 +25148,7 @@ domain:cpema.org
 domain:cpeol.net
 domain:cpepgc.com
 domain:cpfia.org
+cpfwzs.com
 domain:cpg-motor.com
 domain:cphfgg.com
 domain:cphiic.com
@@ -26092,6 +26095,7 @@ domain:cs2-aipn.com
 domain:cs27.com
 domain:cs2c.com
 domain:cs2ccloud.com
+cs2pw.com
 domain:cs30.net
 domain:cs451.com
 domain:cs48.com
@@ -28265,6 +28269,7 @@ domain:dealsbank.com
 domain:dealsmake.com
 domain:deansys.com
 domain:dear520dear.com
+dearclick.com
 domain:dearda.com
 domain:dearedu.com
 domain:dearisland.com
@@ -33399,6 +33404,7 @@ domain:excm.net
 excoino.com
 domain:exd.design
 domain:exdoll.com
+exedus.com.co
 domain:exeedcars.com
 domain:exexm.com
 domain:exezhanqun.com
@@ -47371,6 +47377,7 @@ domain:hornetcorn.com
 domain:horosama.com
 domain:horou.com
 domain:horphoto.com
+horsebrowser.com
 domain:horsechinaone.com
 domain:horti-expo2019.com
 domain:hortor-comic.com
@@ -50489,6 +50496,7 @@ domain:ic-king.com
 domain:ic-ldo.com
 domain:ic-leasing.com
 domain:ic-mag.com
+ic-spic.com
 domain:ic-valley.com
 domain:ic001.org
 domain:ic2china.com
@@ -60302,6 +60310,7 @@ domain:kwaiying.com
 domain:kwaizt.com
 domain:kwangfeng.com
 domain:kwggroupholdings.com
+kwicdn.com
 domain:kwimgs.com
 domain:kwinbon.com
 domain:kwise-log.com
@@ -73295,6 +73304,7 @@ domain:paihang360.com
 domain:paihang8.com
 domain:paihb.com
 domain:paihotels.cc
+paihuisy.com
 domain:paikew.com
 domain:paiky.com
 domain:paiky.net
@@ -73865,7 +73875,9 @@ domain:peiluyou.com
 domain:peipusci.com
 domain:peise.net
 domain:peisebiao.com
+peiwan.tv
 domain:peiwanlu.com
+peiwantv.com
 domain:peixianedu.com
 domain:peixiang.com
 domain:peixinbao.com
@@ -89854,6 +89866,7 @@ domain:tdbbj.com
 domain:tdchats.us
 domain:tdchatvip.us
 tddmp.com
+tdfsm.com
 domain:tdgdy.org
 domain:tdgod.com
 domain:tdiac.com
@@ -92867,6 +92880,7 @@ tv.sohu
 domain:tv002.com
 domain:tv121.com
 domain:tv189.com
+tv2-zuqiu.com
 domain:tv20806.com
 domain:tv373.com
 domain:tvandnet.com
@@ -100542,6 +100556,7 @@ domain:xhysh.com
 domain:xhytd.com
 domain:xhyun.vip
 domain:xhzysg.com
+xi-9.com
 domain:xi-soft.com
 domain:xi.su
 domain:xi5jie.com
@@ -107380,6 +107395,7 @@ domain:youshenhudong.com
 domain:yousheyoujia.com
 domain:youshibeike.com
 domain:youshifu.com
+youshihui.cc
 domain:youshikoudai.com
 domain:youshixiu.com
 domain:youshop01.com
