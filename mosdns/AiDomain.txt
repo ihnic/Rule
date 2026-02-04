@@ -145,6 +145,8 @@ domain:xn--ngstr-lra8j.com
 domain:youtu.be
 domain:youtube-nocookie.com
 domain:yt.be
+keyword:goog
+domain:fp-us-tmobile.rcs.telephony.goog
 domain:antigravity-unleash.goog
 domain:antigravity.google
 keyword:antigravity

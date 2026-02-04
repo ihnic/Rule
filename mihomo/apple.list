@@ -1502,7 +1502,6 @@ DOMAIN-SUFFIX,musickit.net
 DOMAIN-SUFFIX,wwwapplemusic.com
 DOMAIN-SUFFIX,apple-dns.net
 DOMAIN-SUFFIX,appsto.re
-DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,apple-icloud.cn
@@ -1510,6 +1509,7 @@ DOMAIN-SUFFIX,apple-livephotoskit.com
 DOMAIN-SUFFIX,appleicloud.cn
 DOMAIN-SUFFIX,applemx-icloud.com
 DOMAIN-SUFFIX,apzones.com
+DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,icloud-apple.cn
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloud-isupport.com
