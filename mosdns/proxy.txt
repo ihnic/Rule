@@ -4754,6 +4754,7 @@ domain:seehua.com
 domain:seesmic.com
 domain:seevpn.com
 domain:seezone.net
+domain:sef.org.tw
 domain:sehuatang.net
 domain:sehuatang.org
 domain:sejie.com
