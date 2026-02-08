@@ -669,6 +669,7 @@ domain:bitmex.com
 domain:bitshare.com
 domain:bitsnoop.com
 domain:bitterwinter.org
+domain:bittorrent.com
 domain:bitvise.com
 domain:bitz.ai
 domain:bizhat.com
@@ -2356,6 +2357,7 @@ domain:greenvpn.net
 domain:greenvpn.org
 domain:grindr.com
 domain:grok.com
+domain:grokipedia.com
 domain:grotty-monday.com
 domain:ground.news
 domain:gs-discuss.com
@@ -2457,6 +2459,7 @@ domain:helplinfen.com
 domain:helpshift.com
 domain:helpster.de
 domain:helpzhuling.org
+domain:hembed.com
 domain:hentai.to
 domain:hentaitube.tv
 domain:hentaivideoworld.com
@@ -5905,6 +5908,7 @@ domain:uymaarip.com
 domain:v.gd
 domain:v.roucdn
 domain:v2.help
+domain:v2.hysteria.network
 domain:v2ex.co
 domain:v2ex.com
 domain:v2fly.org
