@@ -1,4 +1,3 @@
-full:appldnld.apple.com.edgesuite.net
 full:apple-events.akamaized.net
 full:appleworldwidedeveloper.hb-api.omtrdc.net
 full:appleworldwidedeveloper.sc.omtrdc.net
@@ -56,6 +55,7 @@ domain:appl-e.com
 domain:appl.com
 domain:appl4e.com
 domain:appla.com
+domain:appldnld.apple.com.edgesuite.net
 domain:apple-darwin.com
 domain:apple-darwin.net
 domain:apple-darwin.org
@@ -1188,6 +1188,7 @@ domain:applepaysupplies.net
 domain:applepaysupplies.tv
 domain:applewallet.com
 domain:applewallet.tv
+domain:appsto.re
 domain:appstore.co.id
 domain:appstore.com
 domain:appstore.hk
@@ -1501,8 +1502,6 @@ domain:iphoto.wang
 domain:musickit.net
 domain:wwwapplemusic.com
 domain:apple-dns.net
-domain:appsto.re
-domain:cdn-apple.com
 domain:digicert.com
 domain:apple-cloudkit.com
 domain:apple-icloud.cn
@@ -1510,6 +1509,7 @@ domain:apple-livephotoskit.com
 domain:appleicloud.cn
 domain:applemx-icloud.com
 domain:apzones.com
+domain:cdn-apple.com
 domain:icloud-apple.cn
 domain:icloud-content.com
 domain:icloud-isupport.com

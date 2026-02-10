@@ -6210,6 +6210,7 @@ domain:wikinews.org
 domain:wikipedia.com
 domain:wikipedia.org
 domain:wikiquote.org
+domain:wikis.tw
 domain:wikisource.org
 domain:wikiunblocked.org
 domain:wikiversity.org
