@@ -116773,6 +116773,7 @@ domain:xdqtech.com
 domain:xdtool.com
 domain:xfdown.com
 domain:xhlsgs.com
+xhsrcdn.com
 domain:xiangrikuisite.com
 domain:xiaoluyouxuan.com
 domain:xiaoluzhidian.com
@@ -116805,6 +116806,7 @@ domain:yunfancdn.com
 domain:yunqishi.net
 domain:yuzua.com
 domain:zhanbuba.com
+zhipucn.com
 domain:zhuaninc.com
 domain:zhuanyewanjia.com
 domain:zimuzu.io
