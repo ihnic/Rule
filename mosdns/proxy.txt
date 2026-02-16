@@ -6074,6 +6074,7 @@ domain:wallornot.org
 domain:wallpapercasa.com
 domain:wallproxy.com
 domain:wallsttv.com
+domain:wallzhihu.com
 domain:waltermartin.com
 domain:waltermartin.org
 domain:wan-press.org
