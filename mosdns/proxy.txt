@@ -245,6 +245,7 @@ domain:akamaihd.net
 domain:akamaistream.net
 domain:akiba-online.com
 domain:akiba-web.com
+domain:akile.io
 domain:akinator.com
 domain:akow.org
 domain:al-islam.com
@@ -453,6 +454,7 @@ domain:aspi.org.au
 domain:aspistrategist.org.au
 domain:aspnetcdn.com
 domain:assembla.com
+domain:assets.nxtrace.org
 domain:assimp.org
 domain:astrill.com
 domain:async.be
@@ -3436,6 +3438,7 @@ domain:mediafire.com
 domain:mediafreakcity.com
 domain:mediawiki.org
 domain:medium.com
+domain:meee.com.tw
 domain:meetav.com
 domain:meetup.com
 domain:mefeedia.com
@@ -4054,6 +4057,7 @@ domain:ooyala.com
 domain:open.com.hk
 domain:openallweb.com
 domain:openbase.com
+domain:opencritic.com
 domain:opendemocracy.net
 domain:opendn.xyz
 domain:openervpn.in
@@ -5517,6 +5521,7 @@ domain:topnews.in
 domain:topshareware.com
 domain:toptip.ca
 domain:toptoon.net
+domain:tor.eff.org
 domain:tora.to
 domain:torcn.com
 domain:torguard.net
@@ -5790,6 +5795,7 @@ domain:unicode.org
 domain:unification.net
 domain:unification.org.tw
 domain:unirule.cloud
+domain:uniswap.org
 domain:unitedsocialpress.com
 domain:unity3d.com
 domain:unix100.com
@@ -6263,6 +6269,7 @@ domain:wuw.red
 domain:wuyanblog.com
 domain:wwe.com
 domain:wwitv.com
+domain:www.clashverge.dev
 domain:www.lamenhu.com
 domain:www.orchidbbs.com
 domain:www.taup.org.tw
