@@ -1983,6 +1983,7 @@ domain:freechina.news
 domain:freechinaforum.org
 domain:freechinaweibo.com
 domain:freedl.org
+domain:freedom.gov
 domain:freedomchina.info
 domain:freedomcollection.org
 domain:freedomhongkong.org
