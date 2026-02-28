@@ -23888,6 +23888,7 @@ yandexadexchange.net
 yandexcloud.net
 yandexcom.net
 yandexmetrica.com
+yandexwebcache.net
 yandexwebcache.org
 yangzhi.org
 yantaqu.com
@@ -24780,6 +24781,7 @@ full:paper-attachments.s3.amazonaws.com
 full:pki.google.com
 full:play-edge.itunes.apple.com
 full:poshtestgallery.cloudapp.net
+full:ppl-ai-file-upload.s3.amazonaws.com
 full:pplx-res.cloudinary.com
 full:practivate.adobe
 full:practivate.adobe.com
