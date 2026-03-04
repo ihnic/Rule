@@ -1119,6 +1119,7 @@ domain:ck101.com
 domain:cl.ly
 domain:clarionproject.org
 domain:classicalguitarblog.net
+domain:claude.com
 domain:clb.org.hk
 domain:cleansite.biz
 domain:cleansite.info
@@ -3387,6 +3388,7 @@ domain:manicur4ik.ru
 domain:mansion.com
 domain:mansionpoker.com
 domain:manta.com
+domain:manus.im
 domain:manyvoices.news
 domain:maplew.com
 domain:marc.info
