@@ -1513,6 +1513,7 @@ domain:douhokanko.net
 domain:doujincafe.com
 domain:dowei.org
 domain:dowjones.com
+domain:download.dappcdn.com
 domain:dphk.org
 domain:dpool.top
 domain:dpp.org.tw
