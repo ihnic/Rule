@@ -118278,6 +118278,7 @@ domain:4thworkshop.com
 50bang.org
 domain:51gaifang.com
 51yes.com
+52ppt.com
 domain:52z.com
 domain:55.com
 5566ua.com
@@ -118320,6 +118321,7 @@ domain:azchcdnf.com
 domain:azchcdni.com
 domain:azchcdnk.com
 domain:b3log.org
+badou.com
 baidu-cdn.com
 baidu-cdn.net
 baidubcr.com
@@ -118519,6 +118521,7 @@ domain:gxb.io
 domain:gzwanju.com
 domain:hackinn.com
 domain:hacpai.com
+haohaodoc.com
 domain:haohaowan.net
 domain:haote.com
 domain:hapjs.org
@@ -118589,6 +118592,7 @@ domain:landian.xyz
 domain:landiannews.com
 domain:lanzous.com
 domain:larsonlimited.com
+lazyer.net
 domain:lbtp.com
 domain:leanote.com
 domain:lecloudapi.com
@@ -118734,6 +118738,7 @@ domain:wanyx.com
 domain:weilaicaijing.com
 weixing.com
 domain:welltrend-edu.com
+wenkeju.com
 domain:whlovehome.com
 domain:win007.com
 domain:windows10zj.com
