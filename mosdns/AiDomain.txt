@@ -34,6 +34,12 @@ keyword:grok
 domain:x.ai
 domain:grok.com
 domain:perplexity.ai
+domain:githubcopilot.com
+domain:api.githubcopilot.com
+domain:api.github.com
+domain:github.gallery.vsassets.io
+domain:github.gallerycdn.vsassets.io
+domain:applicationinsights.azure.com
 keyword:bing
 keyword:copilot
 keyword:edgeassetservice

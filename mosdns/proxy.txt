@@ -4819,6 +4819,7 @@ domain:shinychan.com
 domain:shipcamouflage.com
 domain:shireyishunjian.com
 domain:shitaotv.org
+domain:shitjournal.org
 domain:shixiao.org
 domain:shizhao.org
 domain:shkspr.mobi
