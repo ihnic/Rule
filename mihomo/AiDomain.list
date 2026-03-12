@@ -19,6 +19,7 @@ DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,a.nel.cloudflare.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,browser-intake-datadoghq.com
+DOMAIN-SUFFIX,ab.chatgpt.com
 DOMAIN-KEYWORD,anthropic
 PROCESS-NAME,Claude
 PROCESS-NAME,Claude Helper

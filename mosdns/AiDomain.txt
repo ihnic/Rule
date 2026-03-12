@@ -19,6 +19,7 @@ domain:sora.com
 domain:a.nel.cloudflare.com
 domain:challenges.cloudflare.com
 domain:browser-intake-datadoghq.com
+domain:ab.chatgpt.com
 keyword:anthropic
 keyword:claude
 domain:anthropic.com
