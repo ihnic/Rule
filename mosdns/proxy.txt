@@ -6307,6 +6307,7 @@ domain:xcity.jp
 domain:xclient.info
 domain:xcritic.com
 domain:xda-developers.com
+domain:xdaforums.com
 domain:xeeno.com
 domain:xerotica.com
 domain:xfiles.to
