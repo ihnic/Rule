@@ -160,6 +160,7 @@ domain:9to5mac.com
 domain:a-normal-day.com
 domain:a5.com.ru
 domain:aamacau.com
+domain:aave.com
 domain:abc.com
 domain:abc.net.au
 domain:abc.pp.ru
