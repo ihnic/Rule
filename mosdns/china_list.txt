@@ -118428,8 +118428,6 @@ domain:edgekey88.net
 domain:edu4399.com
 engkoo.com
 domain:enterdesk.com
-domain:esp8266.com
-domain:espressif.com
 domain:et001.com
 domain:everbright.com
 domain:fanmingming.com
@@ -120348,6 +120346,8 @@ domain:ctyuncdn.com
 domain:ctzcdn.net
 domain:iwuyou189.com
 domain:wuyou189.com
+domain:esp8266.com
+domain:espressif.com
 domain:10010.net
 domain:wo-link.tech
 domain:baotoo.com
