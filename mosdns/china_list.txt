@@ -119279,7 +119279,6 @@ domain:51ideal.com
 domain:ibmcampus.com
 domain:wuyoudagong.com
 domain:openaboc.com
-domain:acfun.tv
 domain:10029.com
 domain:17lai.org
 domain:aa5d.com
@@ -119883,14 +119882,10 @@ domain:yuyaoclub.com
 domain:yuyaotop.com
 domain:zgsjl8.com
 domain:zhanqu.tv
-domain:bilicdn4.com
-domain:bilicdn5.com
 domain:biliplus.com
 domain:corari.com
-domain:im9.com
 domain:sharejoytech.com
 domain:upos-hz-mirrorakam.akamaized.net
-domain:yo9.com
 domain:2333333333333.com
 domain:activitybyte.com
 domain:aigcarena.com
@@ -119965,11 +119960,13 @@ domain:163industry.com
 domain:343480.com
 domain:356884.com
 domain:51ym.me
+domain:71.am.com
 domain:75team.com
 domain:95095.com
 domain:aaplimg.com
 domain:abercrombie.com
 domain:acctdns.com
+domain:acfun.tv
 domain:acm.org
 domain:acs.org
 domain:adobesc.com
@@ -119999,6 +119996,8 @@ domain:astm.org
 domain:awesome-hd.me
 domain:b612.net
 domain:baduziyuan.com
+domain:bilicdn4.com
+domain:bilicdn5.com
 domain:bjango.com
 domain:bmj.com
 domain:bocaviation.com
@@ -120049,6 +120048,7 @@ domain:ctripteam.com
 domain:czybjz.com
 domain:dandanzan.com
 domain:dct-cloud.com
+domain:deepin.io
 domain:didiaustralia.blog
 domain:didimobility.co.jp
 domain:dler.cloud
@@ -120118,6 +120118,7 @@ domain:icetorrent.org
 domain:icevirtuallibrary.com
 domain:ics.design
 domain:ieee.org
+domain:im9.com
 domain:images-amazon.com
 domain:imcapptest.com
 domain:imf.org
@@ -120125,6 +120126,7 @@ domain:img4me.com
 domain:intltencentcos.com
 domain:iop.org
 domain:ip.la
+domain:iq.com
 domain:isd.com
 domain:ivweb.io
 domain:ixdzs.com
@@ -120294,6 +120296,7 @@ domain:xhostfire.com
 domain:xiami.fm
 domain:xueyuanjun.com
 domain:yach.me
+domain:yo9.com
 domain:yowhale.com
 domain:zhangzishi.cc
 domain:zhuihd.com
@@ -120314,12 +120317,19 @@ domain:domesticmedia.tv
 domain:domesticmediagame.co
 domain:domesticmediagame.net
 domain:domesticmediapay.com
+domain:kumiao.tv
+domain:kuxiaomiao.net
 domain:noxagile.duapp.com
 domain:p-bstarstatic.akamaized.net
 domain:p.bstarstatic.com
 domain:s.zampdsp.com
 domain:upos-bstar-mirrorakam.akamaized.net
 domain:upos-bstar1-mirrorakam.akamaized.net
+domain:yodou.com
+domain:yoqoo.net
+domain:yoqoo.tv
+domain:youku.org
+domain:youqoo.net
 domain:01058511989.com
 domain:189qas.com
 domain:21cnimg.com
@@ -120343,7 +120353,6 @@ domain:wo-link.tech
 domain:baotoo.com
 domain:maikr.com
 domain:dandanplayer.com
-domain:deepin.io
 domain:didiopenapi.com
 domain:pgyer.cc
 domain:pgyer.im
@@ -120361,6 +120370,7 @@ domain:domobnetwork.com
 domain:duomeng.net
 domain:duomeng.org
 domain:moxz.net
+domain:doyonoc.com
 domain:haitunzhibo.com
 domain:xingxuanwaimai.com
 domain:wisestcloud.com
@@ -121117,7 +121127,6 @@ domain:dh5a.com
 domain:dnse8.com
 domain:dnse8.net
 domain:dnsxv2.com
-domain:doyonoc.com
 domain:edgeonedl1.com
 domain:edgeonedl1.net
 domain:edgeonedy1.net
@@ -121288,13 +121297,6 @@ domain:maozhuar.com
 domain:xuanyaodang.com
 domain:xuanyaodang.net
 domain:youmengchuangxiang.com
-domain:kumiao.tv
-domain:kuxiaomiao.net
-domain:yodou.com
-domain:yoqoo.net
-domain:yoqoo.tv
-domain:youku.org
-domain:youqoo.net
 domain:yuantiku.xyz
 domain:zebraenglish.biz
 domain:cdndns2.net
@@ -121324,8 +121326,6 @@ domain:iflyauto-solution.com
 domain:iflytekin.com
 domain:isay365.hk
 domain:isay365.org
-domain:71.am.com
-domain:iq.com
 domain:01hub.com
 domain:app.so
 domain:appsolution.cc
@@ -121344,7 +121344,7 @@ keyword:aliyun
 keyword:beplay
 keyword:officecdn
 keyword:bilibili
+keyword:qiyi
 keyword:hnagroup
 keyword:stripe
 keyword:weibo
-keyword:qiyi
