@@ -118311,6 +118311,7 @@ domain:akamai.com
 domain:alittle-tea.com
 domain:alphassl.com
 domain:analog.com
+anhuiyun.com
 domain:anruan.com
 domain:apimkt.net
 domain:aptdn.net
@@ -118828,6 +118829,7 @@ full:cn.download.nvidia.com
 full:communities.apple.com
 full:crl-lb.apple.com.akadns.net
 full:crls.pki.goog
+full:ctdsb.clouddiffuse.xyz
 full:cueme-api.quark.cn
 full:customization-cdn.dell.com
 full:dc1-cert.ksn.kaspersky-labs.com
@@ -119278,6 +119280,7 @@ domain:51ideal.com
 domain:ibmcampus.com
 domain:wuyoudagong.com
 domain:openaboc.com
+domain:acfun.tv
 domain:10029.com
 domain:17lai.org
 domain:aa5d.com
@@ -119881,10 +119884,14 @@ domain:yuyaoclub.com
 domain:yuyaotop.com
 domain:zgsjl8.com
 domain:zhanqu.tv
+domain:bilicdn4.com
+domain:bilicdn5.com
 domain:biliplus.com
 domain:corari.com
+domain:im9.com
 domain:sharejoytech.com
 domain:upos-hz-mirrorakam.akamaized.net
+domain:yo9.com
 domain:2333333333333.com
 domain:activitybyte.com
 domain:aigcarena.com
@@ -119954,8 +119961,6 @@ domain:xiaog.xyz
 domain:jianhangcaifu.com
 domain:yipai.info
 domain:ypjc.cloud
-domain:126.link
-domain:163industry.com
 domain:343480.com
 domain:356884.com
 domain:51ym.me
@@ -119965,7 +119970,6 @@ domain:95095.com
 domain:aaplimg.com
 domain:abercrombie.com
 domain:acctdns.com
-domain:acfun.tv
 domain:acm.org
 domain:acs.org
 domain:adobesc.com
@@ -119995,8 +119999,6 @@ domain:astm.org
 domain:awesome-hd.me
 domain:b612.net
 domain:baduziyuan.com
-domain:bilicdn4.com
-domain:bilicdn5.com
 domain:bjango.com
 domain:bmj.com
 domain:bocaviation.com
@@ -120117,7 +120119,6 @@ domain:icetorrent.org
 domain:icevirtuallibrary.com
 domain:ics.design
 domain:ieee.org
-domain:im9.com
 domain:images-amazon.com
 domain:imcapptest.com
 domain:imf.org
@@ -120287,7 +120288,6 @@ domain:westlaw.com
 domain:whatismyip.com
 domain:wiley.com
 domain:windowsupdate.microsoft.com
-domain:wjx.top
 domain:wkcdn.com
 domain:worldbank.org
 domain:worldscientific.com
@@ -120296,7 +120296,6 @@ domain:xiami.fm
 domain:xiaomiflash.com
 domain:xueyuanjun.com
 domain:yach.me
-domain:yo9.com
 domain:yowhale.com
 domain:zhangzishi.cc
 domain:zhuihd.com
@@ -120317,19 +120316,12 @@ domain:domesticmedia.tv
 domain:domesticmediagame.co
 domain:domesticmediagame.net
 domain:domesticmediapay.com
-domain:kumiao.tv
-domain:kuxiaomiao.net
 domain:noxagile.duapp.com
 domain:p-bstarstatic.akamaized.net
 domain:p.bstarstatic.com
 domain:s.zampdsp.com
 domain:upos-bstar-mirrorakam.akamaized.net
 domain:upos-bstar1-mirrorakam.akamaized.net
-domain:yodou.com
-domain:yoqoo.net
-domain:yoqoo.tv
-domain:youku.org
-domain:youqoo.net
 domain:01058511989.com
 domain:189qas.com
 domain:21cnimg.com
@@ -120370,7 +120362,6 @@ domain:domobnetwork.com
 domain:duomeng.net
 domain:duomeng.org
 domain:moxz.net
-domain:doyonoc.com
 domain:haitunzhibo.com
 domain:xingxuanwaimai.com
 domain:wisestcloud.com
@@ -121042,7 +121033,9 @@ domain:ngaa.top
 domain:sinogslb.com
 domain:speedin.shop
 domain:126.am
+domain:126.link
 domain:127cdn.com
+domain:163industry.com
 domain:163nasa.com
 domain:166dns.com
 domain:188cdn.com
@@ -121059,8 +121052,8 @@ domain:nbhuke.com
 domain:ntes53.net
 domain:ntescdn.com
 domain:playdisorder.com
-domain:yunxinsvip.com
 domain:yun-app.net
+domain:yunxinsvip.com
 domain:ibreeno.com
 domain:realme.net
 domain:realmeservice.com
@@ -121127,6 +121120,7 @@ domain:dh5a.com
 domain:dnse8.com
 domain:dnse8.net
 domain:dnsxv2.com
+domain:doyonoc.com
 domain:edgeonedl1.com
 domain:edgeonedl1.net
 domain:edgeonedy1.net
@@ -121251,6 +121245,7 @@ domain:wsoversea.com
 domain:wsoversea.net
 domain:wsoversea.org
 domain:wechatos.net
+domain:wjx.top
 domain:51lstt.com
 domain:51newsapp.com
 domain:newsapp01.com
@@ -121297,6 +121292,13 @@ domain:maozhuar.com
 domain:xuanyaodang.com
 domain:xuanyaodang.net
 domain:youmengchuangxiang.com
+domain:kumiao.tv
+domain:kuxiaomiao.net
+domain:yodou.com
+domain:yoqoo.net
+domain:yoqoo.tv
+domain:youku.org
+domain:youqoo.net
 domain:yuantiku.xyz
 domain:zebraenglish.biz
 domain:cdndns2.net

@@ -4667,6 +4667,7 @@ domain:rxhj.net
 domain:s-cute.com
 domain:s-dragon.org
 domain:s-nbcnews.com
+domain:s.rmimg.com
 domain:s.team
 domain:s1heng.com
 domain:s1s1s1.com
@@ -6355,6 +6356,7 @@ domain:xm.com
 domain:xml-training-guide.com
 domain:xmovies.com
 domain:xn--11xs86f.icu
+domain:xn--1jqvh729avzfcy2d8ummib.com
 domain:xn--4gq171p.com
 domain:xn--90wwvt03e.com
 domain:xn--9iqy04a7fi01l.com
