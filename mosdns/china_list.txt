@@ -118897,6 +118897,7 @@ full:init.gc-lb.apple.com.akadns.net
 full:init.gc.apple.com
 full:init.itunes.apple.com
 full:iosapps.itunes.apple.com
+full:izattime.qcomgeo2.com
 full:js-cdn.music.apple.com
 full:km.support.apple.com
 full:ksn-cinfo-geo.kaspersky-labs.com
@@ -119047,6 +119048,7 @@ full:www.entrust.cn
 full:www.recaptcha.net
 full:www.support.apple.com
 full:www4-static.gog-statics.com
+full:xtratime.qcomgeo2.com
 full:xz.pphimalayanrt.com
 regexp:.+\.awsdns-cn-[0-9][0-9]\.(biz|com|net|top)$
 regexp:.+\.awsdns-cn-[0-9][a-e0-9]\.cn$

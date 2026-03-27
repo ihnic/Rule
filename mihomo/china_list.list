@@ -118897,6 +118897,7 @@ DOMAIN,init.gc-lb.apple.com.akadns.net
 DOMAIN,init.gc.apple.com
 DOMAIN,init.itunes.apple.com
 DOMAIN,iosapps.itunes.apple.com
+DOMAIN,izattime.qcomgeo2.com
 DOMAIN,js-cdn.music.apple.com
 DOMAIN,km.support.apple.com
 DOMAIN,ksn-cinfo-geo.kaspersky-labs.com
@@ -119047,6 +119048,7 @@ DOMAIN,www.entrust.cn
 DOMAIN,www.recaptcha.net
 DOMAIN,www.support.apple.com
 DOMAIN,www4-static.gog-statics.com
+DOMAIN,xtratime.qcomgeo2.com
 DOMAIN,xz.pphimalayanrt.com
 DOMAIN-REGEX,.+\.awsdns-cn-[0-9][0-9]\.(biz|com|net|top)$
 DOMAIN-REGEX,.+\.awsdns-cn-[0-9][a-e0-9]\.cn$
