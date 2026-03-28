@@ -118311,7 +118311,7 @@ domain:akamai.com
 domain:alittle-tea.com
 domain:alphassl.com
 domain:analog.com
-anhuiyun.com
+domain:anhuiyun.com
 domain:anruan.com
 domain:apimkt.net
 domain:aptdn.net
@@ -119282,7 +119282,6 @@ domain:51ideal.com
 domain:ibmcampus.com
 domain:wuyoudagong.com
 domain:openaboc.com
-domain:acfun.tv
 domain:10029.com
 domain:17lai.org
 domain:aa5d.com
@@ -119886,14 +119885,10 @@ domain:yuyaoclub.com
 domain:yuyaotop.com
 domain:zgsjl8.com
 domain:zhanqu.tv
-domain:bilicdn4.com
-domain:bilicdn5.com
 domain:biliplus.com
 domain:corari.com
-domain:im9.com
 domain:sharejoytech.com
 domain:upos-hz-mirrorakam.akamaized.net
-domain:yo9.com
 domain:2333333333333.com
 domain:activitybyte.com
 domain:aigcarena.com
@@ -119963,6 +119958,8 @@ domain:xiaog.xyz
 domain:jianhangcaifu.com
 domain:yipai.info
 domain:ypjc.cloud
+domain:126.link
+domain:163industry.com
 domain:343480.com
 domain:356884.com
 domain:51ym.me
@@ -119972,6 +119969,7 @@ domain:95095.com
 domain:aaplimg.com
 domain:abercrombie.com
 domain:acctdns.com
+domain:acfun.tv
 domain:acm.org
 domain:acs.org
 domain:adobesc.com
@@ -120001,6 +119999,8 @@ domain:astm.org
 domain:awesome-hd.me
 domain:b612.net
 domain:baduziyuan.com
+domain:bilicdn4.com
+domain:bilicdn5.com
 domain:bjango.com
 domain:bmj.com
 domain:bocaviation.com
@@ -120021,8 +120021,6 @@ domain:cdnhwcick110.com
 domain:cdnhwczks109.com
 domain:chinamobileltd.com
 domain:chinatelecom-h.com
-domain:chinaunicom.com.hk
-domain:chinaunicomglobal.com
 domain:chua.pro
 domain:chunbo.com
 domain:chunboimg.com
@@ -120121,6 +120119,7 @@ domain:icetorrent.org
 domain:icevirtuallibrary.com
 domain:ics.design
 domain:ieee.org
+domain:im9.com
 domain:images-amazon.com
 domain:imcapptest.com
 domain:imf.org
@@ -120183,7 +120182,6 @@ domain:morethan.tv
 domain:mpg.de
 domain:ms
 domain:myanonamouse.net
-domain:mychinaunicom.com
 domain:myelasticsearch.com
 domain:myhwcloudlive.com
 domain:myilibrary.com
@@ -120290,6 +120288,7 @@ domain:westlaw.com
 domain:whatismyip.com
 domain:wiley.com
 domain:windowsupdate.microsoft.com
+domain:wjx.top
 domain:wkcdn.com
 domain:worldbank.org
 domain:worldscientific.com
@@ -120298,6 +120297,7 @@ domain:xiami.fm
 domain:xiaomiflash.com
 domain:xueyuanjun.com
 domain:yach.me
+domain:yo9.com
 domain:yowhale.com
 domain:zhangzishi.cc
 domain:zhuihd.com
@@ -120318,12 +120318,19 @@ domain:domesticmedia.tv
 domain:domesticmediagame.co
 domain:domesticmediagame.net
 domain:domesticmediapay.com
+domain:kumiao.tv
+domain:kuxiaomiao.net
 domain:noxagile.duapp.com
 domain:p-bstarstatic.akamaized.net
 domain:p.bstarstatic.com
 domain:s.zampdsp.com
 domain:upos-bstar-mirrorakam.akamaized.net
 domain:upos-bstar1-mirrorakam.akamaized.net
+domain:yodou.com
+domain:yoqoo.net
+domain:yoqoo.tv
+domain:youku.org
+domain:youqoo.net
 domain:01058511989.com
 domain:189qas.com
 domain:21cnimg.com
@@ -120343,6 +120350,9 @@ domain:ctzcdn.net
 domain:iwuyou189.com
 domain:wuyou189.com
 domain:10010.net
+domain:chinaunicom.com.hk
+domain:chinaunicomglobal.com
+domain:mychinaunicom.com
 domain:wo-link.tech
 domain:baotoo.com
 domain:maikr.com
@@ -121035,9 +121045,7 @@ domain:ngaa.top
 domain:sinogslb.com
 domain:speedin.shop
 domain:126.am
-domain:126.link
 domain:127cdn.com
-domain:163industry.com
 domain:163nasa.com
 domain:166dns.com
 domain:188cdn.com
@@ -121054,8 +121062,8 @@ domain:nbhuke.com
 domain:ntes53.net
 domain:ntescdn.com
 domain:playdisorder.com
-domain:yun-app.net
 domain:yunxinsvip.com
+domain:yun-app.net
 domain:ibreeno.com
 domain:realme.net
 domain:realmeservice.com
@@ -121247,7 +121255,6 @@ domain:wsoversea.com
 domain:wsoversea.net
 domain:wsoversea.org
 domain:wechatos.net
-domain:wjx.top
 domain:51lstt.com
 domain:51newsapp.com
 domain:newsapp01.com
@@ -121294,13 +121301,6 @@ domain:maozhuar.com
 domain:xuanyaodang.com
 domain:xuanyaodang.net
 domain:youmengchuangxiang.com
-domain:kumiao.tv
-domain:kuxiaomiao.net
-domain:yodou.com
-domain:yoqoo.net
-domain:yoqoo.tv
-domain:youku.org
-domain:youqoo.net
 domain:yuantiku.xyz
 domain:zebraenglish.biz
 domain:cdndns2.net
