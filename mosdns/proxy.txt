@@ -4096,6 +4096,7 @@ domain:orn.jp
 domain:orzistic.org
 domain:osfoora.com
 domain:osha.gov
+domain:osmand.net
 domain:osxdaily.com
 domain:otcbtc.com
 domain:otnd.org
