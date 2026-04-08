@@ -408,6 +408,7 @@ domain:appspot.com
 domain:appsto.re
 domain:aptoide.com
 domain:arcgis.com
+domain:archive-it.org
 domain:archive.fo
 domain:archive.is
 domain:archive.li
@@ -1464,6 +1465,7 @@ domain:dmm.co.jp
 domain:dmm.com
 domain:dns-dns.com
 domain:dns-stuff.com
+domain:dns.sb
 domain:dns04.com
 domain:dns05.com
 domain:dns1.us
@@ -1483,6 +1485,7 @@ domain:docs.new
 domain:doctorvoice.org
 domain:documentingreality.com
 domain:dogfartnetwork.com
+domain:doh.sb
 domain:dojin.com
 domain:dok-forum.net
 domain:dolc.de
@@ -1500,6 +1503,7 @@ domain:doom9.org
 domain:doosho.com
 domain:doourbest.org
 domain:dorjeshugden.com
+domain:dot.sb
 domain:dotgov.gov
 domain:dotplane.com
 domain:dotsub.com
