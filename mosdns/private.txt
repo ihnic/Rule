@@ -1,5 +1,6 @@
 full:asusrouter.com
 full:instant.arubanetworks.com
+full:local.adguard.org
 full:oasisauth.h3c.com
 full:router.asus.com
 full:setmeup.arubanetworks.com
@@ -102,6 +103,7 @@ domain:b.e.f.ip6.arpa
 domain:d.f.ip6.arpa
 domain:hiwifi.com
 domain:home.arpa
+domain:kis.v2.scr.kaspersky-labs.com
 domain:leike.cc
 domain:localhost.ptlogin2.qq.com
 domain:localhost.sec.qq.com
