@@ -11762,6 +11762,7 @@ domain:ailuntan.com
 domain:ailvxing.com
 domain:aim-ec.com
 domain:aimaker.space
+aimap.com
 domain:aimatech.com
 domain:aimatrix.ai
 domain:aimcx.com
@@ -17421,6 +17422,7 @@ domain:bjfpw.com
 domain:bjfqy.com
 domain:bjfriendshiphotel.com
 domain:bjfsali.com
+bjftfy.com
 domain:bjfzst.com
 domain:bjgas.com
 domain:bjgasgh.com
@@ -21320,6 +21322,7 @@ domain:cetcssi.com
 domain:cetgps.com
 domain:cethik.com
 domain:cetkmh.com
+cetsteam.com
 domain:cetzig.com
 domain:ceultimate.com
 domain:ceve-market.org
@@ -34993,6 +34996,7 @@ domain:evotrue.com
 domain:evpartner.com
 domain:evpowergroup.com
 domain:evtcn.com
+evtrust.com
 evyy.net
 domain:evzhidao.com
 domain:evznl.org
@@ -36945,6 +36949,7 @@ domain:fjzzct.com
 domain:fk100.com
 domain:fkask.net
 domain:fkblog.org
+fkbuff.com
 domain:fkcaijing.com
 domain:fkdex.com
 domain:fkdmg.com
@@ -48031,6 +48036,7 @@ domain:hivi.com
 domain:hivictor.net
 domain:hiwafer.com
 domain:hiwaysemi.com
+hiwayslaw.com
 domain:hiwbb.com
 domain:hiwechats.com
 domain:hiweixiu.com
@@ -59752,6 +59758,7 @@ domain:jxxdf.com
 domain:jxxdxy.com
 domain:jxxhdn.com
 domain:jxxhsd.com
+jxxinzhe.com
 domain:jxxnyqc.com
 domain:jxxs.net
 domain:jxycqy.com
@@ -92844,6 +92851,7 @@ domain:tencentcloudbase.net
 domain:tencentcloudclub.com
 domain:tencentcloudcore.com
 domain:tencentcloudcr.com
+tencentcloudcs.com
 domain:tencentcloudga.com
 domain:tencentcloudga001.com
 domain:tencentcloudga001.net
@@ -118563,6 +118571,7 @@ domain:gameitop.com
 domain:gameloop.com
 domain:gamepp.com
 domain:gamewower.com
+gangwan.com
 domain:ggoplay.com
 domain:ggowan.com
 globalsign.com
@@ -118658,6 +118667,7 @@ domain:lazyer.net
 domain:lbtp.com
 domain:leanote.com
 domain:lecloudapi.com
+leigodjsq.com
 domain:lenovo.com
 domain:lenovo.com.cdn.cloudflare.net
 domain:lenovo.net
@@ -118701,6 +118711,7 @@ domain:muzhiwan.com
 domain:mwcdns.com
 domain:myshow360.net
 domain:netzz.net
+nnbooster.com
 o365cn.com
 domain:oemssl.cn.cdn.cloudflare.net
 domain:oncdp.com
@@ -118798,6 +118809,7 @@ domain:vanclimg.com
 domain:veryhuo.com
 domain:viayoo.com
 domain:vrzwk.net
+waifushangcheng.com
 domain:wannianqingjianzhan.com
 domain:wanplus.com
 domain:wanyx.com
