@@ -23,6 +23,7 @@ DOMAIN-SUFFIX,ab.chatgpt.com
 DOMAIN-KEYWORD,anthropic
 PROCESS-NAME,Claude
 PROCESS-NAME,Claude Helper
+PROCESS-NAME,Claude Helper (Renderer)
 DOMAIN-KEYWORD,claude
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
