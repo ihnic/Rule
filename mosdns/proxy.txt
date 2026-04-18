@@ -487,6 +487,7 @@ domain:avfantasy.com
 domain:avg.com
 domain:avgle.com
 domain:avidemux.org
+domain:avistaz.to
 domain:avmo.pw
 domain:avmoo.com
 domain:avmoo.net
