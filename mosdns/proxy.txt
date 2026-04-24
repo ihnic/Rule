@@ -395,6 +395,7 @@ domain:apkpure.com
 domain:apkpure.net
 domain:aplusvpn.com
 domain:app-measurement.net
+domain:app.element.io
 domain:app.heywire.com
 domain:app.tutanota.com
 domain:appadvice.com
@@ -449,6 +450,7 @@ domain:asiansexdiary.com
 domain:asianspiss.com
 domain:asianwomensfilm.de
 domain:asiaone.com
+domain:asiasociety.org
 domain:asiatgp.com
 domain:asiatoday.us
 domain:ask.com
@@ -594,6 +596,7 @@ domain:beijingspring.com
 domain:beijingzx.org
 domain:belamionline.com
 domain:bell.wiki
+domain:bellingcat.com
 domain:bemywife.cc
 domain:beric.me
 domain:berlinerbericht.de
@@ -3180,6 +3183,7 @@ domain:lamayeshe.com
 domain:lamnia.co.uk
 domain:lamrim.com
 domain:landofhope.tv
+domain:lantern.io
 domain:lantosfoundation.org
 domain:laogai.org
 domain:laogairesearch.org
@@ -4546,6 +4550,7 @@ domain:raremovie.net
 domain:rateyourmusic.com
 domain:rationalwiki.org
 domain:rawgit.com
+domain:rawstory.com
 domain:razyboard.com
 domain:rcinet.ca
 domain:rd.com
@@ -4564,6 +4569,7 @@ domain:realsexpass.com
 domain:reason.com
 domain:rebatesrule.net
 domain:recaptcha.net
+domain:recordedfuture.com
 domain:recordhistory.org
 domain:recovery.org.tw
 domain:recoveryversion.com.tw
@@ -4627,6 +4633,7 @@ domain:rmbl.ws
 domain:rmjdw.com
 domain:rmjdw132.info
 domain:roadshow.hk
+domain:roblox.com
 domain:roboforex.com
 domain:robustnessiskey.com
 domain:rocket-inc.net
@@ -5366,6 +5373,7 @@ domain:thevivekspot.com
 domain:thewgo.org
 domain:thewirechina.com
 domain:theync.com
+domain:thinkchina.sg
 domain:thinkgeek.com
 domain:thinkingtaiwan.com
 domain:thirdmill.org
