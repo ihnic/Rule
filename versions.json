@@ -1,1 +1,10 @@
-
+{
+    "tracker": "7b71fbd74b3ed8f26e06a605768d14c5",
+    "custom_proxy": "140bb2d0723444cc0fd94ecdabfcca17",
+    "custom_direct": "271fbe953460ff1ca5a807a2fce97aca",
+    "tailscale-derp": "aa93b63b033ff36f126fd49afbf57af3",
+    "Google": "ea45ffc1003a2035fb1a2a48bef94484",
+    "Telegram": "ca4e251ff6a33d0afecd78c9e9599305",
+    "BiliBili": "4e392bcb5ee46ab7b226a8179bdc0209",
+    "YouTube": "f5069fc8295eea46543fd60815ba3426"
+}
