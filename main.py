@@ -14,7 +14,7 @@ OUTPUT_DIRS = {
     "surge": ["surge"],
     "mosdns": ["mosdns"]
 }
-MIHOMO_BIN = "./mihomo"
+MIHOMO_BIN = "./mihomo-core"
 
 def get_hash(text):
     return hashlib.md5(text.encode('utf-8')).hexdigest()
