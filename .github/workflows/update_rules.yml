@@ -1,42 +1,69 @@
 name: 自动更新规则流水线
 
 on:
+  # 触发条件 1：手动修改 custom 目录或 rules.txt 时触发
   push:
     paths:
       - 'custom/**'
       - 'rules.txt'
       - 'main.py'
+      - 'mihomo-core'
+  # 触发条件 2：每天北京时间凌晨 03:00 自动执行 (19:00 UTC)
   schedule:
-    - cron: '0 19 * * *' # 国际标准时 19:00，即北京时间凌晨 03:00
-  workflow_dispatch: # 支持手动点击运行
+    - cron: '0 19 * * *'
+  # 触发条件 3：支持在 GitHub 页面上手动点击 "Run workflow" 运行
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    
+    # 给予 Actions 写入权限，否则 push 会失败
+    permissions:
+      contents: write
+
     steps:
-      - name: 检出代码
+      - name: 1. 检出仓库代码
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0 # 获取完整历史，方便 git 对比
 
-      - name: 设置 Python
+      - name: 2. 设置 Python 环境
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      - name: 安装依赖
+      - name: 3. 安装必要依赖
         run: pip install requests
 
-      - name: 设置 Mihomo 执行权限
-        run: chmod +x ./mihomo-core # 假设你上传的二进制文件名为 mihomo
+      - name: 4. 赋予内核执行权限
+        # 这一步非常关键，否则 main.py 无法调用内核进行转换
+        run: |
+          if [ -f "./mihomo-core" ]; then
+            chmod +x ./mihomo-core
+            echo "✅ 已成功赋予 mihomo-core 执行权限"
+          else
+            echo "❌ 错误：根目录下未找到 mihomo-core 文件"
+            exit 1
+          fi
 
-      - name: 执行转换脚本
+      - name: 5. 运行 Python 转换脚本
+        # 运行后会生成 mihomo/ surge/ mosdns/ 目录以及 README.md
         run: python main.py
 
-      - name: 提交并推送更改
+      - name: 6. 提交并推送更改
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+          
+          # 检查是否有文件变动
           git add .
-          git diff-index --quiet HEAD || git commit -m "自动更新规则: $(date +'%Y-%m-%d %H:%M')"
-          git push
+          
+          # 如果没有变化（git diff-index --quiet），则跳过 commit
+          if git diff-index --quiet HEAD; then
+            echo "✨ 没有任何规则变动，跳过推送。"
+          else
+            git commit -m "🚀 自动更新规则: $(date +'%Y-%m-%d %H:%M')"
+            git push
+            echo "✅ 规则与 README 已同步到仓库根目录。"
+          fi
