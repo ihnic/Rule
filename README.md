@@ -1,7 +1,5 @@
 # 📂 规则集索引
 
-> 自动化同步流水线，北京时间每天 03:00 更新。
-
 ## 🛠 MRS 格式 (Mihomo)
 | 规则名 | 类型 | 文件名 | 相对路径 |
 | :--- | :--- | :--- | :--- |
@@ -41,6 +39,3 @@
 | custom_proxy | custom_proxy.txt | `./mosdns/custom_proxy.txt` |
 | tailscale-derp | tailscale-derp.txt | `./mosdns/tailscale-derp.txt` |
 | tracker | tracker.txt | `./mosdns/tracker.txt` |
-
-
-> 最后更新: Sat Apr 25 04:33:29 UTC 2026
