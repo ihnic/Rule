@@ -28,7 +28,7 @@ jobs:
         run: pip install requests
 
       - name: 设置 Mihomo 执行权限
-        run: chmod +x ./mihomo # 假设你上传的二进制文件名为 mihomo
+        run: chmod +x ./mihomo-core # 假设你上传的二进制文件名为 mihomo
 
       - name: 执行转换脚本
         run: python main.py
