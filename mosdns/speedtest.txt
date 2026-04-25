@@ -1,5 +1,0 @@
-domain:fast.com
-domain:ooklaserver.net
-domain:speed.cloudflare.com
-domain:speed.dler.io
-keyword:speedtest

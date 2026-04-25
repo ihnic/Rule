@@ -1,9 +1,0 @@
-domain:bing.com
-domain:bing.com.cn
-domain:bing.net
-domain:bingads.com
-domain:bingagencyawards.com
-domain:bingapistatistics.com
-domain:bingsandbox.com
-domain:bingvisualsearch.com
-domain:bingworld.com
