@@ -27,84 +27,90 @@ def save_versions(versions):
         json.dump(versions, f, indent=4, ensure_ascii=False)
 
 def setup_dirs():
-    if [ -f "mihomo" ]; then rm -f mihomo; fi # 防止同名文件冲突
+    # 修复：使用 Python 语法删除同名文件冲突
+    if os.path.isfile("mihomo"):
+        try:
+            os.remove("mihomo")
+        except: pass
     for d in DIRS:
         os.makedirs(d, exist_ok=True)
 
 def parse_rules(content):
-    """
-    精准解析逻辑：
-    res['domain'] 存纯域名 (对应 DOMAIN-SUFFIX)
-    res['full'] 存纯域名 (对应 DOMAIN)
-    res['ip'] 存 IP 段
-    res['classical'] 存 进程名/关键字等
-    """
+    """精准解析逻辑：彻底解决前缀重复和逗号残留问题"""
     res = {"domain": [], "full": [], "ip": [], "classical": []}
     for line in content.splitlines():
         line = line.strip()
         if not line or line.startswith(('#', '//', 'payload:')): continue
         
-        # 统一去掉横杠前缀
-        parts = re.sub(r'^-\s*', '', line).split(',')
+        # 处理可能带 - 前缀的行
+        raw_line = re.sub(r'^-\s*', '', line)
+        parts = raw_line.split(',')
         tag = parts[0].strip().upper()
         
-        # 1. 域名后缀匹配 (DOMAIN-SUFFIX)
-        if tag == 'DOMAIN-SUFFIX':
-            res["domain"].append(parts[1].strip())
-        # 2. 域名完全匹配 (DOMAIN)
-        elif tag == 'DOMAIN':
-            res["full"].append(parts[1].strip())
-        # 3. IP 匹配 (IP-CIDR / IP-CIDR6)
-        elif tag in ['IP-CIDR', 'IP-CIDR6']:
-            res["ip"].append(parts[1].strip())
-        # 4. 进程名匹配 (PROCESS-NAME)
-        elif tag == 'PROCESS-NAME':
-            res["classical"].append(f"PROCESS-NAME,{parts[1].strip()}")
-        # 5. 关键字匹配 (DOMAIN-KEYWORD)
-        elif tag == 'DOMAIN-KEYWORD':
-            res["classical"].append(f"DOMAIN-KEYWORD,{parts[1].strip()}")
-        # 6. 处理原本就是 Mihomo 格式的简写
-        elif line.startswith('+.'):
-            res["domain"].append(line.replace('+.','').strip())
-        else:
-            # 无法识别的暂时归入 classical
-            res["classical"].append(line)
+        try:
+            # 1. 域名后缀匹配 (DOMAIN-SUFFIX)
+            if tag == 'DOMAIN-SUFFIX':
+                res["domain"].append(parts[1].strip())
+            # 2. 域名完全匹配 (DOMAIN)
+            elif tag == 'DOMAIN':
+                res["full"].append(parts[1].strip())
+            # 3. IP 匹配 (IP-CIDR / IP-CIDR6)
+            elif tag in ['IP-CIDR', 'IP-CIDR6']:
+                res["ip"].append(parts[1].strip())
+            # 4. 进程名匹配 (PROCESS-NAME)
+            elif tag == 'PROCESS-NAME':
+                res["classical"].append(f"PROCESS-NAME,{parts[1].strip()}")
+            # 5. 关键字匹配 (DOMAIN-KEYWORD)
+            elif tag == 'DOMAIN-KEYWORD':
+                res["classical"].append(f"DOMAIN-KEYWORD,{parts[1].strip()}")
+            # 6. 处理 Mihomo 特有简写
+            elif raw_line.startswith('+.'):
+                res["domain"].append(raw_line.replace('+.','').strip())
+            # 7. 处理纯域名（默认为 FULL）
+            elif len(parts) == 1 and '.' in raw_line and not raw_line.startswith('+'):
+                res["full"].append(raw_line)
+        except IndexError:
+            continue
     return res
 
 def write_outputs(name, data):
-    # --- 1. Surge 导出 ---
+    """分发到不同平台的文件夹"""
+    # 1. Surge 导出 (.list)
     with open(f"surge/{name}.list", 'w', encoding='utf-8') as f:
         for d in data["full"]: f.write(f"DOMAIN,{d}\n")
         for d in data["domain"]: f.write(f"DOMAIN-SUFFIX,{d}\n")
         for ip in data["ip"]: f.write(f"IP-CIDR,{ip},no-resolve\n")
         for cls in data["classical"]: f.write(f"{cls}\n")
 
-    # --- 2. MosDNS 导出 ---
+    # 2. MosDNS 导出 (.txt)
     with open(f"mosdns/{name}.txt", 'w', encoding='utf-8') as f:
         for d in data["full"]: f.write(f"full:{d}\n")
         for d in data["domain"]: f.write(f"domain:{d}\n")
-        # MosDNS 通常不放 IP 和进程名
+        # 针对 MosDNS 提取 keyword
+        for cls in data["classical"]:
+            if cls.startswith("DOMAIN-KEYWORD"):
+                f.write(f"keyword:{cls.split(',')[1]}\n")
 
-    # --- 3. Mihomo 导出 ---
-    # Domain 文件夹 (MRS)
+    # 3. Mihomo 导出与编译
+    # Domain (MRS)
     if data["domain"] or data["full"]:
         txt_path = f"mihomo/domain/{name}.list"
         with open(txt_path, 'w', encoding='utf-8') as f:
             for d in data["full"]: f.write(f"{d}\n")
             for d in data["domain"]: f.write(f"+.{d}\n")
-        subprocess.run([MIHOMO_BIN, "convert-ruleset", "domain", "text", txt_path, txt_path.replace(".list", ".mrs")])
+        subprocess.run([MIHOMO_BIN, "convert-ruleset", "domain", "text", txt_path, txt_path.replace(".list", ".mrs")], capture_output=True)
 
-    # IP 文件夹 (MRS)
+    # IP (MRS)
     if data["ip"]:
         txt_path = f"mihomo/ip/{name}.list"
         with open(txt_path, 'w', encoding='utf-8') as f:
             for ip in data["ip"]: f.write(f"{ip}\n")
-        subprocess.run([MIHOMO_BIN, "convert-ruleset", "ipcidr", "text", txt_path, txt_path.replace(".list", ".mrs")])
+        subprocess.run([MIHOMO_BIN, "convert-ruleset", "ipcidr", "text", txt_path, txt_path.replace(".list", ".mrs")], capture_output=True)
 
-    # Classical 文件夹 (Text)
+    # Classical (Text)
     if data["classical"]:
         with open(f"mihomo/classical/{name}.list", 'w', encoding='utf-8') as f:
-            for cls in data["classical"]: f.write(f"{cls}\n")
+            f.write("\n".join(data["classical"]))
 
 def generate_readme():
     readme_path = "README.md"
@@ -114,24 +120,23 @@ def generate_readme():
         return n
 
     sections = {"mrs": [], "surge": [], "mosdns": []}
-    # 扫描 MRS
     for cat in ['domain', 'ip']:
         p = f"mihomo/{cat}"
         if os.path.exists(p):
             for f in os.listdir(p):
                 if f.endswith(".mrs"):
                     sections["mrs"].append({"n": clean_name(f), "t": cat, "f": f, "p": f"./mihomo/{cat}/{f}"})
-    # 扫描 Surge
     if os.path.exists("surge"):
         for f in os.listdir("surge"):
-            sections["surge"].append({"n": clean_name(f), "f": f, "p": f"./surge/{f}"})
-    # 扫描 MosDNS
+            if f.endswith(".list"):
+                sections["surge"].append({"n": clean_name(f), "f": f, "p": f"./surge/{f}"})
     if os.path.exists("mosdns"):
         for f in os.listdir("mosdns"):
-            sections["mosdns"].append({"n": clean_name(f), "f": f, "p": f"./mosdns/{f}"})
+            if f.endswith(".txt"):
+                sections["mosdns"].append({"n": clean_name(f), "f": f, "p": f"./mosdns/{f}"})
 
     with open(readme_path, 'w', encoding='utf-8') as f:
-        f.write("# 📂 规则集索引\n\n## 🛠 MRS 格式\n| 规则名 | 类型 | 文件名 | 相对路径 |\n| :--- | :--- | :--- | :--- |\n")
+        f.write("# 📂 规则集索引\n\n## 🛠 MRS 格式 (Mihomo)\n| 规则名 | 类型 | 文件名 | 相对路径 |\n| :--- | :--- | :--- | :--- |\n")
         for i in sorted(sections["mrs"], key=lambda x: (x['n'], x['t'])):
             f.write(f"| {i['n']} | {i['t']} | {i['f']} | `{i['p']}` |\n")
         f.write("\n## 🛠 Surge 格式\n| 规则名 | 文件名 | 相对路径 |\n| :--- | :--- | :--- |\n")
@@ -160,8 +165,8 @@ def main():
     # 2. 处理 Rules.txt
     if os.path.exists(RULES_FILE):
         with open(RULES_FILE, 'r', encoding='utf-8') as f:
-            for url in f:
-                url = url.strip()
+            for line in f:
+                url = line.strip()
                 if not url or url.startswith("#"): continue
                 name = url.split('/')[-1].replace('.list','').replace('.txt','')
                 try:
@@ -171,7 +176,9 @@ def main():
                     if versions.get(name) != h:
                         print(f"🔄 更新: {name}")
                         write_outputs(name, parse_rules(r.text))
-                except: print(f"❌ 失败: {url}")
+                    else:
+                        new_versions[name] = h
+                except: pass
 
     save_versions(new_versions)
     generate_readme()
