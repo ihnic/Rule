@@ -6,10 +6,16 @@ on:
       - 'custom/**'
       - 'rules.txt'
       - 'main.py'
-      - 'mihomo-core'
   schedule:
-    - cron: '0 19 * * *' # UTC 19:00 = 北京时间 03:00
+    - cron: '0 19 * * *'
   workflow_dispatch:
+    # --- 关键：手动触发时可选是否强制更新 ---
+    inputs:
+      force_update:
+        description: '是否强制重写所有规则文件'
+        required: false
+        default: 'false'
+        type: boolean
 
 jobs:
   build:
@@ -28,10 +34,12 @@ jobs:
       - name: 权限与环境检查
         run: |
           chmod +x ./mihomo-core
-          # 检查是否存在同名冲突文件
           if [ -f "mihomo" ]; then rm -f mihomo; fi 
 
       - name: 执行转换
+        # 将 GitHub 的输入参数传递给 Python 环境变量
+        env:
+          FORCE_UPDATE: ${{ github.event.inputs.force_update }}
         run: python main.py
 
       - name: 推送更改
