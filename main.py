@@ -4,6 +4,7 @@ import os
 import subprocess
 import hashlib
 import json
+import shutil
 
 # --- 配置区 ---
 RULES_FILE = "rules.txt"
@@ -16,7 +17,7 @@ DIRS = ["mihomo/domain", "mihomo/ip", "mihomo/classical", "surge", "mosdns"]
 FORCE_REWRITE = os.getenv("FORCE_UPDATE") == "true"
 
 def get_raw_url(url):
-    """确保 GitHub 链接指向原始数据"""
+    """自动将 GitHub 网页链接转换为 Raw 原始数据链接"""
     if "github.com" in url and "/blob/" in url:
         return url.replace("github.com", "raw.githubusercontent.com").replace("/blob/", "/")
     return url
@@ -25,7 +26,7 @@ def get_hash(text):
     return hashlib.md5(text.encode('utf-8')).hexdigest()
 
 def load_versions():
-    if FORCE_REWRITE: return {} # 如果开启强制更新，视为空记录
+    if FORCE_REWRITE: return {} # 强制更新模式下不读取旧缓存
     if os.path.exists(VERSION_FILE):
         try:
             with open(VERSION_FILE, 'r') as f: return json.load(f)
@@ -37,20 +38,29 @@ def save_versions(versions):
         json.dump(versions, f, indent=4, ensure_ascii=False)
 
 def setup_dirs():
+    # 彻底解决文件/文件夹同名冲突
     if os.path.isfile("mihomo"):
         try: os.remove("mihomo")
         except: pass
+
+    # 强制清理：如果开启强制重写，直接物理删除输出目录
+    if FORCE_REWRITE:
+        print("🗑️ [强制模式] 正在物理清空旧规则目录，确保无残留文件...")
+        for d in ["mihomo", "surge", "mosdns"]:
+            if os.path.exists(d):
+                shutil.rmtree(d)
+
+    # 重新创建目录
     for d in DIRS:
         os.makedirs(d, exist_ok=True)
 
 def parse_rules(content):
-    """原子化解析：支持 DOMAIN, DOMAIN-SUFFIX, IP-CIDR, PROCESS-NAME"""
-    res = {"domain": [], "full": [], "ip": [], "classical": []}
-    
-    # 彻底拦截 HTML，防止报错
-    if "<!DOCTYPE html>" in content or "<html" in content:
+    """原子化解析引擎"""
+    if not content or "<!DOCTYPE html>" in content or "<html" in content:
+        print("⚠️ 忽略非规则内容 (可能是 HTML 网页)")
         return None
-
+        
+    res = {"domain": [], "full": [], "ip": [], "classical": []}
     for line in content.splitlines():
         line = line.strip()
         if not line or line.startswith(('#', '//', 'payload:')): continue
@@ -65,7 +75,6 @@ def parse_rules(content):
             elif tag == 'DOMAIN':
                 res["full"].append(parts[1])
             elif tag in ['IP-CIDR', 'IP-CIDR6']:
-                # 只拿 IP 段，去掉多余的 no-resolve 参数
                 res["ip"].append(parts[1])
             elif tag in ['PROCESS-NAME', 'DOMAIN-KEYWORD']:
                 res["classical"].append(f"{tag},{parts[1]}")
@@ -78,21 +87,22 @@ def parse_rules(content):
     return res
 
 def write_outputs(name, data):
+    """多平台同步输出"""
     if not data: return
 
-    # 1. Surge (完整前缀)
+    # 1. Surge
     with open(f"surge/{name}.list", 'w', encoding='utf-8') as f:
         for d in data["full"]: f.write(f"DOMAIN,{d}\n")
         for d in data["domain"]: f.write(f"DOMAIN-SUFFIX,{d}\n")
         for ip in data["ip"]: f.write(f"IP-CIDR,{ip},no-resolve\n")
         for cls in data["classical"]: f.write(f"{cls}\n")
 
-    # 2. MosDNS (域名前缀)
+    # 2. MosDNS
     with open(f"mosdns/{name}.txt", 'w', encoding='utf-8') as f:
         for d in data["full"]: f.write(f"full:{d}\n")
         for d in data["domain"]: f.write(f"domain:{d}\n")
         for cls in data["classical"]:
-            if "DOMAIN-KEYWORD" in cls:
+            if cls.startswith("DOMAIN-KEYWORD"):
                 f.write(f"keyword:{cls.split(',')[1]}\n")
 
     # 3. Mihomo
@@ -114,9 +124,12 @@ def write_outputs(name, data):
             f.write("\n".join(data["classical"]))
 
 def generate_readme():
-    """全自动扫描输出目录并生成索引"""
+    """生成包含所有平台的索引 README"""
     readme_path = "README.md"
-    def clean(f): return re.sub(r'_(domain|ip|classical)?\.(list|mrs|txt)$', '', f, flags=re.IGNORECASE)
+    def clean_name(f):
+        n = re.sub(r'\.(list|mrs|txt)$', '', f, flags=re.IGNORECASE)
+        n = re.sub(r'_(domain|ip|classical)$', '', n, flags=re.IGNORECASE)
+        return n
 
     res = {"mrs": [], "surge": [], "mosdns": []}
     for cat in ['domain', 'ip']:
@@ -124,59 +137,66 @@ def generate_readme():
         if os.path.exists(p):
             for f in sorted(os.listdir(p)):
                 if f.endswith(".mrs"):
-                    res["mrs"].append({"n": clean(f), "t": cat, "f": f, "p": f"./mihomo/{cat}/{f}"})
+                    res["mrs"].append({"n": clean_name(f), "t": cat, "f": f, "p": f"./mihomo/{cat}/{f}"})
     if os.path.exists("surge"):
         for f in sorted(os.listdir("surge")):
             if f.endswith(".list"):
-                res["surge"].append({"n": clean(f), "f": f, "p": f"./surge/{f}"})
+                res["surge"].append({"n": clean_name(f), "f": f, "p": f"./surge/{f}"})
     if os.path.exists("mosdns"):
         for f in sorted(os.listdir("mosdns")):
             if f.endswith(".txt"):
-                res["mosdns"].append({"n": clean(f), "f": f, "p": f"./mosdns/{f}"})
+                res["mosdns"].append({"n": clean_name(f), "f": f, "p": f"./mosdns/{f}"})
 
     with open(readme_path, 'w', encoding='utf-8') as f:
-        f.write("# 📂 规则集索引\n\n## 🛠 MRS 格式 (Mihomo)\n| 规则名 | 类型 | 文件名 | 相对路径 |\n| :--- | :--- | :--- | :--- |\n")
+        f.write("# 📂 规则集索引\n\n> 自动化同步工厂，北京时间凌晨 03:00 更新。\n\n")
+        f.write("## 🛠 MRS 格式 (Mihomo)\n| 规则名 | 类型 | 文件名 | 相对路径 |\n| :--- | :--- | :--- | :--- |\n")
         for i in res["mrs"]: f.write(f"| {i['n']} | {i['t']} | {i['f']} | `{i['p']}` |\n")
         f.write("\n## 🛠 Surge 格式\n| 规则名 | 文件名 | 相对路径 |\n| :--- | :--- | :--- |\n")
         for i in res["surge"]: f.write(f"| {i['n']} | {i['f']} | `{i['p']}` |\n")
         f.write("\n## 🛠 MosDNS 格式\n| 规则名 | 文件名 | 相对路径 |\n| :--- | :--- | :--- |\n")
         for i in res["mosdns"]: f.write(f"| {i['n']} | {i['f']} | `{i['p']}` |\n")
+        f.write(f"\n\n> 最后更新: {subprocess.getoutput('date')}")
 
 def main():
     setup_dirs()
     versions = load_versions()
     new_versions = {}
 
-    # 1. Custom
+    # 1. 处理 Custom
     if os.path.exists(CUSTOM_DIR):
         for f in os.listdir(CUSTOM_DIR):
             if f.endswith(".txt"):
-                name = f.replace(".txt", "")
+                # 将文件名中的 @ 转换为 -
+                name = f.replace(".txt", "").replace("@", "-")
                 with open(os.path.join(CUSTOM_DIR, f), 'r', encoding='utf-8') as file:
                     content = file.read()
                     h = get_hash(content)
                     new_versions[name] = h
-                    # 只有 Hash 变化或强制重写才执行
                     if versions.get(name) != h or FORCE_REWRITE:
                         write_outputs(name, parse_rules(content))
 
-    # 2. Rules.txt
+    # 2. 处理 Rules.txt
     if os.path.exists(RULES_FILE):
         with open(RULES_FILE, 'r', encoding='utf-8') as f:
             for line in f:
                 url = line.strip()
                 if not url or url.startswith("#"): continue
+                
                 raw_url = get_raw_url(url)
-                name = url.split('/')[-1].replace('.list','').replace('.txt','').split('@')[0]
+                # 精准提取名称并转换 @ 为 -
+                name = url.split('/')[-1].replace('.list','').replace('.txt','').replace('@', '-')
+                
                 try:
                     r = requests.get(raw_url, timeout=15)
                     h = get_hash(r.text)
                     new_versions[name] = h
                     if versions.get(name) != h or FORCE_REWRITE:
-                        print(f"🔄 处理: {name}")
+                        print(f"🔄 正在转换: {name}")
                         data = parse_rules(r.text)
                         if data: write_outputs(name, data)
-                except: pass
+                except:
+                    print(f"❌ 无法下载: {name}")
+                    if name in versions: new_versions[name] = versions[name]
 
     save_versions(new_versions)
     generate_readme()
