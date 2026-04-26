@@ -12,8 +12,6 @@
 | Telegram | domain | Telegram.mrs | `./mihomo/domain/Telegram.mrs` |
 | YouTube | domain | YouTube.mrs | `./mihomo/domain/YouTube.mrs` |
 | category-speedtest-cn | domain | category-speedtest-cn.mrs | `./mihomo/domain/category-speedtest-cn.mrs` |
-| category-speedtest | domain | category-speedtest.mrs | `./mihomo/domain/category-speedtest.mrs` |
-| category-speedtest@cn | domain | category-speedtest@cn.mrs | `./mihomo/domain/category-speedtest@cn.mrs` |
 | custom_direct | domain | custom_direct.mrs | `./mihomo/domain/custom_direct.mrs` |
 | custom_proxy | domain | custom_proxy.mrs | `./mihomo/domain/custom_proxy.mrs` |
 | tailscale-derp | domain | tailscale-derp.mrs | `./mihomo/domain/tailscale-derp.mrs` |
@@ -34,8 +32,6 @@
 | Telegram | Telegram.list | `./surge/Telegram.list` |
 | YouTube | YouTube.list | `./surge/YouTube.list` |
 | category-speedtest-cn | category-speedtest-cn.list | `./surge/category-speedtest-cn.list` |
-| category-speedtest | category-speedtest.list | `./surge/category-speedtest.list` |
-| category-speedtest@cn | category-speedtest@cn.list | `./surge/category-speedtest@cn.list` |
 | custom_direct | custom_direct.list | `./surge/custom_direct.list` |
 | custom_proxy | custom_proxy.list | `./surge/custom_proxy.list` |
 | tailscale-derp | tailscale-derp.list | `./surge/tailscale-derp.list` |
@@ -51,11 +47,10 @@
 | Telegram | Telegram.txt | `./mosdns/Telegram.txt` |
 | YouTube | YouTube.txt | `./mosdns/YouTube.txt` |
 | category-speedtest-cn | category-speedtest-cn.txt | `./mosdns/category-speedtest-cn.txt` |
-| category-speedtest | category-speedtest.txt | `./mosdns/category-speedtest.txt` |
 | custom_direct | custom_direct.txt | `./mosdns/custom_direct.txt` |
 | custom_proxy | custom_proxy.txt | `./mosdns/custom_proxy.txt` |
 | tailscale-derp | tailscale-derp.txt | `./mosdns/tailscale-derp.txt` |
 | tracker | tracker.txt | `./mosdns/tracker.txt` |
 
 
-> 最后更新: Sun Apr 26 02:23:35 UTC 2026
+> 最后更新: Sun Apr 26 02:24:06 UTC 2026
