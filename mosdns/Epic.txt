@@ -1,0 +1,15 @@
+domain:battlebreakers.com
+domain:eac-cdn.com
+domain:easy.ac
+domain:easyanticheat.net
+domain:epicgames.com
+domain:epicgames.dev
+domain:fortnite.com
+domain:helpshift.com
+domain:paragon.com
+domain:playparagon.com
+domain:roborecall.com
+domain:shadowcomplex.com
+domain:spyjinx.com
+domain:unrealengine.com
+domain:unrealtournament.com

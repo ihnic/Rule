@@ -1,0 +1,17 @@
+full:csgo.wmsj.cn
+full:dl.steam.clngaa.com
+full:dl.steam.ksyna.com
+full:dota2.wmsj.cn
+full:st.dl.bscstorage.net
+full:st.dl.eccdnx.com
+full:st.dl.pinyuncloud.com
+full:steampipe.steamcontent.tnkjmec.com
+full:steampowered.com.8686c.com
+full:steamstatic.com.8686c.com
+full:wmsjsteam.com
+full:xz.pphimalayanrt.com
+domain:cm.steampowered.com
+domain:steamchina.com
+domain:steamcontent.com
+domain:steamserver.net
+domain:steamusercontent.com
