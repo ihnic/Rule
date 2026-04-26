@@ -1,51 +1,108 @@
 # 📂 规则集索引
 
-> 自动化同步工厂，北京时间凌晨 03:00 更新。
-
-## 🛠 MRS 格式 (Mihomo)
+## 🛠 Mihomo 格式
 | 规则名 | 类型 | 文件名 | 相对路径 |
 | :--- | :--- | :--- | :--- |
+| Apple | classical | Apple.list | `./mihomo/classical/Apple.list` |
+| Apple | domain | Apple.list | `./mihomo/domain/Apple.list` |
 | Apple | domain | Apple.mrs | `./mihomo/domain/Apple.mrs` |
+| Apple | ip | Apple.list | `./mihomo/ip/Apple.list` |
+| Apple | ip | Apple.mrs | `./mihomo/ip/Apple.mrs` |
+| BiliBili | classical | BiliBili.list | `./mihomo/classical/BiliBili.list` |
+| BiliBili | domain | BiliBili.list | `./mihomo/domain/BiliBili.list` |
 | BiliBili | domain | BiliBili.mrs | `./mihomo/domain/BiliBili.mrs` |
+| BiliBili | ip | BiliBili.list | `./mihomo/ip/BiliBili.list` |
+| BiliBili | ip | BiliBili.mrs | `./mihomo/ip/BiliBili.mrs` |
+| ChinaMax | classical | ChinaMax.list | `./mihomo/classical/ChinaMax.list` |
+| ChinaMax | domain | ChinaMax.list | `./mihomo/domain/ChinaMax.list` |
 | ChinaMax | domain | ChinaMax.mrs | `./mihomo/domain/ChinaMax.mrs` |
+| ChinaMax | ip | ChinaMax.list | `./mihomo/ip/ChinaMax.list` |
+| ChinaMax | ip | ChinaMax.mrs | `./mihomo/ip/ChinaMax.mrs` |
+| Docker | domain | Docker.list | `./mihomo/domain/Docker.list` |
 | Docker | domain | Docker.mrs | `./mihomo/domain/Docker.mrs` |
 | Epic | domain | Epic.mrs | `./mihomo/domain/Epic.mrs` |
+| Epic | domain | Epic.list | `./mihomo/domain/Epic.list` |
+| GitHub | classical | GitHub.list | `./mihomo/classical/GitHub.list` |
 | GitHub | domain | GitHub.mrs | `./mihomo/domain/GitHub.mrs` |
+| GitHub | domain | GitHub.list | `./mihomo/domain/GitHub.list` |
+| GlobalMedia | classical | GlobalMedia.list | `./mihomo/classical/GlobalMedia.list` |
+| GlobalMedia | domain | GlobalMedia.list | `./mihomo/domain/GlobalMedia.list` |
 | GlobalMedia | domain | GlobalMedia.mrs | `./mihomo/domain/GlobalMedia.mrs` |
+| GlobalMedia | ip | GlobalMedia.list | `./mihomo/ip/GlobalMedia.list` |
+| GlobalMedia | ip | GlobalMedia.mrs | `./mihomo/ip/GlobalMedia.mrs` |
+| Google | classical | Google.list | `./mihomo/classical/Google.list` |
+| Google | domain | Google.list | `./mihomo/domain/Google.list` |
 | Google | domain | Google.mrs | `./mihomo/domain/Google.mrs` |
+| Google | ip | Google.list | `./mihomo/ip/Google.list` |
+| Google | ip | Google.mrs | `./mihomo/ip/Google.mrs` |
 | GoogleFCM | domain | GoogleFCM.mrs | `./mihomo/domain/GoogleFCM.mrs` |
+| GoogleFCM | domain | GoogleFCM.list | `./mihomo/domain/GoogleFCM.list` |
+| GoogleFCM | ip | GoogleFCM.mrs | `./mihomo/ip/GoogleFCM.mrs` |
+| GoogleFCM | ip | GoogleFCM.list | `./mihomo/ip/GoogleFCM.list` |
+| Lan | domain | Lan.list | `./mihomo/domain/Lan.list` |
 | Lan | domain | Lan.mrs | `./mihomo/domain/Lan.mrs` |
+| Lan | ip | Lan.list | `./mihomo/ip/Lan.list` |
+| Lan | ip | Lan.mrs | `./mihomo/ip/Lan.mrs` |
+| Microsoft | classical | Microsoft.list | `./mihomo/classical/Microsoft.list` |
+| Microsoft | domain | Microsoft.list | `./mihomo/domain/Microsoft.list` |
 | Microsoft | domain | Microsoft.mrs | `./mihomo/domain/Microsoft.mrs` |
+| Nintendo | domain | Nintendo.list | `./mihomo/domain/Nintendo.list` |
 | Nintendo | domain | Nintendo.mrs | `./mihomo/domain/Nintendo.mrs` |
+| Nintendo | ip | Nintendo.list | `./mihomo/ip/Nintendo.list` |
+| Nintendo | ip | Nintendo.mrs | `./mihomo/ip/Nintendo.mrs` |
+| OneDrive | classical | OneDrive.list | `./mihomo/classical/OneDrive.list` |
 | OneDrive | domain | OneDrive.mrs | `./mihomo/domain/OneDrive.mrs` |
+| OneDrive | domain | OneDrive.list | `./mihomo/domain/OneDrive.list` |
+| PrivateTracker | classical | PrivateTracker.list | `./mihomo/classical/PrivateTracker.list` |
 | PrivateTracker | domain | PrivateTracker.mrs | `./mihomo/domain/PrivateTracker.mrs` |
+| PrivateTracker | domain | PrivateTracker.list | `./mihomo/domain/PrivateTracker.list` |
+| PrivateTracker | ip | PrivateTracker.mrs | `./mihomo/ip/PrivateTracker.mrs` |
+| PrivateTracker | ip | PrivateTracker.list | `./mihomo/ip/PrivateTracker.list` |
+| Proxy | classical | Proxy.list | `./mihomo/classical/Proxy.list` |
 | Proxy | domain | Proxy.mrs | `./mihomo/domain/Proxy.mrs` |
+| Proxy | domain | Proxy.list | `./mihomo/domain/Proxy.list` |
+| Proxy | ip | Proxy.mrs | `./mihomo/ip/Proxy.mrs` |
+| Proxy | ip | Proxy.list | `./mihomo/ip/Proxy.list` |
+| Sony | domain | Sony.list | `./mihomo/domain/Sony.list` |
 | Sony | domain | Sony.mrs | `./mihomo/domain/Sony.mrs` |
+| Speedtest | classical | Speedtest.list | `./mihomo/classical/Speedtest.list` |
+| Speedtest | domain | Speedtest.list | `./mihomo/domain/Speedtest.list` |
 | Speedtest | domain | Speedtest.mrs | `./mihomo/domain/Speedtest.mrs` |
+| Steam | classical | Steam.list | `./mihomo/classical/Steam.list` |
 | Steam | domain | Steam.mrs | `./mihomo/domain/Steam.mrs` |
+| Steam | domain | Steam.list | `./mihomo/domain/Steam.list` |
 | SteamCN | domain | SteamCN.mrs | `./mihomo/domain/SteamCN.mrs` |
+| SteamCN | domain | SteamCN.list | `./mihomo/domain/SteamCN.list` |
+| Telegram | classical | Telegram.list | `./mihomo/classical/Telegram.list` |
 | Telegram | domain | Telegram.mrs | `./mihomo/domain/Telegram.mrs` |
+| Telegram | domain | Telegram.list | `./mihomo/domain/Telegram.list` |
+| Telegram | ip | Telegram.mrs | `./mihomo/ip/Telegram.mrs` |
+| Telegram | ip | Telegram.list | `./mihomo/ip/Telegram.list` |
+| TikTok | classical | TikTok.list | `./mihomo/classical/TikTok.list` |
+| TikTok | domain | TikTok.list | `./mihomo/domain/TikTok.list` |
 | TikTok | domain | TikTok.mrs | `./mihomo/domain/TikTok.mrs` |
+| YouTube | classical | YouTube.list | `./mihomo/classical/YouTube.list` |
+| YouTube | domain | YouTube.list | `./mihomo/domain/YouTube.list` |
 | YouTube | domain | YouTube.mrs | `./mihomo/domain/YouTube.mrs` |
+| YouTube | ip | YouTube.list | `./mihomo/ip/YouTube.list` |
+| YouTube | ip | YouTube.mrs | `./mihomo/ip/YouTube.mrs` |
+| apple-cn | domain | apple-cn.list | `./mihomo/domain/apple-cn.list` |
 | apple-cn | domain | apple-cn.mrs | `./mihomo/domain/apple-cn.mrs` |
 | category-ai-chat-!cn | domain | category-ai-chat-!cn.mrs | `./mihomo/domain/category-ai-chat-!cn.mrs` |
+| category-ai-chat-!cn | domain | category-ai-chat-!cn.list | `./mihomo/domain/category-ai-chat-!cn.list` |
 | category-speedtest-cn | domain | category-speedtest-cn.mrs | `./mihomo/domain/category-speedtest-cn.mrs` |
+| category-speedtest-cn | domain | category-speedtest-cn.list | `./mihomo/domain/category-speedtest-cn.list` |
+| custom_direct | classical | custom_direct.list | `./mihomo/classical/custom_direct.list` |
+| custom_direct | domain | custom_direct.list | `./mihomo/domain/custom_direct.list` |
 | custom_direct | domain | custom_direct.mrs | `./mihomo/domain/custom_direct.mrs` |
+| custom_proxy | classical | custom_proxy.list | `./mihomo/classical/custom_proxy.list` |
+| custom_proxy | domain | custom_proxy.list | `./mihomo/domain/custom_proxy.list` |
 | custom_proxy | domain | custom_proxy.mrs | `./mihomo/domain/custom_proxy.mrs` |
 | tailscale-derp | domain | tailscale-derp.mrs | `./mihomo/domain/tailscale-derp.mrs` |
+| tailscale-derp | domain | tailscale-derp.list | `./mihomo/domain/tailscale-derp.list` |
+| tracker | classical | tracker.list | `./mihomo/classical/tracker.list` |
+| tracker | domain | tracker.list | `./mihomo/domain/tracker.list` |
 | tracker | domain | tracker.mrs | `./mihomo/domain/tracker.mrs` |
-| Apple | ip | Apple.mrs | `./mihomo/ip/Apple.mrs` |
-| BiliBili | ip | BiliBili.mrs | `./mihomo/ip/BiliBili.mrs` |
-| ChinaMax | ip | ChinaMax.mrs | `./mihomo/ip/ChinaMax.mrs` |
-| GlobalMedia | ip | GlobalMedia.mrs | `./mihomo/ip/GlobalMedia.mrs` |
-| Google | ip | Google.mrs | `./mihomo/ip/Google.mrs` |
-| GoogleFCM | ip | GoogleFCM.mrs | `./mihomo/ip/GoogleFCM.mrs` |
-| Lan | ip | Lan.mrs | `./mihomo/ip/Lan.mrs` |
-| Nintendo | ip | Nintendo.mrs | `./mihomo/ip/Nintendo.mrs` |
-| PrivateTracker | ip | PrivateTracker.mrs | `./mihomo/ip/PrivateTracker.mrs` |
-| Proxy | ip | Proxy.mrs | `./mihomo/ip/Proxy.mrs` |
-| Telegram | ip | Telegram.mrs | `./mihomo/ip/Telegram.mrs` |
-| YouTube | ip | YouTube.mrs | `./mihomo/ip/YouTube.mrs` |
 
 ## 🛠 Surge 格式
 | 规则名 | 文件名 | 相对路径 |
@@ -80,7 +137,7 @@
 | tailscale-derp | tailscale-derp.list | `./surge/tailscale-derp.list` |
 | tracker | tracker.list | `./surge/tracker.list` |
 
-## 🛠 MosDNS 格式
+## 🛠 Mosdns 格式
 | 规则名 | 文件名 | 相对路径 |
 | :--- | :--- | :--- |
 | Apple | Apple.txt | `./mosdns/Apple.txt` |
@@ -112,6 +169,3 @@
 | custom_proxy | custom_proxy.txt | `./mosdns/custom_proxy.txt` |
 | tailscale-derp | tailscale-derp.txt | `./mosdns/tailscale-derp.txt` |
 | tracker | tracker.txt | `./mosdns/tracker.txt` |
-
-
-> 最后更新: Sun Apr 26 03:01:03 UTC 2026
