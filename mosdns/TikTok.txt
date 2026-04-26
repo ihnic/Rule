@@ -27,5 +27,3 @@ domain:tiktokv.com
 domain:tiktokv.us
 domain:trae.ai
 domain:ttwebview.com
-keyword:musical.ly
-keyword:tiktok

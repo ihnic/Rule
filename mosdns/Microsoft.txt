@@ -662,7 +662,3 @@ domain:onedrive.com
 domain:sharepoint.com
 domain:sharepointonline.com
 domain:spoprod-a.akamaihd.net
-keyword:microsoft
-keyword:1drv
-keyword:onedrive
-keyword:skydrive

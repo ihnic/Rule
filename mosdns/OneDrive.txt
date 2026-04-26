@@ -11,6 +11,3 @@ domain:skydrive.wns.windows.com
 domain:spoprod-a.akamaihd.net
 domain:storage.live.com
 domain:storage.msn.com
-keyword:1drv
-keyword:onedrive
-keyword:skydrive

@@ -22,4 +22,3 @@ domain:telesco.pe
 domain:tg.dev
 domain:tx.me
 domain:usercontent.dev
-keyword:nicegram

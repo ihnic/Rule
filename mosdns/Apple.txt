@@ -1558,10 +1558,3 @@ domain:me.com
 domain:myicloud.net
 domain:mylcloud.net
 domain:wwwicloud.com
-keyword:apple-support.akadns.net
-keyword:apple.com.akadns.net
-keyword:apple.com.edgekey.net
-keyword:buy.itunes.apple.com
-keyword:smp-device
-keyword:testflight
-keyword:icloud.com.akadns.net

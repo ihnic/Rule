@@ -690,8 +690,3 @@ domain:zukunftswerkstatt.de
 domain:zynamics.com
 domain:googledrive.com
 domain:googleusercontent.com
-keyword:appspot
-keyword:blogspot
-keyword:gmail
-keyword:google
-keyword:recaptcha

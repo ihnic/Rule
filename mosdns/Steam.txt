@@ -49,6 +49,3 @@ domain:steamvideo-a.akamaihd.net
 domain:underlords.com
 domain:valvesoftware.com
 domain:wmsjsteam.com
-keyword:steambroadcast
-keyword:steamstore
-keyword:steamuserimages
