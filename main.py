@@ -40,6 +40,7 @@ def setup_dirs():
         try: os.remove("mihomo")
         except: pass
     if FORCE_REWRITE:
+        print("🗑️ [强制模式] 清空旧目录...")
         for d in ["mihomo", "surge", "mosdns"]:
             if os.path.exists(d): shutil.rmtree(d)
     for d in DIRS: os.makedirs(d, exist_ok=True)
@@ -78,7 +79,7 @@ def write_outputs(name, data):
         for d in data["domain"]: f.write(f"domain:{d}\n")
     # Mihomo
     if data["domain"] or data["full"]:
-        p = f"mihomo/domain/{name}_domain.list" # 增加后缀区分，因为可能同时有域名和IP
+        p = f"mihomo/domain/{name}_domain.list"
         with open(p, 'w', encoding='utf-8') as f:
             for d in data["full"]: f.write(f"{d}\n")
             for d in data["domain"]: f.write(f"+.{d}\n")
@@ -93,41 +94,58 @@ def write_outputs(name, data):
             f.write("\n".join(data["classical"]))
 
 def generate_readme():
+    """按 Nic 哥要求的权重排序并隐藏重复 list"""
     readme_path = "README.md"
     
-    # 聚合数据结构: { "Apple": { "domain": path, "ip": path, "classical": path } }
-    mihomo_rules = {}
+    # 定义 Mihomo 类型的显示顺序权重
+    type_weight = {"domain": 1, "ip": 2, "classical": 3}
+    
+    # 聚合格式: { rule_name: { type: { 'mrs': path, 'list': path } } }
+    mihomo_map = {}
 
-    # 1. 扫描 Mihomo 目录并聚合
     for cat in ['domain', 'ip', 'classical']:
         p = f"mihomo/{cat}"
-        if os.path.exists(p):
-            for f in os.listdir(p):
-                # 提取纯规则名
-                rule_name = re.sub(r'(_domain|_ip)?\.(list|mrs)$', '', f, flags=re.IGNORECASE)
-                if f.endswith(('.mrs', '.list')):
-                    if rule_name not in mihomo_rules: mihomo_rules[rule_name] = []
-                    mihomo_rules[rule_name].append({
-                        "type": cat,
-                        "file": f,
-                        "path": f"./mihomo/{cat}/{f}"
-                    })
+        if not os.path.exists(p): continue
+        for f in os.listdir(p):
+            ext = 'mrs' if f.endswith('.mrs') else 'list'
+            if not f.endswith(('.mrs', '.list')): continue
+            
+            # 提取 Apple 这种核心名
+            name = re.sub(r'(_domain|_ip)?\.(list|mrs)$', '', f, flags=re.IGNORECASE)
+            
+            if name not in mihomo_map: mihomo_map[name] = {}
+            if cat not in mihomo_map[name]: mihomo_map[name][cat] = {}
+            
+            mihomo_map[name][cat][ext] = f"./mihomo/{cat}/{f}"
 
     with open(readme_path, 'w', encoding='utf-8') as f:
         f.write("# 📂 规则集索引\n\n## 🛠 Mihomo 格式\n| 规则名 | 类型 | 文件名 | 相对路径 |\n| :--- | :--- | :--- | :--- |\n")
-        for name in sorted(mihomo_rules.keys()):
-            # 同一个规则名的多行按类型排序: domain -> ip -> classical
-            sorted_items = sorted(mihomo_rules[name], key=lambda x: x['type'])
-            for item in sorted_items:
-                f.write(f"| {name} | {item['type']} | {item['file']} | `{item['path']}` |\n")
+        
+        for name in sorted(mihomo_map.keys()):
+            # 按照权重排序类型 (domain -> ip -> classical)
+            sorted_cats = sorted(mihomo_map[name].keys(), key=lambda x: type_weight.get(x, 99))
+            
+            for cat in sorted_cats:
+                files = mihomo_map[name][cat]
+                # 优先级逻辑：如果该 cat 下有 mrs，就只显示 mrs；否则显示 list
+                if 'mrs' in files:
+                    target_ext = 'mrs'
+                    path = files['mrs']
+                else:
+                    target_ext = 'list'
+                    path = files['list']
+                
+                filename = path.split('/')[-1]
+                f.write(f"| {name} | {cat} | {filename} | `{path}` |\n")
 
-        # 2. Surge & MosDNS (保持原逻辑)
+        # Surge & MosDNS 保持原样
         for platform in ["surge", "mosdns"]:
             f.write(f"\n## 🛠 {platform.capitalize()} 格式\n| 规则名 | 文件名 | 相对路径 |\n| :--- | :--- | :--- |\n")
             if os.path.exists(platform):
                 for file in sorted(os.listdir(platform)):
-                    rule_name = re.sub(r'\.(list|txt)$', '', file)
-                    f.write(f"| {rule_name} | {file} | `./{platform}/{file}` |\n")
+                    if file.endswith(('.list', '.txt')):
+                        n = re.sub(r'\.(list|txt)$', '', file)
+                        f.write(f"| {n} | {file} | `./{platform}/{file}` |\n")
 
 def main():
     setup_dirs()
