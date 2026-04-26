@@ -7,10 +7,14 @@
 | BiliBili | ip | BiliBili.mrs | `./mihomo/ip/BiliBili.mrs` |
 | Google | domain | Google.mrs | `./mihomo/domain/Google.mrs` |
 | Google | ip | Google.mrs | `./mihomo/ip/Google.mrs` |
+| GoogleFCM | domain | GoogleFCM.mrs | `./mihomo/domain/GoogleFCM.mrs` |
+| GoogleFCM | ip | GoogleFCM.mrs | `./mihomo/ip/GoogleFCM.mrs` |
+| Speedtest | domain | Speedtest.mrs | `./mihomo/domain/Speedtest.mrs` |
 | Telegram | domain | Telegram.mrs | `./mihomo/domain/Telegram.mrs` |
 | Telegram | ip | Telegram.mrs | `./mihomo/ip/Telegram.mrs` |
 | YouTube | domain | YouTube.mrs | `./mihomo/domain/YouTube.mrs` |
 | YouTube | ip | YouTube.mrs | `./mihomo/ip/YouTube.mrs` |
+| category-speedtest%40cn.mrs | domain | category-speedtest%40cn.mrs.mrs | `./mihomo/domain/category-speedtest%40cn.mrs.mrs` |
 | custom_direct | domain | custom_direct.mrs | `./mihomo/domain/custom_direct.mrs` |
 | custom_proxy | domain | custom_proxy.mrs | `./mihomo/domain/custom_proxy.mrs` |
 | tailscale-derp | domain | tailscale-derp.mrs | `./mihomo/domain/tailscale-derp.mrs` |
@@ -21,8 +25,11 @@
 | :--- | :--- | :--- |
 | BiliBili | BiliBili.list | `./surge/BiliBili.list` |
 | Google | Google.list | `./surge/Google.list` |
+| GoogleFCM | GoogleFCM.list | `./surge/GoogleFCM.list` |
+| Speedtest | Speedtest.list | `./surge/Speedtest.list` |
 | Telegram | Telegram.list | `./surge/Telegram.list` |
 | YouTube | YouTube.list | `./surge/YouTube.list` |
+| category-speedtest%40cn.mrs | category-speedtest%40cn.mrs.list | `./surge/category-speedtest%40cn.mrs.list` |
 | custom_direct | custom_direct.list | `./surge/custom_direct.list` |
 | custom_proxy | custom_proxy.list | `./surge/custom_proxy.list` |
 | tailscale-derp | tailscale-derp.list | `./surge/tailscale-derp.list` |
@@ -33,8 +40,11 @@
 | :--- | :--- | :--- |
 | BiliBili | BiliBili.txt | `./mosdns/BiliBili.txt` |
 | Google | Google.txt | `./mosdns/Google.txt` |
+| GoogleFCM | GoogleFCM.txt | `./mosdns/GoogleFCM.txt` |
+| Speedtest | Speedtest.txt | `./mosdns/Speedtest.txt` |
 | Telegram | Telegram.txt | `./mosdns/Telegram.txt` |
 | YouTube | YouTube.txt | `./mosdns/YouTube.txt` |
+| category-speedtest%40cn.mrs | category-speedtest%40cn.mrs.txt | `./mosdns/category-speedtest%40cn.mrs.txt` |
 | custom_direct | custom_direct.txt | `./mosdns/custom_direct.txt` |
 | custom_proxy | custom_proxy.txt | `./mosdns/custom_proxy.txt` |
 | tailscale-derp | tailscale-derp.txt | `./mosdns/tailscale-derp.txt` |
