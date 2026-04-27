@@ -5,8 +5,6 @@ DOMAIN-KEYWORD,cdn.jsdelivr.net
 DOMAIN-KEYWORD,fanart
 DOMAIN-KEYWORD,gallerycdn.vsassets.io
 DOMAIN-KEYWORD,gitbook
-DOMAIN-KEYWORD,github
-DOMAIN-KEYWORD,githubusercontent
 DOMAIN-KEYWORD,iwiki
 DOMAIN-KEYWORD,justwatch
 DOMAIN-KEYWORD,metacubex
