@@ -71,7 +71,6 @@ full:www.haidan.video
 full:www.hddolby.com
 full:www.tjupt.org
 full:zhuque.in
-domain:18board.link
 domain:4gtv.tv
 domain:a6tka29.com
 domain:a6tkapi1.com
@@ -84,14 +83,8 @@ domain:avbase.net
 domain:aventertainments.com
 domain:compose-spec.io
 domain:dahlia-av.jp
-domain:dmm.co.jp
-domain:docker.com
-domain:docker.io
-domain:dockerhub.com
 domain:faleno.jp
 domain:fanart.tv
-domain:ghproxy.com
-domain:googlevideo.com
 domain:hinet.net
 domain:ilovepdf.com
 domain:jav321.com
@@ -106,13 +99,7 @@ domain:mozilla.com
 domain:mozilla.net
 domain:mytvsuper.com
 domain:ofiii.com
-domain:opensubtitles.com
-domain:opensubtitles.org
 domain:orz-7.com
 domain:pcbeta.com
 domain:roonlabs.net
-domain:speedtest.net
-domain:themoviedb
-domain:thetvdb.com
-domain:tmdb.org
 domain:tvb.com
