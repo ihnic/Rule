@@ -56,12 +56,16 @@
 | category-ai-chat-!cn | domain | category-ai-chat-!cn_domain.mrs | `./mihomo/domain/category-ai-chat-!cn_domain.mrs` |
 | category-speedtest-cn | domain | category-speedtest-cn_domain.mrs | `./mihomo/domain/category-speedtest-cn_domain.mrs` |
 | custom_direct | domain | custom_direct_domain.mrs | `./mihomo/domain/custom_direct_domain.mrs` |
+| custom_direct | ip | custom_direct_ip.mrs | `./mihomo/ip/custom_direct_ip.mrs` |
 | custom_direct | classical | custom_direct.list | `./mihomo/classical/custom_direct.list` |
 | custom_proxy | domain | custom_proxy_domain.mrs | `./mihomo/domain/custom_proxy_domain.mrs` |
 | custom_proxy | classical | custom_proxy.list | `./mihomo/classical/custom_proxy.list` |
+| hk_balance | domain | hk_balance_domain.mrs | `./mihomo/domain/hk_balance_domain.mrs` |
+| jp_only | domain | jp_only_domain.mrs | `./mihomo/domain/jp_only_domain.mrs` |
 | tailscale-derp | domain | tailscale-derp_domain.mrs | `./mihomo/domain/tailscale-derp_domain.mrs` |
 | tracker | domain | tracker_domain.mrs | `./mihomo/domain/tracker_domain.mrs` |
 | tracker | classical | tracker.list | `./mihomo/classical/tracker.list` |
+| us_only | domain | us_only_domain.mrs | `./mihomo/domain/us_only_domain.mrs` |
 
 ## 🛠 Surge 格式
 | 规则名 | 文件名 | 相对路径 |
@@ -93,8 +97,11 @@
 | category-speedtest-cn | category-speedtest-cn.list | `./surge/category-speedtest-cn.list` |
 | custom_direct | custom_direct.list | `./surge/custom_direct.list` |
 | custom_proxy | custom_proxy.list | `./surge/custom_proxy.list` |
+| hk_balance | hk_balance.list | `./surge/hk_balance.list` |
+| jp_only | jp_only.list | `./surge/jp_only.list` |
 | tailscale-derp | tailscale-derp.list | `./surge/tailscale-derp.list` |
 | tracker | tracker.list | `./surge/tracker.list` |
+| us_only | us_only.list | `./surge/us_only.list` |
 
 ## 🛠 Mosdns 格式
 | 规则名 | 文件名 | 相对路径 |
@@ -126,5 +133,8 @@
 | category-speedtest-cn | category-speedtest-cn.txt | `./mosdns/category-speedtest-cn.txt` |
 | custom_direct | custom_direct.txt | `./mosdns/custom_direct.txt` |
 | custom_proxy | custom_proxy.txt | `./mosdns/custom_proxy.txt` |
+| hk_balance | hk_balance.txt | `./mosdns/hk_balance.txt` |
+| jp_only | jp_only.txt | `./mosdns/jp_only.txt` |
 | tailscale-derp | tailscale-derp.txt | `./mosdns/tailscale-derp.txt` |
 | tracker | tracker.txt | `./mosdns/tracker.txt` |
+| us_only | us_only.txt | `./mosdns/us_only.txt` |

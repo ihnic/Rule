@@ -1,0 +1,8 @@
+domain:7mmtv.sx
+domain:fanart.tv
+domain:j03og.app
+domain:sehuatang.org
+domain:themoviedb.org
+domain:thetvdb.com
+domain:tmdb.org
+domain:ymawv.la

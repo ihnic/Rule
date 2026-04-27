@@ -1,1 +1,3 @@
 DOMAIN-KEYWORD,test.
+PROCESS-NAME,tailscale.exe
+PROCESS-NAME,tailscaled.exe

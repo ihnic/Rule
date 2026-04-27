@@ -44,3 +44,7 @@ full:tracker.azusa.wiki
 full:zimiao.icu
 full:t.acg.rip
 full:hdfans.org
+full:tracker.pterclub.net
+full:pandapt.net
+full:panda.pt
+full:hdvideo.one
