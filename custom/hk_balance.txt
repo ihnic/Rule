@@ -1,0 +1,8 @@
+DOMAIN-SUFFIX,7mmtv.sx
+DOMAIN-SUFFIX,fanart.tv
+DOMAIN-SUFFIX,j03og.app
+DOMAIN-SUFFIX,sehuatang.org
+DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-SUFFIX,thetvdb.com
+DOMAIN-SUFFIX,tmdb.org
+DOMAIN-SUFFIX,ymawv.la

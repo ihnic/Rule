@@ -1,0 +1,3 @@
+DOMAIN-SUFFIX,seesaawiki.jp
+DOMAIN-SUFFIX,mgstage.com
+DOMAIN-SUFFIX,dmm.co.jp
