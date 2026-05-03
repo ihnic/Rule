@@ -30,7 +30,6 @@ domain:mariosupersluggers.com
 domain:miitomo.com
 domain:miitomo.com.cn
 domain:miiverse.com
-domain:nentindo.net
 domain:newsupermariobrosu.com
 domain:nintendo-europe-sales.com
 domain:nintendo-europe.com
