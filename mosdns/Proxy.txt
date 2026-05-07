@@ -178,6 +178,7 @@ domain:accim.org
 domain:accountkit.com
 domain:aceros-de-hispania.com
 domain:acevpn.com
+domain:acg.mn
 domain:acg.rip
 domain:acg18.me
 domain:acgbox.org
@@ -687,6 +688,7 @@ domain:blacked.com
 domain:blacklogic.com
 domain:blackmagicdesign.com
 domain:blackvpn.com
+domain:bleepingcomputer.com
 domain:blewpass.com
 domain:blingblingsquad.net
 domain:blinkx.com
@@ -746,6 +748,7 @@ domain:bookepub.com
 domain:books.com.tw
 domain:booktopia.com.au
 domain:bookwalker.com.tw
+domain:boomplay.com
 domain:boomssr.com
 domain:bootstrapcdn.com
 domain:borgenmagazine.com
@@ -1171,6 +1174,7 @@ domain:cn-proxy.com
 domain:cn6.eu
 domain:cna.com.tw
 domain:cnabc.com
+domain:cnbc.com
 domain:cnbeta.com.tw
 domain:cnd.org
 domain:cnet.com
@@ -1278,6 +1282,7 @@ domain:ctao.org
 domain:ctfriend.net
 domain:ctinets.com
 domain:ctinews.com
+domain:ctinsider.com
 domain:ctitv.com.tw
 domain:ctowc.org
 domain:cts.com.tw
@@ -1634,6 +1639,7 @@ domain:edgecastcdn.net
 domain:edgekey.net
 domain:edgesuite.net
 domain:edicypages.com
+domain:edigest.hk
 domain:edmontonservice.com
 domain:edns.biz
 domain:edoors.com
@@ -2523,6 +2529,7 @@ domain:hinet.net
 domain:hitbtc.com
 domain:hitomi.la
 domain:hitun.io
+domain:hive.blog
 domain:hiveon.net
 domain:hiwifi.com
 domain:hizb-ut-tahrir.info
@@ -2823,6 +2830,7 @@ domain:indsr.org.tw
 domain:inf.news
 domain:info-graf.fr
 domain:informer.com
+domain:infosec.exchange
 domain:infura.io
 domain:ingress.com
 domain:inherit.live
@@ -3093,6 +3101,7 @@ domain:karkhung.com
 domain:karmapa-teachings.org
 domain:karmapa.org
 domain:kat.cr
+domain:kathmandupost.com
 domain:kawaiikawaii.jp
 domain:kawase.com
 domain:kba-tx.org
@@ -3239,6 +3248,7 @@ domain:liaowangxizang.net
 domain:liberal.org.hk
 domain:libertysculpturepark.com
 domain:libertytimes.com.tw
+domain:libgen.is
 domain:library-access.sk
 domain:libraryinformationtechnology.com
 domain:libredd.it
@@ -3454,6 +3464,7 @@ domain:media.org.hk
 domain:mediachinese.com
 domain:mediafire.com
 domain:mediafreakcity.com
+domain:mediamatters.org
 domain:mediawiki.org
 domain:medium.com
 domain:meee.com.tw
@@ -3584,6 +3595,7 @@ domain:mixx.com
 domain:mizzmona.com
 domain:mji.rip
 domain:mjj.rip
+domain:mjj.today
 domain:mk5000.com
 domain:mlc.ai
 domain:mlcool.com
@@ -3842,12 +3854,14 @@ domain:newschinacomment.org
 domain:newscn.org
 domain:newsdetox.ca
 domain:newsdh.com
+domain:newshub.co.nz
 domain:newsmax.com
 domain:newspeak.cc
 domain:newstamago.com
 domain:newstapa.org
 domain:newstarnet.com
 domain:newstatesman.com
+domain:newstimes.com
 domain:newsweek.com
 domain:newtaiwan.com.tw
 domain:newtalk.tw
@@ -3868,6 +3882,8 @@ domain:nflximg.com
 domain:nflximg.net
 domain:nflxso.net
 domain:nflxvideo.net
+domain:nfsc.press
+domain:nfscofficial.com
 domain:nftstorage.link
 domain:ng.mil
 domain:nga.mil
@@ -4124,6 +4140,7 @@ domain:ourtv.hk
 domain:over-blog.com
 domain:overcast.fm
 domain:overdaily.org
+domain:overdrive.com
 domain:overplay.net
 domain:ovi.com
 domain:ovpn.com
@@ -4218,6 +4235,7 @@ domain:pen.io
 domain:penchinese.com
 domain:penchinese.net
 domain:pendrivelinux.com
+domain:penguin.com.au
 domain:pengyulong.com
 domain:penisbot.com
 domain:pentalogic.net
@@ -4664,6 +4682,7 @@ domain:rthk.hk
 domain:rthk.org.hk
 domain:rti.org.tw
 domain:rti.tw
+domain:rts.ch
 domain:rtycminnesota.org
 domain:ruanyifeng.com
 domain:rukor.org
@@ -5322,6 +5341,7 @@ domain:tg.dev
 domain:tgfcer.com
 domain:tgstat.com
 domain:thaicn.com
+domain:the-sun.com
 domain:theatlantic.com
 domain:theatrum-belli.com
 domain:theaustralian.com.au
@@ -5371,6 +5391,7 @@ domain:thetrotskymovie.com
 domain:thetvdb.com
 domain:theverge.com
 domain:thevivekspot.com
+domain:theweek.com
 domain:thewgo.org
 domain:thewirechina.com
 domain:theync.com
@@ -5664,6 +5685,7 @@ domain:tvb.com
 domain:tvbanywhere.com
 domain:tvboxnow.com
 domain:tvbs.com.tw
+domain:tvdy1.com
 domain:tvider.com
 domain:tvmost.com.hk
 domain:tvplayvideos.com
@@ -6005,6 +6027,7 @@ domain:voicettank.org
 domain:vot.org
 domain:vovo2000.com
 domain:vox-cdn.com
+domain:vox.com
 domain:voxer.com
 domain:voy.com
 domain:vpn.ac
