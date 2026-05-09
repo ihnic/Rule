@@ -5829,6 +5829,7 @@ domain:ultravpn.com
 domain:ultravpn.fr
 domain:ultraxs.com
 domain:ulyssesapp.com
+domain:umap.openstreetmap.fr
 domain:umich.edu
 domain:unblock-us.com
 domain:unblockdmm.com
