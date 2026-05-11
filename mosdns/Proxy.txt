@@ -1368,6 +1368,7 @@ domain:dartlang.org
 domain:dashlane.com
 domain:dastrassi.org
 domain:data-vocabulary.org
+domain:data18.com
 domain:datalabour.com
 domain:daum.net
 domain:david-kilgour.com
@@ -1550,6 +1551,7 @@ domain:dscn.info
 domain:dsmtp.com
 domain:dssott.com
 domain:dstk.dk
+domain:dt18.com
 domain:dtdns.net
 domain:dtiblog.com
 domain:dtic.mil

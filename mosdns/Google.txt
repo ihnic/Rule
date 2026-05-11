@@ -196,7 +196,6 @@ domain:digitalattackmap.com
 domain:doubleclick-cn.net
 domain:doubleclick.com
 domain:doubleclick.net
-domain:download.qatp1.net
 domain:episodic.com
 domain:fastlane.ci
 domain:fastlane.tools
@@ -543,7 +542,6 @@ domain:mdialog.com
 domain:meet.new
 domain:mfg-inspector.com
 domain:mobileview.page
-domain:monitoring.qpdp1.net
 domain:moodstocks.com
 domain:near.by
 domain:nest.com
@@ -587,12 +585,8 @@ domain:prod.databe.floonet.goog
 domain:projectara.com
 domain:projectbaseline.com
 domain:publishproxy.com
-domain:qagpublic.qatp1.net
-domain:qgadmin.qcpp1.net
 domain:qiao-cn.com
 domain:qpx.googleflights.net
-domain:qualysapi.qatp1.net
-domain:qualysguard.qpdp1.net
 domain:questvisual.com
 domain:quickoffice.com
 domain:quiksee.com
@@ -609,7 +603,6 @@ domain:ridepenguin.com
 domain:run.app
 domain:savethedate.foo
 domain:saynow.com
-domain:scanservice1.qcpp1.net
 domain:schema.org
 domain:schemer.com
 domain:screenwisetrends.com
