@@ -4881,6 +4881,7 @@ domain:shwchurch3.com
 domain:siddharthasintent.org
 domain:sidelinesnews.com
 domain:sidelinessportseatery.com
+domain:sider.ai
 domain:sierrafriendsoftibet.org
 domain:signal.org
 domain:sijihuisuo.club
@@ -6586,6 +6587,7 @@ domain:zgzcjj.net
 domain:zhanbin.net
 domain:zhangboli.net
 domain:zhangtianliang.com
+domain:zhangzhehan.net
 domain:zhanlve.org
 domain:zhenghui.org
 domain:zhenlibu.info
