@@ -1780,6 +1780,7 @@ domain:ezua.com
 domain:f-droid.org
 domain:f2pool.com
 domain:f8.com
+domain:f95zone.to
 domain:fabric.io
 domain:faceless.me
 domain:facesofnyfw.com
@@ -2118,6 +2119,7 @@ domain:fzlm.com
 domain:fzlm.net
 domain:g-area.org
 domain:g-queen.com
+domain:g.ai
 domain:g.co
 domain:g.kfd.me
 domain:g0v.social
@@ -3229,6 +3231,7 @@ domain:leisurepro.com
 domain:lematin.ch
 domain:lemonde.fr
 domain:lenwhite.com
+domain:leonardo.ai
 domain:lerosua.org
 domain:lesoir.be
 domain:lester850.info
@@ -4562,6 +4565,7 @@ domain:rangzen.org
 domain:ranxiang.com
 domain:ranyunfei.com
 domain:rapbull.net
+domain:raphael.app
 domain:rapidgator.net
 domain:rapidmoviez.com
 domain:rapidvpn.com
@@ -4689,6 +4693,7 @@ domain:rts.ch
 domain:rtycminnesota.org
 domain:ruanyifeng.com
 domain:rukor.org
+domain:rule34.us
 domain:rule34.xxx
 domain:rule34video.com
 domain:rumble.com
@@ -5023,6 +5028,7 @@ domain:sos.org
 domain:sosad.fun
 domain:sosreader.com
 domain:sostibet.org
+domain:sotwe.com
 domain:sou-tong.org
 domain:soubory.com
 domain:soul-plus.net
