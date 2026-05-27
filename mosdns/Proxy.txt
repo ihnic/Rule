@@ -3663,6 +3663,7 @@ domain:mousebreaker.com
 domain:movements.org
 domain:moves-export.com
 domain:moviefap.com
+domain:mozilla.ai
 domain:mozilla.org
 domain:moztw.org
 domain:mp3buscador.com
