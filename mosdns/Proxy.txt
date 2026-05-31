@@ -440,6 +440,7 @@ domain:artsy.net
 domain:arunachalforests.gov.in
 domain:arvanstorage.ir
 domain:arweave.org
+domain:as.mr
 domain:asacp.org
 domain:asdfg.jp
 domain:asg.to
@@ -539,6 +540,7 @@ domain:bangchen.net
 domain:bangdream.space
 domain:bangkokpost.com
 domain:bangumi.moe
+domain:bangumi.tv
 domain:bangyoulater.com
 domain:bankmobilevibe.com
 domain:bannednews.org
@@ -624,6 +626,7 @@ domain:bewww.net
 domain:beyondfirewall.com
 domain:bfnn.org
 domain:bfsh.hk
+domain:bgm.tv
 domain:bgme.me
 domain:bgvpn.com
 domain:bianlei.com
@@ -1007,6 +1010,7 @@ domain:chenpokongvip.com
 domain:cherrysave.com
 domain:chhongbi.org
 domain:chicagoncmtv.com
+domain:chii.in
 domain:china-mmm.jp.net
 domain:china-mmm.net
 domain:china-mmm.sa.com
@@ -1176,7 +1180,6 @@ domain:cn-proxy.com
 domain:cn6.eu
 domain:cna.com.tw
 domain:cnabc.com
-domain:cnbc.com
 domain:cnbeta.com.tw
 domain:cnd.org
 domain:cnet.com
@@ -2184,6 +2187,7 @@ domain:geekerhome.com
 domain:geekheart.info
 domain:gekikame.com
 domain:gelbooru.com
+domain:gencraft.com
 domain:generated.photos
 domain:geni.us
 domain:genius.com
@@ -2509,6 +2513,7 @@ domain:hi-on.org.tw
 domain:hicairo.com
 domain:hiccears.com
 domain:hidden-advent.org
+domain:hiddify.com
 domain:hide.me
 domain:hidecloud.com
 domain:hidein.net
@@ -5967,6 +5972,7 @@ domain:vbstatic.co
 domain:vcf-online.org
 domain:vcfbuilder.org
 domain:vds.rightster.com
+domain:veed.io
 domain:vegasred.com
 domain:velkaepocha.sk
 domain:venbbs.com
