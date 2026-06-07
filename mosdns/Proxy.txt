@@ -5206,6 +5206,7 @@ domain:surge.run
 domain:suroot.com
 domain:surrenderat20.net
 domain:suyangg.com
+domain:suyingtv.com
 domain:svsfx.com
 domain:swagbucks.com
 domain:swapspace.co
@@ -6324,6 +6325,7 @@ domain:woxinghuiguo.com
 domain:woyaolian.org
 domain:wozy.in
 domain:wp.com
+domain:wplace.live
 domain:wpoforum.com
 domain:wqyd.org
 domain:wr.pvp.net
