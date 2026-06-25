@@ -2232,6 +2232,7 @@ domain:geocities.jp
 domain:geph.io
 domain:gerefoundation.org
 domain:get.app
+domain:get.dappcdn.com
 domain:get.dev
 domain:get.how
 domain:get.page
