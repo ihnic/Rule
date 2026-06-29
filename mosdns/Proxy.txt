@@ -236,6 +236,7 @@ domain:airconsole.com
 domain:aircrack-ng.org
 domain:airitilibrary.com
 domain:airtable.com
+domain:airuniversity.af.edu
 domain:airvpn.org
 domain:aisex.com
 domain:ait.org.tw
@@ -2196,6 +2197,7 @@ domain:garena.com
 domain:gartlive.com
 domain:garudalinux.org
 domain:gate-project.com
+domain:gate.com
 domain:gate.io
 domain:gatecoin.com
 domain:gather.com
@@ -2625,6 +2627,7 @@ domain:hkjp.org
 domain:hklft.com
 domain:hklts.org.hk
 domain:hkmap.live
+domain:hkong.hk
 domain:hkopentv.com
 domain:hkpeanut.com
 domain:hkptu.org
@@ -3168,6 +3171,7 @@ domain:kepard.com
 domain:kex.com
 domain:keycdn.com
 domain:keyhole.com
+domain:kfor.com
 domain:khabdha.org
 domain:khatrimaza.org
 domain:khmusic.com.tw
@@ -3590,6 +3594,7 @@ domain:mfxmedia.com
 domain:mgoon.com
 domain:mgstage.com
 domain:mh4u.org
+domain:mhwindow.org
 domain:michaelmarketl.com
 domain:microsoft-falcon.io
 domain:microsoft.com
@@ -4285,6 +4290,7 @@ domain:pbxes.com
 domain:pbxes.org
 domain:pcanywhere.net
 domain:pcdvd.com.tw
+domain:pcgamesn.com
 domain:pcgamestorrents.com
 domain:pchome.com.tw
 domain:pcij.org
@@ -4321,6 +4327,7 @@ domain:perfect-privacy.com
 domain:perfectgirls.net
 domain:perfectvpn.net
 domain:periscope.tv
+domain:perma.cc
 domain:perplexity.ai
 domain:persecutionblog.com
 domain:persiankitty.com
@@ -4692,6 +4699,7 @@ domain:rentry.co
 domain:renyurenquan.org
 domain:resilio.com
 domain:resistchina.org
+domain:restofworld.org
 domain:retweeteffect.com
 domain:retweetist.com
 domain:retweetrank.com
@@ -5122,6 +5130,7 @@ domain:southnews.com.tw
 domain:sowers.org.hk
 domain:soylent.com
 domain:soylentnews.org
+domain:spaceforce.mil
 domain:spacex.com
 domain:spankbang.com
 domain:spankingtube.com
@@ -5261,6 +5270,7 @@ domain:superpages.com
 domain:supervpn.net
 domain:superzooi.com
 domain:suppig.net
+domain:supremecourt.gov
 domain:suprememastertv.com
 domain:surfeasy.com
 domain:surfeasy.com.au
@@ -5454,6 +5464,7 @@ domain:thehots.info
 domain:thehousenews.com
 domain:thehun.net
 domain:theinitium.com
+domain:theintercept.com
 domain:themoviedb.org
 domain:thenewslens.com
 domain:thepiratebay.ee
@@ -5704,6 +5715,7 @@ domain:tronscan.org
 domain:trouw.nl
 domain:trt.net.tr
 domain:trtc.com.tw
+domain:trtworld.com
 domain:truebuddha-md.org
 domain:truenas.com
 domain:truesocial.media
@@ -5868,6 +5880,7 @@ domain:twkan.com
 domain:twnorth.org.tw
 domain:twreporter.org
 domain:twskype.com
+domain:twstalker.com
 domain:twstar.net
 domain:twt.tl
 domain:twtkr.com
@@ -6218,6 +6231,7 @@ domain:warroom.org
 domain:waselpro.com
 domain:washeng.net
 domain:washingtonpost.com
+domain:washingtontimes.com
 domain:watch8x.com
 domain:watchinese.com
 domain:watchmygf.net
@@ -6521,6 +6535,7 @@ domain:xt.com
 domain:xt.pub
 domain:xteko.com
 domain:xtube.com
+domain:xuan.com.my
 domain:xuchao.net
 domain:xuchao.org
 domain:xuehua.us
