@@ -1779,6 +1779,7 @@ domain:expekt.com
 domain:experts-univers.com
 domain:exploader.net
 domain:expofutures.com
+domain:expressnews.com
 domain:expressvpn.com
 domain:exrates.me
 domain:extmatrix.com
