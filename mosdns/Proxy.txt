@@ -1144,6 +1144,7 @@ domain:cixiaoya.club
 domain:ck101.com
 domain:cl.ly
 domain:clarionproject.org
+domain:clashyun.com
 domain:classicalguitarblog.net
 domain:claude.com
 domain:clb.org.hk
@@ -5299,6 +5300,7 @@ domain:syncback.com
 domain:synergyse.com
 domain:syosetu.com
 domain:sysresccd.org
+domain:sysub.com
 domain:sytes.net
 domain:syx86.com
 domain:szbbs.net
