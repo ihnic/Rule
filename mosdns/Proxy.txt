@@ -5658,6 +5658,7 @@ domain:toggleable.com
 domain:toh.info
 domain:token.im
 domain:tokenlon.im
+domain:tokenplus.app
 domain:tokyo-247.com
 domain:tokyo-hot.com
 domain:tokyocn.com
@@ -6690,6 +6691,7 @@ domain:zello.com
 domain:zengjinyan.org
 domain:zenmate.com
 domain:zenmate.com.ru
+domain:zenmux.ai
 domain:zerohedge.com
 domain:zeronet.io
 domain:zeutch.com
