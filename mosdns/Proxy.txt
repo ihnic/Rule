@@ -1121,6 +1121,7 @@ domain:ciciai.com
 domain:cienen.com
 domain:cineastentreff.de
 domain:cipfg.org
+domain:circle19.org
 domain:circlethebayfortibet.org
 domain:cirosantilli.com
 domain:citizencn.com
@@ -3153,6 +3154,7 @@ domain:kanzhongguo.com
 domain:kanzhongguo.eu
 domain:kaotic.com
 domain:karayou.com
+domain:kards.com
 domain:karkhung.com
 domain:karmapa-teachings.org
 domain:karmapa.org
