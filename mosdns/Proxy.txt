@@ -980,6 +980,7 @@ domain:centauro.com.br
 domain:centerforhumanreprod.com
 domain:centralnation.com
 domain:centurys.net
+domain:cerebras.ai
 domain:certificate-transparency.org
 domain:cex.io
 domain:cfhks.org.hk
@@ -1108,6 +1109,7 @@ domain:chromeexperiments.com
 domain:chromercise.com
 domain:chromestatus.com
 domain:chromium.org
+domain:cht.com.tw
 domain:chuang-yen.org
 domain:chubold.com
 domain:chubun.com
@@ -3732,7 +3734,6 @@ domain:mousebreaker.com
 domain:movements.org
 domain:moves-export.com
 domain:moviefap.com
-domain:mozilla.ai
 domain:mozilla.org
 domain:moztw.org
 domain:mp3buscador.com
@@ -4055,6 +4056,7 @@ domain:ntdtv.cz
 domain:ntdtv.jp
 domain:ntdtv.ru
 domain:ntdtvla.com
+domain:nthlink.com
 domain:ntrfun.com
 domain:ntu.edu.tw
 domain:nu.nl
@@ -4620,7 +4622,6 @@ domain:radio.co
 domain:radio.garden
 domain:radioaustralia.net.au
 domain:radiohilight.net
-domain:radiojar.com
 domain:radioline.co
 domain:radiotime.com
 domain:radiovaticana.org
@@ -6443,7 +6444,6 @@ domain:wuw.red
 domain:wuyanblog.com
 domain:wwe.com
 domain:wwitv.com
-domain:www.clashverge.dev
 domain:www.lamenhu.com
 domain:www.orchidbbs.com
 domain:www.taup.org.tw
