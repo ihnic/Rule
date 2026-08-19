@@ -1233,7 +1233,6 @@ domain:commandarms.com
 domain:comments.app
 domain:commentshk.com
 domain:communistcrimes.org
-domain:community.windy.com
 domain:communitychoicecu.com
 domain:comodoca.com
 domain:comparitech.com
@@ -6370,6 +6369,7 @@ domain:willw.net
 domain:wilsoncenter.org
 domain:windowsphoneme.com
 domain:windscribe.com
+domain:windy.com
 domain:wingamestore.com
 domain:wingy.site
 domain:winning11.com
