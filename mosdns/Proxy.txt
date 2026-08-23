@@ -791,6 +791,7 @@ domain:breakgfw.com
 domain:breaking911.com
 domain:breakingtweets.com
 domain:breakwall.net
+domain:briarproject.org
 domain:briefdream.com
 domain:briian.com
 domain:brill.com
@@ -1008,6 +1009,7 @@ domain:chapm25.com
 domain:character.ai
 domain:chat.com
 domain:chat.openai.com
+domain:chatgpt.site
 domain:chatnook.com
 domain:chatpdf.com
 domain:chaturbate.com
@@ -2585,6 +2587,7 @@ domain:himemix.com
 domain:himemix.net
 domain:hindustantimes.com
 domain:hinet.net
+domain:historylines.net
 domain:hitbtc.com
 domain:hitomi.la
 domain:hitun.io
@@ -3200,6 +3203,7 @@ domain:kinokuniya.com
 domain:kir.jp
 domain:kissjav.com
 domain:kiwi.kz
+domain:kiwix.org
 domain:kk-whys.co.jp
 domain:kkbox.com
 domain:kknews.cc
@@ -3530,6 +3534,7 @@ domain:maxing.jp
 domain:mayimayi.com
 domain:mcadforums.com
 domain:mcaf.ee
+domain:mceindex.com
 domain:mcfog.com
 domain:mcreasite.com
 domain:mcusercontent.com
@@ -4834,6 +4839,7 @@ domain:saveuighur.org
 domain:savevid.com
 domain:say2.info
 domain:sb-cd.com
+domain:sb.sb
 domain:sbme.me
 domain:sbs.com.au
 domain:sbti.unun.dev
