@@ -389,6 +389,7 @@ domain:api.amplitude.com
 domain:api.mixpanel.com
 domain:api.moomoobull.com
 domain:api.proxlet.com
+domain:api.shuaiapi.com
 domain:api.termius.com
 domain:apiary.io
 domain:apigee.com
@@ -6473,6 +6474,7 @@ domain:x1949x.com
 domain:x24hr.com
 domain:x365x.com
 domain:x3guide.com
+domain:x86.fr
 domain:xanga.com
 domain:xbabe.com
 domain:xbookcn.com
