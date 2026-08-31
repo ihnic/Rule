@@ -2262,6 +2262,7 @@ domain:getjetso.com
 domain:getlantern.org
 domain:getmalus.com
 domain:getmdl.io
+domain:getmonero.org
 domain:getoutline.org
 domain:getpricetag.com
 domain:getsession.org
@@ -3981,6 +3982,7 @@ domain:nhk-ondemand.jp
 domain:nhncorp.jp
 domain:nianticlabs.com
 domain:nic.gov
+domain:nicoseiga.jp
 domain:nicovideo.jp
 domain:nighost.org
 domain:nightlife141.com
