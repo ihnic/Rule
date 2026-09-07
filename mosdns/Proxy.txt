@@ -18,6 +18,8 @@ domain:10beasts.net
 domain:10conditionsoflove.com
 domain:10musume.com
 domain:111666.best
+domain:123av.com
+domain:123av.me
 domain:123rf.com
 domain:12bet.com
 domain:12vpn.com
@@ -2544,6 +2546,7 @@ domain:helpster.de
 domain:helpzhuling.org
 domain:hembed.com
 domain:hentai.to
+domain:hentai.tv
 domain:hentaitube.tv
 domain:hentaivideoworld.com
 domain:heqinglian.net
@@ -4754,6 +4757,7 @@ domain:roadshow.hk
 domain:roblox.com
 domain:roboforex.com
 domain:robustnessiskey.com
+domain:roc-taiwan.org
 domain:rocket-inc.net
 domain:rocket.chat
 domain:rocketbbs.com
@@ -4769,6 +4773,7 @@ domain:rosechina.net
 domain:rotten.com
 domain:rou.video
 domain:roucdn.link
+domain:roushuwo.com
 domain:rpglogs.com
 domain:rsdlmonitor.com
 domain:rsf-chinese.org
@@ -5289,6 +5294,7 @@ domain:supermariorun.com
 domain:superpages.com
 domain:supervpn.net
 domain:superzooi.com
+domain:supjav.com
 domain:suppig.net
 domain:supremecourt.gov
 domain:suprememastertv.com
@@ -5340,6 +5346,7 @@ domain:tafm.org
 domain:tagwa.org.au
 domain:tagwalk.com
 domain:tahr.org.tw
+domain:taiav.com
 domain:tails.net
 domain:taipeisociety.org
 domain:taipeitimes.com
@@ -5349,6 +5356,7 @@ domain:taiwanbible.com
 domain:taiwancon.com
 domain:taiwandaily.net
 domain:taiwandc.org
+domain:taiwanembassy.org
 domain:taiwanhot.net
 domain:taiwanjustice.com
 domain:taiwanjustice.net
@@ -6448,6 +6456,7 @@ domain:wsj.com
 domain:wsj.net
 domain:wsjhk.com
 domain:wtbn.org
+domain:wtfpass.com
 domain:wtfpeople.com
 domain:wuerkaixi.com
 domain:wufafangwen.com
