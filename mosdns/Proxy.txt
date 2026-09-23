@@ -1094,6 +1094,7 @@ domain:chinesegay.org
 domain:chinesen.de
 domain:chinesenews.net.au
 domain:chinesepen.org
+domain:chineseposters.net
 domain:chineseradioseattle.com
 domain:chinesetalks.net
 domain:chineseupress.com
@@ -4035,6 +4036,7 @@ domain:nordstrommedia.com
 domain:nordstromrack.com
 domain:nordvpn.com
 domain:nos.nl
+domain:note.com
 domain:notepad-plus-plus.org
 domain:notion.so
 domain:nottinghampost.com
