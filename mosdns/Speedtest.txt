@@ -2,3 +2,6 @@ domain:fast.com
 domain:ooklaserver.net
 domain:speed.cloudflare.com
 domain:speed.dler.io
+domain:speedtest.co
+domain:speedtest.net
+domain:speedtestcustom.com

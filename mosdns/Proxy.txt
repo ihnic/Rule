@@ -871,6 +871,7 @@ domain:c-est-simple.com
 domain:c-span.org
 domain:c-spanvideo.org
 domain:c.gle
+domain:c.go-mpulse.net
 domain:c.mi.com
 domain:c100tibet.org
 domain:c2cx.com
@@ -4605,6 +4606,7 @@ domain:qienkuen.org
 domain:qiwen.lu
 domain:qkshare.com
 domain:qmp4.com
+domain:qobuz.com
 domain:qoos.com
 domain:qpoe.com
 domain:qq.co.za
@@ -6087,6 +6089,7 @@ domain:vanpeople.com
 domain:vansky.com
 domain:vaticannews.va
 domain:vatn.org
+domain:vava8.com
 domain:vbstatic.co
 domain:vcf-online.org
 domain:vcfbuilder.org
