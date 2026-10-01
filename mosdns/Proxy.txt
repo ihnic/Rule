@@ -2166,6 +2166,7 @@ domain:fututrade.com
 domain:fututrustee.com
 domain:fux.com
 domain:fuyin.net
+domain:fuyin116.com
 domain:fuyindiantai.org
 domain:fuyu.org.tw
 domain:fw.cm
@@ -3783,6 +3784,7 @@ domain:multiupload.com
 domain:mummysgold.com
 domain:murmur.tw
 domain:muscdn.com
+domain:muse.ai
 domain:musicade.net
 domain:musical.ly
 domain:musixmatch.com
