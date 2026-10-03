@@ -6246,6 +6246,7 @@ domain:wainao.me
 domain:waiwaier.com
 domain:walletconnect.com
 domain:walletconnect.org
+domain:wallhaven.cc
 domain:wallmama.com
 domain:wallornot.org
 domain:wallpapercasa.com
@@ -6367,6 +6368,7 @@ domain:wiki.kfd.me
 domain:wikia.com
 domain:wikibooks.org
 domain:wikidata.org
+domain:wikifunctions.org
 domain:wikileaks-forum.com
 domain:wikileaks.ch
 domain:wikileaks.com
@@ -6379,12 +6381,14 @@ domain:wikileaks.pl
 domain:wikilivres.info
 domain:wikimapia.org
 domain:wikimedia.org
+domain:wikimediafoundation.org
 domain:wikinews.org
 domain:wikipedia.com
 domain:wikipedia.org
 domain:wikiquote.org
 domain:wikis.tw
 domain:wikisource.org
+domain:wikispecies.org
 domain:wikiunblocked.org
 domain:wikiversity.org
 domain:wikivoyage.org
