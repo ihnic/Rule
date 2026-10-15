@@ -7,6 +7,9 @@ domain:bytegecko-i18n.com
 domain:byteintlapi.com
 domain:byteoversea.com
 domain:capcut.com
+domain:capcutapi.com
+domain:capcutapi.us
+domain:capcutstatic.com
 domain:ibytedtos.com
 domain:ibyteimg.com
 domain:ipstatp.com
