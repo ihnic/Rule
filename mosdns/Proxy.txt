@@ -137,6 +137,7 @@ domain:6parknews.com
 domain:7capture.com
 domain:7cow.com
 domain:7mmtv.tv
+domain:7x24hrs.com
 domain:8-d.com
 domain:85cc.net
 domain:85cc.us
@@ -3616,7 +3617,9 @@ domain:merlinblog.xyz
 domain:meshrep.com
 domain:mesotw.com
 domain:messenger.com
+domain:meta.ai
 domain:meta.com
+domain:metaaivm.com
 domain:metacafe.com
 domain:metacubex.one
 domain:metafilter.com
