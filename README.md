@@ -42,6 +42,7 @@
 | Speedtest | domain | Speedtest_domain.mrs | `./mihomo/domain/Speedtest_domain.mrs` |
 | Speedtest | classical | Speedtest.list | `./mihomo/classical/Speedtest.list` |
 | Steam | domain | Steam_domain.mrs | `./mihomo/domain/Steam_domain.mrs` |
+| Steam | ip | Steam_ip.mrs | `./mihomo/ip/Steam_ip.mrs` |
 | Steam | classical | Steam.list | `./mihomo/classical/Steam.list` |
 | SteamCN | domain | SteamCN_domain.mrs | `./mihomo/domain/SteamCN_domain.mrs` |
 | Telegram | domain | Telegram_domain.mrs | `./mihomo/domain/Telegram_domain.mrs` |
