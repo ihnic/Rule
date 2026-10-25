@@ -20,6 +20,7 @@ domain:10musume.com
 domain:111666.best
 domain:123av.com
 domain:123av.me
+domain:123av.org
 domain:123rf.com
 domain:12bet.com
 domain:12vpn.com
@@ -648,6 +649,7 @@ domain:biblesforamerica.org
 domain:bibliocommons.com
 domain:bibox.com
 domain:bic2011.org
+domain:bidobido.xyz
 domain:biedian.me
 domain:big.one
 domain:bigfools.com
@@ -657,6 +659,8 @@ domain:bigmoney.biz
 domain:bignews.org
 domain:bigone.com
 domain:bigsound.org
+domain:bikaios.xyz
+domain:bikawebapp.com
 domain:bild.de
 domain:bilinovel.com
 domain:biliworld.com
@@ -1252,6 +1256,7 @@ domain:compileheart.com
 domain:compose-spec.io
 domain:compress.to
 domain:conoha.jp
+domain:console.typesafe.ai
 domain:constitutionalism.solutions
 domain:contactmagazine.net
 domain:content.office.net
@@ -1492,6 +1497,7 @@ domain:disqus.com
 domain:disquscdn.com
 domain:dit-inc.us
 domain:divdyn.com
+domain:diwodiwo.xyz
 domain:diyin.org
 domain:dizhidizhi.com
 domain:dizhuzhishang.com
@@ -2192,6 +2198,7 @@ domain:g.co
 domain:g.kfd.me
 domain:g0v.social
 domain:g6hentai.com
+domain:ga.jspm.io
 domain:gab.com
 domain:gabia.net
 domain:gabocorp.com
@@ -2743,6 +2750,7 @@ domain:https443.org
 domain:htx.com
 domain:hua-yue.net
 domain:huaglad.com
+domain:huakacomic.com
 domain:huanghuagang.org
 domain:huangyiyu.com
 domain:huaren.us
@@ -3215,6 +3223,7 @@ domain:khmusic.com.tw
 domain:kichiku-doujinko.com
 domain:kik.com
 domain:killwall.com
+domain:kimootoko.net
 domain:kindle4rss.com
 domain:kindleren.com
 domain:kingdomsalvation.org
@@ -3514,6 +3523,7 @@ domain:mangafox.com
 domain:mangafox.me
 domain:mangaup.jp
 domain:mangmang.run
+domain:manhuabika.com
 domain:manhuaren.com
 domain:maniash.com
 domain:manicur4ik.ru
@@ -3682,6 +3692,7 @@ domain:minhhue.net
 domain:miniforum.org
 domain:miningpoolhub.com
 domain:ministrybooks.org
+domain:minkch.com
 domain:minzhuhua.net
 domain:minzhuzhanxian.com
 domain:minzhuzhongguo.org
@@ -3774,6 +3785,7 @@ domain:motor4ik.ru
 domain:mousebreaker.com
 domain:movements.org
 domain:moves-export.com
+domain:movie.eroterest.net
 domain:moviefap.com
 domain:mozilla.org
 domain:moztw.org
@@ -4043,6 +4055,9 @@ domain:nitter.net
 domain:niu.moe
 domain:niusnews.com
 domain:njactb.org
+domain:njav.com
+domain:njav.tv
+domain:njavtv.com
 domain:njuice.com
 domain:nlfreevpn.com
 domain:nmsl.website
@@ -4402,6 +4417,7 @@ domain:phptutorial.net
 domain:phuquocservices.com
 domain:piaotia.com
 domain:piaotian.net
+domain:pica-id.com
 domain:picacomic.com
 domain:picacomiccn.com
 domain:picasaweb.com
@@ -4479,6 +4495,7 @@ domain:plus28.com
 domain:plusbb.com
 domain:pmatehunter.com
 domain:pmates.com
+domain:po-kaki-to.com
 domain:po2b.com
 domain:pobieramy.top
 domain:podbean.com
@@ -5699,6 +5716,7 @@ domain:tinypaste.com
 domain:tinypic.com
 domain:tinyurl.com
 domain:tipas.net
+domain:tipatipa.xyz
 domain:tistory.com
 domain:tkcs-collins.com
 domain:tl.gd
@@ -6397,6 +6415,7 @@ domain:whylover.com
 domain:whyx.org
 domain:widevine.com
 domain:wikaba.com
+domain:wikawika.xyz
 domain:wiki.esu.im
 domain:wiki.kfd.me
 domain:wikia.com
@@ -6823,6 +6842,7 @@ domain:zoozle.net
 domain:zophar.net
 domain:zorrovpn.com
 domain:zozotown.com
+domain:zozovideo.com
 domain:zpn.im
 domain:zsdxzk.com
 domain:zspeeder.me
