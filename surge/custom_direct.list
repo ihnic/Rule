@@ -45,7 +45,7 @@ DOMAIN-SUFFIX,samsungeshop.com.cn
 DOMAIN-SUFFIX,samsunggalaxyfriends.com
 DOMAIN-SUFFIX,samsungknox.com
 DOMAIN-SUFFIX,samsungqbe.com
-IP-CIDR,154.26.191.195/24,no-resolve
+IP-CIDR,154.26.191.0/24,no-resolve
 IP-CIDR,223.5.5.5/32,no-resolve
 IP-CIDR,119.29.29.29/32,no-resolve
 IP-CIDR,114.114.114.114/32,no-resolve

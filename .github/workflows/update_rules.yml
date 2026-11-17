@@ -2,50 +2,111 @@ name: 规则自动化更新
 
 on:
   push:
+    branches:
+      - '**'
     paths:
       - 'custom/**'
       - 'rules.txt'
       - 'main.py'
+      - 'readme.py'
+      - 'mihomo-core'
+      - 'tests/**'
+      - '.github/workflows/update_rules.yml'
   schedule:
-    - cron: '0 19 * * *'
+    # UTC；避开整点，每 15 分钟检查上游。
+    - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
-    # --- 关键：手动触发时可选是否强制更新 ---
     inputs:
       force_update:
         description: '是否强制重写所有规则文件'
         required: false
-        default: 'false'
+        default: false
         type: boolean
+
+concurrency:
+  group: rules-update-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
 
 jobs:
   build:
+    if: ${{ startsWith(github.ref, 'refs/heads/') }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          # 排队结束后读取该分支当前内容，避免用旧事件提交覆盖较新的输入。
+          ref: ${{ github.ref_name }}
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      
+
       - name: 安装依赖
-        run: pip install requests
+        run: python -m pip install requests
 
       - name: 权限与环境检查
         run: |
           chmod +x ./mihomo-core
-          if [ -f "mihomo" ]; then rm -f mihomo; fi 
+          if [ -f "mihomo" ]; then rm -f mihomo; fi
+
+      - name: 验证转换语义
+        env:
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: python -m unittest discover -s tests -v
 
       - name: 执行转换
-        # 将 GitHub 的输入参数传递给 Python 环境变量
+        id: convert
+        # 允许提交已经成功的组，末尾仍会将转换失败报告为失败。
+        continue-on-error: true
         env:
-          FORCE_UPDATE: ${{ github.event.inputs.force_update }}
+          FORCE_UPDATE: ${{ github.event_name == 'workflow_dispatch' && inputs.force_update && 'true' || 'false' }}
         run: python main.py
 
-      - name: 推送更改
+      - name: 提交并推送成功产物
+        id: publish
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add .
-          git diff-index --quiet HEAD || git commit -m "Update Rules $(date +'%Y-%m-%d %H:%M')"
-          git push
+          git add -- README.md versions.json mihomo surge mosdns
+          if git diff --cached --quiet; then
+            echo "产物与版本缓存没有变化，本次无需提交。" >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+
+          build_revision="$(git rev-parse HEAD)"
+          git fetch --no-tags origin "$GITHUB_REF"
+          if [ "$(git rev-parse FETCH_HEAD)" != "$build_revision" ]; then
+            echo "::error::运行期间分支已有新提交，请重新运行；本次不会推送基于旧输入的产物。"
+            echo "远端分支已变化，未发布本次产物。请重新运行工作流。" >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
+
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -m "Update Rules $(date -u +'%Y-%m-%d %H:%M UTC')"
+          if ! git push origin "HEAD:$GITHUB_REF"; then
+            echo "::error::推送失败，请检查分支更新或写入权限后重新运行。"
+            echo "成功产物尚未推送；请检查推送日志后重新运行。" >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
+          echo "已提交并推送有变化的成功产物及 versions.json。" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: 报告转换失败
+        if: ${{ always() && steps.convert.outcome == 'failure' }}
+        env:
+          PUBLISH_OUTCOME: ${{ steps.publish.outcome }}
+        run: |
+          {
+            echo "### 规则转换未全部完成"
+            echo
+            if [ "$PUBLISH_OUTCOME" = "success" ]; then
+              echo "已完成成功组的提交检查；有变化的成功产物已推送。"
+            else
+              echo "提交或推送步骤状态：${PUBLISH_OUTCOME:-未运行}，本次不能确认成功组已发布。"
+            fi
+            echo "失败组沿用原产物和版本记录；具体规则与原因见“执行转换”日志。"
+          } >> "$GITHUB_STEP_SUMMARY"
+          echo "::error::部分规则集转换失败；工作流仍以失败结束，请处理日志中的错误。"
+          exit 1

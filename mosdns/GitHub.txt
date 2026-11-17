@@ -28,3 +28,4 @@ domain:rawgit.com
 domain:rawgithub.com
 domain:repo.new
 domain:thegithubshop.com
+keyword:github

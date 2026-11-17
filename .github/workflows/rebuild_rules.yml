@@ -1,0 +1,101 @@
+name: 规则清理并全量重建
+
+on:
+  workflow_dispatch:
+
+# 与自动更新共享锁，避免同一分支同时发布两套规则。
+concurrency:
+  group: rules-update-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+
+jobs:
+  rebuild:
+    if: ${{ startsWith(github.ref, 'refs/heads/') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: 安装依赖并检查内核
+        run: |
+          python -m pip install requests
+          chmod +x ./mihomo-core
+
+      - name: 验证转换语义
+        run: python -m unittest discover -s tests -v
+
+      - name: 从空目录重建并替换全部旧产物
+        id: rebuild
+        env:
+          FORCE_UPDATE: 'true'
+          MIHOMO_BIN: './mihomo-core'
+        run: |
+          rebuild_dir="$(mktemp -d "$RUNNER_TEMP/rules-rebuild.XXXXXX")"
+          trap 'rm -rf -- "$rebuild_dir"' EXIT
+
+          # 仅复制来源和转换工具，不带入任何旧规则或 versions.json。
+          cp -- main.py readme.py mihomo-core "$rebuild_dir/"
+          if [ -f rules.txt ]; then cp -- rules.txt "$rebuild_dir/"; fi
+          if [ -d custom ]; then cp -R -- custom "$rebuild_dir/"; fi
+
+          (
+            cd "$rebuild_dir"
+            python main.py
+            python - <<'PY'
+          import json
+          from pathlib import Path
+
+          versions = json.loads(Path("versions.json").read_text(encoding="utf-8"))
+          if not isinstance(versions, dict) or not versions:
+              raise SystemExit("没有成功生成的规则组，停止替换旧产物。")
+          if not Path("README.md").is_file():
+              raise SystemExit("未生成 README，停止替换旧产物。")
+          for directory in ("mihomo", "surge", "mosdns"):
+              if not any(path.is_file() for path in Path(directory).rglob("*")):
+                  raise SystemExit(f"{directory} 没有生成文件，停止替换旧产物。")
+          print(f"完整重建成功：{len(versions)} 个规则组。")
+          PY
+          )
+
+          # 全部来源转换成功后，整体替换目录，连未记录在缓存中的孤儿文件也清掉。
+          rm -rf -- mihomo surge mosdns
+          cp -R -- "$rebuild_dir/mihomo" "$rebuild_dir/surge" "$rebuild_dir/mosdns" .
+          cp -- "$rebuild_dir/versions.json" "$rebuild_dir/README.md" .
+          echo "已从空目录全量重建并替换旧规则，等待提交发布。" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: 提交并推送重建结果
+        run: |
+          git add -A -- README.md versions.json mihomo surge mosdns
+          if git diff --cached --quiet; then
+            echo "全量重建已完成，结果与仓库一致，无需创建提交。" >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+
+          build_revision="$(git rev-parse HEAD)"
+          git fetch --no-tags origin "$GITHUB_REF"
+          if [ "$(git rev-parse FETCH_HEAD)" != "$build_revision" ]; then
+            echo "::error::重建期间分支已有新提交，请重新运行；本次结果不会推送。"
+            exit 1
+          fi
+
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -m "Rebuild all rules $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push origin "HEAD:$GITHUB_REF"
+          echo "旧规则与旧版本缓存已被完整重建的结果替换并推送。" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: 报告重建失败
+        if: ${{ failure() }}
+        run: |
+          echo "清理重建未全部完成，请检查失败步骤。本工作流仅在测试和全部来源重建成功后提交，不发布部分重建结果。" >> "$GITHUB_STEP_SUMMARY"

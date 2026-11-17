@@ -45,3 +45,4 @@ domain:samsungeshop.com.cn
 domain:samsunggalaxyfriends.com
 domain:samsungknox.com
 domain:samsungqbe.com
+regexp:(?i)test\.

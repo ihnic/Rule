@@ -1,0 +1,2 @@
+# 时间同步独立成组，引用时单独选择路由策略
+geosite:category-ntp

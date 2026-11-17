@@ -5,3 +5,4 @@ domain:speed.dler.io
 domain:speedtest.co
 domain:speedtest.net
 domain:speedtestcustom.com
+keyword:speedtest

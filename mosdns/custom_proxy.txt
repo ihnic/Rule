@@ -1,7 +1,6 @@
 full:access.mypikpak.com
 full:api.fsm.name
 full:api.insight.synology.com
-full:api.fsm.name
 full:arch-mirror.wtako.net
 full:archlinux.org
 full:audiences.me
@@ -103,3 +102,15 @@ domain:orz-7.com
 domain:pcbeta.com
 domain:roonlabs.net
 domain:tvb.com
+keyword:anaconda
+keyword:argotunnel
+keyword:fanart
+keyword:gallerycdn.vsassets.io
+keyword:justwatch
+keyword:metacubex
+keyword:mikrotik
+keyword:muji
+keyword:skyeysnow
+keyword:spaceship
+keyword:unraid.net
+keyword:m-team

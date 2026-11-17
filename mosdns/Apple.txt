@@ -1557,3 +1557,10 @@ domain:apple-cloudkit.com
 domain:apple-livephotoskit.com
 domain:apzones.com
 domain:icloud-content.com.cn
+keyword:apple-support.akadns.net
+keyword:apple.com.akadns.net
+keyword:apple.com.edgekey.net
+keyword:buy.itunes.apple.com
+keyword:smp-device
+keyword:testflight
+keyword:icloud.com.akadns.net

@@ -1,3 +1,6 @@
+# 自动展开上游 Anthropic 分类，与下方补充规则合并去重
+geosite:anthropic
+
 # 核心域名（DOMAIN-SUFFIX 已覆盖所有 *.anthropic.com 子域名）
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
@@ -20,6 +23,7 @@ DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,statsigapi.net
 DOMAIN,browser-intake-us5-datadoghq.com
 DOMAIN-KEYWORD,datadog
+DOMAIN-KEYWORD,sentry
 DOMAIN-KEYWORD,sift
 
 # 客服 / 第三方 widget
