@@ -1,12 +1,13 @@
 {
-    "custom_proxy": "a57e2c2454dc7cd2480ba996510372a2",
-    "custom_direct": "c042386acf0dbafecd925ec14b6a9f5d",
-    "hk_balance": "8dfdd8d1b5857cbd29db77103627cb9f",
-    "us_only": "aa8e3a4e7ccf1d5a58645f5d26cb6739",
-    "tailscale-derp": "be470b9c3bb7a040ebfa3781ecc70f1f",
     "anthropic": "32ea4377d7191f039991f174ddb7ece8",
-    "tracker": "03ed85bd51f16400cdf12e597445fd5b",
+    "category-ntp": "cf7dd1073cd816c3d009d3d6b014fea0",
+    "custom_direct": "c042386acf0dbafecd925ec14b6a9f5d",
+    "custom_proxy": "a57e2c2454dc7cd2480ba996510372a2",
+    "hk_balance": "8dfdd8d1b5857cbd29db77103627cb9f",
     "jp_only": "0d9704887845a8949caf4dd4dddf89ab",
+    "tailscale-derp": "be470b9c3bb7a040ebfa3781ecc70f1f",
+    "tracker": "03ed85bd51f16400cdf12e597445fd5b",
+    "us_only": "aa8e3a4e7ccf1d5a58645f5d26cb6739",
     "Google": "3e8563eb693142f91214ce290baf5752",
     "Telegram": "9edbc90957b3f5aaf4c1ab70439b19d1",
     "GoogleFCM": "c927393aeeca2e75404ab427bd5f5ee2",
@@ -31,6 +32,5 @@
     "Epic": "61fc6f8fc9a533fbc6b630e07b17e3ce",
     "Sony": "e7f5d542cc05c930974da05569de1ef1",
     "Steam": "7c91a790a268041fda470da57a1e2140",
-    "Nintendo": "5601d3beb4a78af2cd9b487f6b3f5723",
-    "category-ntp": "cf7dd1073cd816c3d009d3d6b014fea0"
+    "Nintendo": "5601d3beb4a78af2cd9b487f6b3f5723"
 }
