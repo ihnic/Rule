@@ -1,0 +1,2 @@
+# 中国大陆分类；与 !cn 集合一起使用时，先匹配本组
+geosite:category-ntp@cn

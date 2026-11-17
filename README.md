@@ -11,10 +11,11 @@
 - **Surge**：使用 `RULE-SET`；**MosDNS**：使用 `domain_set`，仅包含域名与关键词。
 - **Mihomo**：域名与 IP 优先提供 MRS；补充文件使用 `classical / text`，包含关键词、ASN、进程等规则，**不是完整全集**。请一起引用需要的分类。
 - **IP 解析**：Mihomo IP MRS 不保存逐条 `no-resolve`；需要禁止主动解析时，在引用处添加 `RULE-SET,集合名,策略,no-resolve`。
+- **NTP 分流**：使用 `category-ntp-cn` 与 `category-ntp-!cn`，大陆组优先匹配；`category-ntp` 保留全集，兼容已有订阅。[配置顺序与匹配范围](docs/conversion.md#ntp-split)。
 
 ## 规则索引
 
-共 **34** 组规则。点击格式查看 Raw 文件；点击规则名称前往该组的复制区。`—` 表示没有此类文件。
+共 **36** 组规则。点击格式查看 Raw 文件；点击规则名称前往该组的复制区。`—` 表示没有此类文件。
 
 | 规则 | Surge | Mihomo 域名 | Mihomo IP | Mihomo 补充 | MosDNS |
 | :--- | :---: | :---: | :---: | :---: | :---: |
@@ -24,6 +25,8 @@
 | [BiliBili](#copy-bilibili-94a36106) | [LIST](https://raw.githubusercontent.com/ihnic/Rule/main/surge/BiliBili.list) | [MRS](https://raw.githubusercontent.com/ihnic/Rule/main/mihomo/domain/BiliBili_domain.mrs) | [MRS](https://raw.githubusercontent.com/ihnic/Rule/main/mihomo/ip/BiliBili_ip.mrs) | [LIST](https://raw.githubusercontent.com/ihnic/Rule/main/mihomo/classical/BiliBili.list) | [TXT](https://raw.githubusercontent.com/ihnic/Rule/main/mosdns/BiliBili.txt) |
 | [category-ai-chat-!cn](#copy-category-ai-chat--cn-78cbd39a) | [LIST](https://raw.githubusercontent.com/ihnic/Rule/main/surge/category-ai-chat-%21cn.list) | [MRS](https://raw.githubusercontent.com/ihnic/Rule/main/mihomo/domain/category-ai-chat-%21cn_domain.mrs) | — | — | [TXT](https://raw.githubusercontent.com/ihnic/Rule/main/mosdns/category-ai-chat-%21cn.txt) |
 | [category-ntp](#copy-category-ntp-f769d60c) | [LIST](https://raw.githubusercontent.com/ihnic/Rule/main/surge/category-ntp.list) | [MRS](https://raw.githubusercontent.com/ihnic/Rule/main/mihomo/domain/category-ntp_domain.mrs) | — | — | [TXT](https://raw.githubusercontent.com/ihnic/Rule/main/mosdns/category-ntp.txt) |
+| [category-ntp-!cn](#copy-category-ntp--cn-4d43d1ce) | [LIST](https://raw.githubusercontent.com/ihnic/Rule/main/surge/category-ntp-%21cn.list) | [MRS](https://raw.githubusercontent.com/ihnic/Rule/main/mihomo/domain/category-ntp-%21cn_domain.mrs) | — | — | [TXT](https://raw.githubusercontent.com/ihnic/Rule/main/mosdns/category-ntp-%21cn.txt) |
+| [category-ntp-cn](#copy-category-ntp-cn-082e6d61) | [LIST](https://raw.githubusercontent.com/ihnic/Rule/main/surge/category-ntp-cn.list) | [MRS](https://raw.githubusercontent.com/ihnic/Rule/main/mihomo/domain/category-ntp-cn_domain.mrs) | — | — | [TXT](https://raw.githubusercontent.com/ihnic/Rule/main/mosdns/category-ntp-cn.txt) |
 | [category-speedtest-cn](#copy-category-speedtest-cn-d3c61f2c) | [LIST](https://raw.githubusercontent.com/ihnic/Rule/main/surge/category-speedtest-cn.list) | [MRS](https://raw.githubusercontent.com/ihnic/Rule/main/mihomo/domain/category-speedtest-cn_domain.mrs) | — | — | [TXT](https://raw.githubusercontent.com/ihnic/Rule/main/mosdns/category-speedtest-cn.txt) |
 | [ChinaMax](#copy-chinamax-7cb9cda8) | [LIST](https://raw.githubusercontent.com/ihnic/Rule/main/surge/ChinaMax.list) | [MRS](https://raw.githubusercontent.com/ihnic/Rule/main/mihomo/domain/ChinaMax_domain.mrs) | [MRS](https://raw.githubusercontent.com/ihnic/Rule/main/mihomo/ip/ChinaMax_ip.mrs) | [LIST](https://raw.githubusercontent.com/ihnic/Rule/main/mihomo/classical/ChinaMax.list) | [TXT](https://raw.githubusercontent.com/ihnic/Rule/main/mosdns/ChinaMax.txt) |
 | [custom_direct](#copy-custom_direct-f01bfe9b) | [LIST](https://raw.githubusercontent.com/ihnic/Rule/main/surge/custom_direct.list) | [MRS](https://raw.githubusercontent.com/ihnic/Rule/main/mihomo/domain/custom_direct_domain.mrs) | [MRS](https://raw.githubusercontent.com/ihnic/Rule/main/mihomo/ip/custom_direct_ip.mrs) | [LIST](https://raw.githubusercontent.com/ihnic/Rule/main/mihomo/classical/custom_direct.list) | [TXT](https://raw.githubusercontent.com/ihnic/Rule/main/mosdns/custom_direct.txt) |
@@ -235,6 +238,54 @@ https://raw.githubusercontent.com/ihnic/Rule/main/mihomo/domain/category-ntp_dom
 
 ```text
 https://raw.githubusercontent.com/ihnic/Rule/main/mosdns/category-ntp.txt
+```
+
+</details>
+
+<a name="copy-category-ntp--cn-4d43d1ce"></a>
+<details>
+<summary><strong>category-ntp-!cn</strong> · 3 个格式文件</summary>
+
+**Surge** · `RULE-SET`
+
+```text
+https://raw.githubusercontent.com/ihnic/Rule/main/surge/category-ntp-%21cn.list
+```
+
+**Mihomo 域名** · `domain / mrs`
+
+```text
+https://raw.githubusercontent.com/ihnic/Rule/main/mihomo/domain/category-ntp-%21cn_domain.mrs
+```
+
+**MosDNS** · `domain_set`
+
+```text
+https://raw.githubusercontent.com/ihnic/Rule/main/mosdns/category-ntp-%21cn.txt
+```
+
+</details>
+
+<a name="copy-category-ntp-cn-082e6d61"></a>
+<details>
+<summary><strong>category-ntp-cn</strong> · 3 个格式文件</summary>
+
+**Surge** · `RULE-SET`
+
+```text
+https://raw.githubusercontent.com/ihnic/Rule/main/surge/category-ntp-cn.list
+```
+
+**Mihomo 域名** · `domain / mrs`
+
+```text
+https://raw.githubusercontent.com/ihnic/Rule/main/mihomo/domain/category-ntp-cn_domain.mrs
+```
+
+**MosDNS** · `domain_set`
+
+```text
+https://raw.githubusercontent.com/ihnic/Rule/main/mosdns/category-ntp-cn.txt
 ```
 
 </details>

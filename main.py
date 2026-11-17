@@ -18,6 +18,9 @@ CUSTOM_DIR = "custom"
 VERSION_FILE = "versions.json"
 MIHOMO_BIN = os.getenv("MIHOMO_BIN", "./mihomo-core")
 GEOSITE_URL = "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/{tag}.list"
+GEOSITE_TAG = re.compile(
+    r"(?P<base>[a-z0-9][a-z0-9_!.\-]*)(?:@(?P<negative>!)?(?P<attribute>[a-z0-9][a-z0-9_.\-]*))?"
+)
 DIRS = ["mihomo/domain", "mihomo/ip", "mihomo/classical", "surge", "mosdns"]
 
 FORCE_REWRITE = os.getenv("FORCE_UPDATE") == "true"
@@ -59,7 +62,7 @@ def fetch_text(url):
 
 def load_geosite(tag):
     # The domain export omits keywords/regex. Always inspect the classical export.
-    if not re.fullmatch(r"[a-z0-9][a-z0-9_!@.\-]*", tag):
+    if not GEOSITE_TAG.fullmatch(tag):
         raise ValueError(f"无效的 geosite 标签: {tag}")
     content = fetch_text(GEOSITE_URL.format(tag=quote(tag, safe="")))
     if not content.strip():
@@ -75,6 +78,18 @@ def merge_rules(target, source):
     for key in target:
         target[key] = list(dict.fromkeys(target[key] + source[key]))
     return target
+
+
+def subtract_rules(source, excluded):
+    # Subtract typed entries, not their matching ranges: a parent suffix must
+    # survive removal of a child suffix. Consumers match the positive group first.
+    result = empty_rules()
+    for key in ("domain", "full", "ip_rules", "classical"):
+        excluded_entries = set(excluded[key])
+        result[key] = [entry for entry in source[key] if entry not in excluded_entries]
+    # IP rules retain no-resolve; the MRS network list is derived from those rules.
+    result["ip"] = list(dict.fromkeys(rule.split(",")[1] for rule in result["ip_rules"]))
+    return result
 
 
 def validate_parameters(tag, parts):
@@ -118,11 +133,21 @@ def parse_rules(content, geosite_loader=None, _stack=()):
                 validate_parameters(tag, parts)
             if tag == 'GEOSITE':
                 label = parts[1].lower()
-                if not re.fullmatch(r"[a-z0-9][a-z0-9_!@.\-]*", label):
+                match = GEOSITE_TAG.fullmatch(label)
+                if not match:
                     raise ValueError(f'无效的 geosite 标签: {label}')
                 if label in _stack:
                     raise ValueError(f"循环 geosite 引用: {' -> '.join(_stack + (label,))}")
-                expanded = parse_rules(geosite_loader(label), geosite_loader, _stack + (label,))
+                stack = _stack + (label,)
+                if match['negative']:
+                    # Upstream exports positive attributes, not @!attr files.
+                    base = match['base']
+                    positive = f"{base}@{match['attribute']}"
+                    source = parse_rules(f'geosite:{base}', geosite_loader, stack)
+                    excluded = parse_rules(f'geosite:{positive}', geosite_loader, stack)
+                    expanded = subtract_rules(source, excluded)
+                else:
+                    expanded = parse_rules(geosite_loader(label), geosite_loader, stack)
                 merge_rules(res, expanded)
             elif tag in ('DOMAIN-SUFFIX', 'DOMAIN'):
                 value = parts[1].lower().rstrip('.')
@@ -337,5 +362,5 @@ def main(only=None):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='按各平台语义转换规则集')
-    parser.add_argument('--only', nargs='+', help='只更新指定规则集，例如 anthropic category-ntp')
+    parser.add_argument('--only', nargs='+', help='只更新指定规则集，例如 category-ntp-cn category-ntp-!cn')
     raise SystemExit(main(parser.parse_args().only))

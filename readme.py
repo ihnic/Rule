@@ -87,6 +87,7 @@ def generate_readme(path="README.md", root="."):
         "- **Surge**：使用 `RULE-SET`；**MosDNS**：使用 `domain_set`，仅包含域名与关键词。",
         "- **Mihomo**：域名与 IP 优先提供 MRS；补充文件使用 `classical / text`，包含关键词、ASN、进程等规则，**不是完整全集**。请一起引用需要的分类。",
         "- **IP 解析**：Mihomo IP MRS 不保存逐条 `no-resolve`；需要禁止主动解析时，在引用处添加 `RULE-SET,集合名,策略,no-resolve`。",
+        f"- **NTP 分流**：使用 `category-ntp-cn` 与 `category-ntp-!cn`，大陆组优先匹配；`category-ntp` 保留全集，兼容已有订阅。[配置顺序与匹配范围]({docs_url}#ntp-split)。",
         "",
         "## 规则索引",
         "",

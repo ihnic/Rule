@@ -1,0 +1,2 @@
+# 未标记 cn 的 NTP 条目；需先匹配 category-ntp-cn，避免后缀覆盖国内子域
+geosite:category-ntp@!cn

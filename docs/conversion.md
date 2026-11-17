@@ -16,6 +16,7 @@
 | `IP-ASN,399358,no-resolve` | 保留 ASN 和参数 | classical：`IP-ASN,399358,no-resolve` | 无法在域名集合中表达 |
 | `PROCESS-NAME,example` | `PROCESS-NAME,example` | classical：`PROCESS-NAME,example` | 无法在域名集合中表达 |
 | `geosite:标签` | 构建时展开，再按各条规则转换 | 构建时展开，再分入对应类型 | 构建时展开，再输出域名规则 |
+| `geosite:集合@属性` / `geosite:集合@!属性` | 展开属性分类 / 未标该属性的条目后转换 | 同左，再分入对应类型 | 同左，再输出域名规则 |
 
 **关键词与后缀。** `keyword:sentry` 和 `DOMAIN-KEYWORD,sentry` 表示域名包含 `sentry` 这一子串。`DOMAIN-SUFFIX,sentry.io` 只匹配 `sentry.io` 及其子域，不等价于前者。例如 `sentry.example.com` 命中关键词，但不命中 `sentry.io` 后缀。关键词不解释为正则或通配符，也不能包含空白。
 
@@ -25,7 +26,52 @@ MosDNS 的原生关键词匹配会转小写并去掉关键词尾点，因此直�
 
 这与让客户端读取自己配置的 `geosite.dat` 有区别：相同标签在不同数据来源、版本或属性筛选下可能包含不同域名。本项目以构建时获取的 MetaCubeX 列表为准。不要把 v2fly 原始源文件里的 `include:` 当作普通域名；例如 `category-ntp` 还包含 `category-ntp-cn` 和 `category-ntp-jp`，应使用已经展开这些引用的导出列表。
 
-建议把 `geosite:category-ntp` 放在独立的 `custom/category-ntp.txt`，为时间同步服务配置单独策略。把它放进 Anthropic 集合，会使这些 NTP 域名也采用 Anthropic 集合对应的策略。
+<a name="ntp-split"></a>
+
+**NTP 按 cn 分类分流。** 时间服务独立于 Anthropic 集合，使用下列来源文件。条数以 2026-11-17 获取的上游内容为准，后续跟随上游更新。
+
+| 输出集合 | custom 内容 | 当前条数 | 含义 |
+| --- | --- | ---: | --- |
+| `category-ntp-cn` | `geosite:category-ntp@cn` | 23 | 上游标记 `cn` 的时间服务 |
+| `category-ntp-!cn` | `geosite:category-ntp@!cn` | 93 | NTP 全集里未标记 `cn` 的条目 |
+| `category-ntp` | `geosite:category-ntp` | 116 | 保留全集，兼容原有订阅 |
+
+国内分类读取 MetaCubeX 的 [`category-ntp@cn` 导出](https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/category-ntp%40cn.list)。上游没有 `category-ntp@!cn` 导出文件；转换器读取全集和正向属性分类，按规范化后的规则条目计算差集，生成未标记 `cn` 的集合。`cn` 是上游分类属性，不能保证域名每次解析出的服务器 IP 都在中国大陆；`!cn` 也不等于已验证的境外服务器清单。
+
+**使用时先匹配 `category-ntp-cn`，再匹配 `category-ntp-!cn`。** 未标 `cn` 的集合保留了 `DOMAIN-SUFFIX,pool.ntp.org`，其匹配范围包括国内集合里的 `cn.pool.ntp.org` 及其子域。两个文件没有相同规则条目，但域名后缀仍有覆盖关系；把国内组放在前面，才能让这些国内子域采用国内策略。启用拆分后，使用下面两组引用；原全集仍可供采用统一策略的配置订阅。
+
+Surge 将以下两行加入 `[Rule]`，并放在可能提前命中的通用规则和最终兜底规则之前。`NTP-其他` 请替换为已有策略组；这里示例让国内分类走 `DIRECT`。
+
+```ini
+RULE-SET,https://raw.githubusercontent.com/ihnic/Rule/main/surge/category-ntp-cn.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/ihnic/Rule/main/surge/category-ntp-%21cn.list,NTP-其他
+```
+
+Mihomo 合并以下提供者和规则，保持相同的先后顺序，并将 `NTP-其他` 替换为已有策略组。Raw URL 中的 `%21` 表示文件名中的 `!`。
+
+```yaml
+rule-providers:
+  ntp-cn:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/ihnic/Rule/main/mihomo/domain/category-ntp-cn_domain.mrs
+    path: ./ruleset/ntp-cn.mrs
+    interval: 900
+  ntp-not-cn:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/ihnic/Rule/main/mihomo/domain/category-ntp-%21cn_domain.mrs
+    path: ./ruleset/ntp-not-cn.mrs
+    interval: 900
+
+rules:
+  - RULE-SET,ntp-cn,DIRECT
+  - RULE-SET,ntp-not-cn,NTP-其他
+```
+
+MosDNS 分别下载 [cn 域名文件](https://raw.githubusercontent.com/ihnic/Rule/main/mosdns/category-ntp-cn.txt)和[未标 cn 的域名文件](https://raw.githubusercontent.com/ihnic/Rule/main/mosdns/category-ntp-%21cn.txt)，通过两个 `domain_set` 加载。`domain_set` 本身没有路由优先级，需要在调用它们的 `sequence` 中先处理国内集合：国内分支完成解析后用 `accept` 结束处理；若后续仍会进入其他分支，`!cn` 分支必须同时要求“不命中国内集合”。仅按顺序声明两个 `domain_set`，不能阻止 `pool.ntp.org` 后缀再次匹配国内子域。
 
 **Surge。** 使用 `surge/*.list` 作为 RULE-SET。IPv4 必须使用 `IP-CIDR`，IPv6 使用 `IP-CIDR6`；规则集可包含 `IP-ASN`，也可保留各行的 `no-resolve`。`no-resolve` 表示该规则不主动为尚未解析的域名发起 DNS 查询，已有目标 IP 仍可参与匹配。
 
@@ -89,13 +135,13 @@ ASN 规则需使用客户端的 ASN 数据库，实际匹配也取决于该数�
 python3 main.py
 
 # 只更新指定规则集，其他组的产物和缓存记录不变
-python3 main.py --only anthropic category-ntp
+python3 main.py --only category-ntp-cn 'category-ntp-!cn'
 
 # 指定本机可执行的内核
 MIHOMO_BIN=/absolute/path/to/mihomo python3 main.py --only anthropic
 
 # 强制重建所选组，仍需通过下载、解析和编译检查
-FORCE_UPDATE=true python3 main.py --only anthropic category-ntp
+FORCE_UPDATE=true python3 main.py --only category-ntp-cn 'category-ntp-!cn'
 ```
 
 **GitHub Actions 触发与缓存。** 工作流位于 [update_rules.yml](../.github/workflows/update_rules.yml)，使用 Python 3.10，并在转换前执行语义测试。

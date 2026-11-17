@@ -267,6 +267,101 @@ class ConversionTests(unittest.TestCase):
             },
         )
 
+    def test_geosite_attribute_partitions_preserve_suffix_overlap_and_match_order(self):
+        sources = {
+            "category-ntp": (
+                "DOMAIN,ntp.aliyun.com\nDOMAIN,time.google.com\n"
+                "DOMAIN-SUFFIX,pool.ntp.org\nDOMAIN-SUFFIX,cn.pool.ntp.org\n"
+                "DOMAIN,shared.example.com\nDOMAIN-SUFFIX,shared.example.com\n"
+            ),
+            "category-ntp@cn": (
+                "full:NTP.ALIYUN.COM.\ndomain:cn.pool.ntp.org\n"
+                "full:shared.example.com\n"
+            ),
+        }
+        loader = Mock(side_effect=sources.__getitem__)
+        for suffix, attribute in (("cn", "cn"), ("!cn", "!cn")):
+            data = converter.parse_rules(f"geosite:category-ntp@{attribute}\n", loader)
+            converter.write_outputs(f"category-ntp-{suffix}", data)
+
+        positive = self.lines("surge/category-ntp-cn.list")
+        negative = self.lines("surge/category-ntp-!cn.list")
+        self.assertEqual(set(positive), {
+            "DOMAIN,ntp.aliyun.com", "DOMAIN-SUFFIX,cn.pool.ntp.org",
+            "DOMAIN,shared.example.com",
+        })
+        self.assertEqual(set(negative), {
+            "DOMAIN,time.google.com", "DOMAIN-SUFFIX,pool.ntp.org",
+            "DOMAIN-SUFFIX,shared.example.com",
+        })
+        self.assertEqual(set(self.lines("mosdns/category-ntp-!cn.txt")), {
+            "full:time.google.com", "domain:pool.ntp.org", "domain:shared.example.com",
+        })
+        self.assertEqual(set(self.lines("mihomo/domain/category-ntp-!cn_domain.list")), {
+            "time.google.com", "+.pool.ntp.org", "+.shared.example.com",
+        })
+        self.assertEqual({call.args[0] for call in loader.call_args_list}, set(sources))
+
+        def matches(rules, host):
+            for rule in rules:
+                kind, domain = rule.split(",")
+                if host == domain or (kind == "DOMAIN-SUFFIX" and host.endswith("." + domain)):
+                    return True
+            return False
+
+        for host, expected in (
+            ("ntp.aliyun.com", "cn"), ("0.cn.pool.ntp.org", "cn"),
+            ("0.jp.pool.ntp.org", "!cn"), ("time.google.com", "!cn"),
+        ):
+            with self.subTest(host=host):
+                selected = next(name for name, rules in (("cn", positive), ("!cn", negative))
+                                if matches(rules, host))
+                self.assertEqual(selected, expected)
+        self.assertTrue(matches(negative, "0.cn.pool.ntp.org"))
+
+    def test_negative_geosite_keeps_distinct_network_resolution_options(self):
+        sources = {
+            "example": (
+                "IP-CIDR,192.0.2.0/24,no-resolve\nIP-CIDR,192.0.2.0/24\n"
+                "IP-CIDR6,2001:db8::/32,no-resolve\nIP-CIDR6,2001:db8::/32\n"
+                "IP-ASN,64512,no-resolve\nIP-ASN,64512\n"
+                "keyword:keep\nkeyword:remove\n"
+            ),
+            "example@cn": (
+                "IP-CIDR,192.0.2.5/24\nIP-CIDR6,2001:db8::1/32,no-resolve\n"
+                "IP-ASN,64512\nkeyword:remove\n"
+            ),
+        }
+        self.convert("geosite:example@!cn\n", sources.__getitem__)
+        self.assertEqual(set(self.lines("surge/anthropic.list")), {
+            "IP-CIDR,192.0.2.0/24,no-resolve", "IP-CIDR6,2001:db8::/32",
+            "IP-ASN,64512,no-resolve", "DOMAIN-KEYWORD,keep",
+        })
+        self.assertEqual(set(self.lines("mihomo/ip/anthropic_ip.list")), {
+            "192.0.2.0/24", "2001:db8::/32",
+        })
+        self.assertEqual(self.lines("mosdns/anthropic.txt"), ["keyword:keep"])
+
+    def test_invalid_geosite_attribute_filters_fail_before_fetching(self):
+        for label in ("category-ntp@!", "category-ntp@", "category-ntp@@cn",
+                      "category-ntp@cn@!jp", "category-ntp@!!cn", "@!cn"):
+            with self.subTest(label=label):
+                loader = Mock()
+                with self.assertRaisesRegex(ValueError, "无效的 geosite 标签"):
+                    converter.parse_rules(f"geosite:{label}\n", loader)
+                loader.assert_not_called()
+
+    def test_negative_geosite_detects_cycles_in_either_dependency(self):
+        for recursive_dependency in ("category-ntp", "category-ntp@cn"):
+            with self.subTest(dependency=recursive_dependency):
+                sources = {
+                    "category-ntp": "DOMAIN,time.google.com\nDOMAIN,ntp.aliyun.com\n",
+                    "category-ntp@cn": "DOMAIN,ntp.aliyun.com\n",
+                }
+                sources[recursive_dependency] = "geosite:category-ntp@!cn\n"
+                with self.assertRaisesRegex(ValueError, "循环 geosite 引用"):
+                    converter.parse_rules("geosite:category-ntp@!cn\n", sources.__getitem__)
+
     def test_unknown_geosite_does_not_silently_publish_an_incomplete_group(self):
         loader = Mock(side_effect=ValueError("Geosite group was not found"))
         with self.assertRaises(ValueError):
@@ -379,6 +474,80 @@ class ConversionTests(unittest.TestCase):
             self.assertGreater(self.compiler.call_count, 0)
             self.assertEqual(source.read_bytes(), original_source)
             self.assertEqual(loader.call_count, 3)
+
+    def test_negative_geosite_refreshes_when_only_positive_attribute_changes(self):
+        source = self.write_custom("geosite:category-ntp@!cn\n")
+        original_source = source.read_bytes()
+        sources = {
+            "category-ntp": (
+                "DOMAIN,ntp.aliyun.com\nDOMAIN,time.google.com\nDOMAIN,new-cn.example.com\n"
+            ),
+            "category-ntp@cn": "DOMAIN,ntp.aliyun.com\n",
+        }
+        with patch.object(converter, "load_geosite", side_effect=sources.__getitem__) as loader:
+            self.assertEqual(self.run_main(), 0)
+            self.assertIn("DOMAIN,new-cn.example.com", self.lines("surge/anthropic.list"))
+            original_version = self.version()
+            self.compiler.reset_mock()
+            self.assertEqual(self.run_main(), 0)
+            self.compiler.assert_not_called()
+
+            sources["category-ntp@cn"] += "DOMAIN,new-cn.example.com\n"
+            self.assertEqual(self.run_main(), 0)
+            self.assertEqual(self.lines("surge/anthropic.list"), ["DOMAIN,time.google.com"])
+            self.assertEqual(self.lines("mosdns/anthropic.txt"), ["full:time.google.com"])
+            self.assertEqual(self.lines("mihomo/domain/anthropic_domain.list"), ["time.google.com"])
+            self.assertNotEqual(self.version(), original_version)
+            self.assertGreater(self.compiler.call_count, 0)
+            self.assertEqual(source.read_bytes(), original_source)
+            self.assertEqual([call.args[0] for call in loader.call_args_list],
+                             ["category-ntp", "category-ntp@cn"] * 3)
+
+    def test_missing_positive_attribute_preserves_negative_outputs_and_version(self):
+        self.write_custom("geosite:category-ntp@!cn\n")
+        sources = {
+            "category-ntp": "DOMAIN,time.google.com\nDOMAIN,ntp.aliyun.com\n",
+            "category-ntp@cn": "DOMAIN,ntp.aliyun.com\n",
+        }
+        with patch.object(converter, "load_geosite", side_effect=sources.__getitem__) as loader:
+            self.assertEqual(self.run_main(), 0)
+            published = self.published_files()
+            sources["category-ntp"] += "DOMAIN,new.example.com\n"
+
+            def missing_attribute(label):
+                if label == "category-ntp@cn":
+                    raise converter.requests.HTTPError("404: attribute export missing")
+                return sources[label]
+
+            loader.side_effect = missing_attribute
+            self.assertEqual(self.run_main(), 1)
+            self.assertEqual(self.published_files(), published)
+
+    def test_ntp_partitions_share_dependencies_but_refetch_on_every_run(self):
+        Path("custom").mkdir()
+        for name, label in (
+            ("category-ntp", "category-ntp"),
+            ("category-ntp-cn", "category-ntp@cn"),
+            ("category-ntp-!cn", "category-ntp@!cn"),
+        ):
+            Path(f"custom/{name}.txt").write_text(f"geosite:{label}\n", encoding="utf-8")
+        sources = {
+            "category-ntp": "DOMAIN,time.google.com\nDOMAIN,ntp.aliyun.com\n",
+            "category-ntp@cn": "DOMAIN,ntp.aliyun.com\n",
+        }
+        with patch.object(converter, "load_geosite", side_effect=sources.__getitem__) as loader:
+            for run in range(2):
+                with redirect_stdout(io.StringIO()):
+                    self.assertEqual(converter.main(), 0)
+                calls = [call.args[0] for call in loader.call_args_list]
+                self.assertEqual(calls.count("category-ntp"), run + 1)
+                self.assertEqual(calls.count("category-ntp@cn"), run + 1)
+                self.assertEqual(len(calls), (run + 1) * 2)
+        self.assertEqual(set(self.lines("surge/category-ntp.list")), {
+            "DOMAIN,time.google.com", "DOMAIN,ntp.aliyun.com",
+        })
+        self.assertEqual(self.lines("surge/category-ntp-cn.list"), ["DOMAIN,ntp.aliyun.com"])
+        self.assertEqual(self.lines("surge/category-ntp-!cn.list"), ["DOMAIN,time.google.com"])
 
     def test_same_name_remote_and_custom_sources_are_merged(self):
         self.write_custom("DOMAIN-SUFFIX,anthropic.com\nkeyword:sentry\n")

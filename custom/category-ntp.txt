@@ -1,2 +1,2 @@
-# 时间同步独立成组，引用时单独选择路由策略
+# NTP 全集，兼容已有订阅；分流使用 category-ntp-cn 与 category-ntp-!cn，大陆组优先
 geosite:category-ntp
