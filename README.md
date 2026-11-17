@@ -53,6 +53,9 @@
 | YouTube | domain | YouTube_domain.mrs | `./mihomo/domain/YouTube_domain.mrs` |
 | YouTube | ip | YouTube_ip.mrs | `./mihomo/ip/YouTube_ip.mrs` |
 | YouTube | classical | YouTube.list | `./mihomo/classical/YouTube.list` |
+| anthropic | domain | anthropic_domain.mrs | `./mihomo/domain/anthropic_domain.mrs` |
+| anthropic | ip | anthropic_ip.mrs | `./mihomo/ip/anthropic_ip.mrs` |
+| anthropic | classical | anthropic.list | `./mihomo/classical/anthropic.list` |
 | apple-cn | domain | apple-cn_domain.mrs | `./mihomo/domain/apple-cn_domain.mrs` |
 | category-ai-chat-!cn | domain | category-ai-chat-!cn_domain.mrs | `./mihomo/domain/category-ai-chat-!cn_domain.mrs` |
 | category-speedtest-cn | domain | category-speedtest-cn_domain.mrs | `./mihomo/domain/category-speedtest-cn_domain.mrs` |
@@ -93,6 +96,7 @@
 | Telegram | Telegram.list | `./surge/Telegram.list` |
 | TikTok | TikTok.list | `./surge/TikTok.list` |
 | YouTube | YouTube.list | `./surge/YouTube.list` |
+| anthropic | anthropic.list | `./surge/anthropic.list` |
 | apple-cn | apple-cn.list | `./surge/apple-cn.list` |
 | category-ai-chat-!cn | category-ai-chat-!cn.list | `./surge/category-ai-chat-!cn.list` |
 | category-speedtest-cn | category-speedtest-cn.list | `./surge/category-speedtest-cn.list` |
@@ -129,6 +133,7 @@
 | Telegram | Telegram.txt | `./mosdns/Telegram.txt` |
 | TikTok | TikTok.txt | `./mosdns/TikTok.txt` |
 | YouTube | YouTube.txt | `./mosdns/YouTube.txt` |
+| anthropic | anthropic.txt | `./mosdns/anthropic.txt` |
 | apple-cn | apple-cn.txt | `./mosdns/apple-cn.txt` |
 | category-ai-chat-!cn | category-ai-chat-!cn.txt | `./mosdns/category-ai-chat-!cn.txt` |
 | category-speedtest-cn | category-speedtest-cn.txt | `./mosdns/category-speedtest-cn.txt` |
